@@ -7,7 +7,17 @@
 
   <!-- CSS  -->
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <!--script src="js/init.js"></script-->
+
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/plugins/ScrollToPlugin.min.js"></script>
+
+  <!-- App -->
+  <script src="js/app.js" type="text/javascript"></script>
 
 
 
@@ -23,13 +33,13 @@
           </a>
           <ul id="nav-mobile" class="right side-nav">
             <li>
-                <a href="#">Обо мне</a>
+                <a href="#about" class="scroll-btn">Обо мне</a>
             </li>
             <li>
-                <a href="#photo">Фото</a>
+                <a href="#photo" class="scroll-btn">Фото</a>
             </li>
             <li>
-                <a href="#video">Видео</a>
+                <a href="#video" class="scroll-btn">Видео</a>
             </li>
             <li>
                 <a href="#">Расписание</a>
@@ -47,7 +57,7 @@
   </div>
 
 
-  <div class="section no-pad-bot" id="index-banner" id="about">
+  <div class="section no-pad-bot" id="about">
     <div class="container">
           <div class="row">
             <div class="col s6" style="width:56%">
@@ -210,10 +220,6 @@
   </footer>
 
 
-  <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
   <script src="js/jquery.carouFredSel-6.2.1.js" type="text/javascript"></script>
   <script type="text/javascript">
     $(document).ready(function() {
