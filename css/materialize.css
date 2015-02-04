@@ -6728,219 +6728,222 @@ h2 {
 
 /* line 5142, ../scss/materialize.scss */
 h3 {
-  font-size: 2.92rem;
+  /*font-size: 2.92rem;
   line-height: 3.212rem;
-  margin: 1.46rem 0 1.168rem 0; }
-
-/* line 5147, ../scss/materialize.scss */
-h4 {
-  font-size: 2.28rem;
-  line-height: 2.508rem;
-  margin: 1.14rem 0 0.912rem 0; }
-
-/* line 5152, ../scss/materialize.scss */
-h5 {
-  font-size: 1.64rem;
-  line-height: 1.804rem;
-  margin: 0.82rem 0 0.656rem 0; }
-
-/* line 5157, ../scss/materialize.scss */
-h6 {
+  margin: 1.46rem 0 1.168rem 0;*/
   font-size: 4rem;
   line-height: 3.3rem;
   margin: 2.5rem 0 2rem 0;
   font-weight: 100;
   color: #f06292; }
 
-/* line 5164, ../scss/materialize.scss */
+/* line 5152, ../scss/materialize.scss */
+h4 {
+  font-size: 2.28rem;
+  line-height: 2.508rem;
+  margin: 1.14rem 0 0.912rem 0; }
+
+/* line 5157, ../scss/materialize.scss */
+h5 {
+  font-size: 1.64rem;
+  line-height: 1.804rem;
+  margin: 0.82rem 0 0.656rem 0; }
+
+/* line 5162, ../scss/materialize.scss */
+h6 {
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  margin: 0.3rem 0 0.3rem 0; }
+
+/* line 5167, ../scss/materialize.scss */
 em {
   font-style: italic; }
 
-/* line 5167, ../scss/materialize.scss */
+/* line 5170, ../scss/materialize.scss */
 strong {
   font-weight: 500; }
 
-/* line 5170, ../scss/materialize.scss */
+/* line 5173, ../scss/materialize.scss */
 small {
   font-size: 75%; }
 
-/* line 5173, ../scss/materialize.scss */
+/* line 5176, ../scss/materialize.scss */
 .light, footer.page-footer .footer-copyright {
   font-weight: 300; }
 
-/* line 5176, ../scss/materialize.scss */
+/* line 5179, ../scss/materialize.scss */
 .flow-text {
   font-weight: 300; }
 
 @media only screen and (min-width: 360px) {
-  /* line 5179, ../scss/materialize.scss */
+  /* line 5182, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.2rem; } }
 @media only screen and (min-width: 0px) {
-  /* line 5182, ../scss/materialize.scss */
+  /* line 5185, ../scss/materialize.scss */
   .flow-text {
     line-height: 0.8rem; } }
 @media only screen and (min-width: 390px) {
-  /* line 5185, ../scss/materialize.scss */
+  /* line 5188, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.224rem; } }
 @media only screen and (min-width: 30px) {
-  /* line 5188, ../scss/materialize.scss */
+  /* line 5191, ../scss/materialize.scss */
   .flow-text {
     line-height: 0.904rem; } }
 @media only screen and (min-width: 420px) {
-  /* line 5191, ../scss/materialize.scss */
+  /* line 5194, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.248rem; } }
 @media only screen and (min-width: 60px) {
-  /* line 5194, ../scss/materialize.scss */
+  /* line 5197, ../scss/materialize.scss */
   .flow-text {
     line-height: 1.008rem; } }
 @media only screen and (min-width: 450px) {
-  /* line 5197, ../scss/materialize.scss */
+  /* line 5200, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.272rem; } }
 @media only screen and (min-width: 90px) {
-  /* line 5200, ../scss/materialize.scss */
+  /* line 5203, ../scss/materialize.scss */
   .flow-text {
     line-height: 1.112rem; } }
 @media only screen and (min-width: 480px) {
-  /* line 5203, ../scss/materialize.scss */
+  /* line 5206, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.296rem; } }
 @media only screen and (min-width: 120px) {
-  /* line 5206, ../scss/materialize.scss */
+  /* line 5209, ../scss/materialize.scss */
   .flow-text {
     line-height: 1.216rem; } }
 @media only screen and (min-width: 510px) {
-  /* line 5209, ../scss/materialize.scss */
+  /* line 5212, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.32rem; } }
 @media only screen and (min-width: 150px) {
-  /* line 5212, ../scss/materialize.scss */
+  /* line 5215, ../scss/materialize.scss */
   .flow-text {
     line-height: 1.32rem; } }
 @media only screen and (min-width: 540px) {
-  /* line 5215, ../scss/materialize.scss */
+  /* line 5218, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.344rem; } }
 @media only screen and (min-width: 180px) {
-  /* line 5218, ../scss/materialize.scss */
+  /* line 5221, ../scss/materialize.scss */
   .flow-text {
     line-height: 1.424rem; } }
 @media only screen and (min-width: 570px) {
-  /* line 5221, ../scss/materialize.scss */
+  /* line 5224, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.368rem; } }
 @media only screen and (min-width: 210px) {
-  /* line 5224, ../scss/materialize.scss */
+  /* line 5227, ../scss/materialize.scss */
   .flow-text {
     line-height: 1.528rem; } }
 @media only screen and (min-width: 600px) {
-  /* line 5227, ../scss/materialize.scss */
+  /* line 5230, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.392rem; } }
 @media only screen and (min-width: 240px) {
-  /* line 5230, ../scss/materialize.scss */
+  /* line 5233, ../scss/materialize.scss */
   .flow-text {
     line-height: 1.632rem; } }
 @media only screen and (min-width: 630px) {
-  /* line 5233, ../scss/materialize.scss */
+  /* line 5236, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.416rem; } }
 @media only screen and (min-width: 270px) {
-  /* line 5236, ../scss/materialize.scss */
+  /* line 5239, ../scss/materialize.scss */
   .flow-text {
     line-height: 1.736rem; } }
 @media only screen and (min-width: 660px) {
-  /* line 5239, ../scss/materialize.scss */
+  /* line 5242, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.44rem; } }
 @media only screen and (min-width: 300px) {
-  /* line 5242, ../scss/materialize.scss */
+  /* line 5245, ../scss/materialize.scss */
   .flow-text {
     line-height: 1.84rem; } }
 @media only screen and (min-width: 690px) {
-  /* line 5245, ../scss/materialize.scss */
+  /* line 5248, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.464rem; } }
 @media only screen and (min-width: 330px) {
-  /* line 5248, ../scss/materialize.scss */
+  /* line 5251, ../scss/materialize.scss */
   .flow-text {
     line-height: 1.944rem; } }
 @media only screen and (min-width: 720px) {
-  /* line 5251, ../scss/materialize.scss */
+  /* line 5254, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.488rem; } }
 @media only screen and (min-width: 360px) {
-  /* line 5254, ../scss/materialize.scss */
+  /* line 5257, ../scss/materialize.scss */
   .flow-text {
     line-height: 2.048rem; } }
 @media only screen and (min-width: 750px) {
-  /* line 5257, ../scss/materialize.scss */
+  /* line 5260, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.512rem; } }
 @media only screen and (min-width: 390px) {
-  /* line 5260, ../scss/materialize.scss */
+  /* line 5263, ../scss/materialize.scss */
   .flow-text {
     line-height: 2.152rem; } }
 @media only screen and (min-width: 780px) {
-  /* line 5263, ../scss/materialize.scss */
+  /* line 5266, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.536rem; } }
 @media only screen and (min-width: 420px) {
-  /* line 5266, ../scss/materialize.scss */
+  /* line 5269, ../scss/materialize.scss */
   .flow-text {
     line-height: 2.256rem; } }
 @media only screen and (min-width: 810px) {
-  /* line 5269, ../scss/materialize.scss */
+  /* line 5272, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.56rem; } }
 @media only screen and (min-width: 450px) {
-  /* line 5272, ../scss/materialize.scss */
+  /* line 5275, ../scss/materialize.scss */
   .flow-text {
     line-height: 2.36rem; } }
 @media only screen and (min-width: 840px) {
-  /* line 5275, ../scss/materialize.scss */
+  /* line 5278, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.584rem; } }
 @media only screen and (min-width: 480px) {
-  /* line 5278, ../scss/materialize.scss */
+  /* line 5281, ../scss/materialize.scss */
   .flow-text {
     line-height: 2.464rem; } }
 @media only screen and (min-width: 870px) {
-  /* line 5281, ../scss/materialize.scss */
+  /* line 5284, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.608rem; } }
 @media only screen and (min-width: 510px) {
-  /* line 5284, ../scss/materialize.scss */
+  /* line 5287, ../scss/materialize.scss */
   .flow-text {
     line-height: 2.568rem; } }
 @media only screen and (min-width: 900px) {
-  /* line 5287, ../scss/materialize.scss */
+  /* line 5290, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.632rem; } }
 @media only screen and (min-width: 540px) {
-  /* line 5290, ../scss/materialize.scss */
+  /* line 5293, ../scss/materialize.scss */
   .flow-text {
     line-height: 2.672rem; } }
 @media only screen and (min-width: 930px) {
-  /* line 5293, ../scss/materialize.scss */
+  /* line 5296, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.656rem; } }
 @media only screen and (min-width: 570px) {
-  /* line 5296, ../scss/materialize.scss */
+  /* line 5299, ../scss/materialize.scss */
   .flow-text {
     line-height: 2.776rem; } }
 @media only screen and (min-width: 960px) {
-  /* line 5299, ../scss/materialize.scss */
+  /* line 5302, ../scss/materialize.scss */
   .flow-text {
     font-size: 1.68rem; } }
 @media only screen and (min-width: 600px) {
-  /* line 5302, ../scss/materialize.scss */
+  /* line 5305, ../scss/materialize.scss */
   .flow-text {
     line-height: 2.88rem; } }
-/* line 5305, ../scss/materialize.scss */
+/* line 5308, ../scss/materialize.scss */
 .card-panel {
   padding: 20px;
   margin: 0.5rem 0 1rem 0;
@@ -6950,7 +6953,7 @@ small {
   background-clip: padding-box;
   background-color: #fff; }
 
-/* line 5314, ../scss/materialize.scss */
+/* line 5317, ../scss/materialize.scss */
 .card {
   position: relative;
   overflow: hidden;
@@ -6964,17 +6967,17 @@ small {
   border-radius: 2px;
   background-clip: padding-box; }
 
-/* line 5326, ../scss/materialize.scss */
+/* line 5329, ../scss/materialize.scss */
 .card .card-title {
   color: #fff;
   font-size: 24px;
   font-weight: 300; }
 
-/* line 5330, ../scss/materialize.scss */
+/* line 5333, ../scss/materialize.scss */
 .card .card-title.activator {
   cursor: pointer; }
 
-/* line 5332, ../scss/materialize.scss */
+/* line 5335, ../scss/materialize.scss */
 .card a {
   color: #ffab40;
   margin-right: 20px;
@@ -6985,38 +6988,38 @@ small {
   transition: color 0.3s ease;
   text-transform: uppercase; }
 
-/* line 5341, ../scss/materialize.scss */
+/* line 5344, ../scss/materialize.scss */
 .card a:hover {
   color: #ffd8a6; }
 
-/* line 5343, ../scss/materialize.scss */
+/* line 5346, ../scss/materialize.scss */
 .card.small {
   height: 300px;
   position: relative; }
 
-/* line 5346, ../scss/materialize.scss */
+/* line 5349, ../scss/materialize.scss */
 .card.small .card-image {
   overflow: hidden;
   height: 150px; }
 
-/* line 5349, ../scss/materialize.scss */
+/* line 5352, ../scss/materialize.scss */
 .card.small .card-content {
   overflow: hidden;
   height: 150px; }
 
-/* line 5352, ../scss/materialize.scss */
+/* line 5355, ../scss/materialize.scss */
 .card.small .card-action {
   position: absolute;
   bottom: 0;
   left: 0;
   right: 0; }
 
-/* line 5357, ../scss/materialize.scss */
+/* line 5360, ../scss/materialize.scss */
 .card .card-image {
   position: relative;
   overflow: hidden; }
 
-/* line 5360, ../scss/materialize.scss */
+/* line 5363, ../scss/materialize.scss */
 .card .card-image img {
   -webkit-border-radius: 2px 2px 0 0;
   -moz-border-radius: 2px 2px 0 0;
@@ -7029,14 +7032,14 @@ small {
   bottom: 0;
   width: 100%; }
 
-/* line 5371, ../scss/materialize.scss */
+/* line 5374, ../scss/materialize.scss */
 .card .card-image .card-title {
   position: absolute;
   bottom: 0;
   left: 0;
   padding: 20px; }
 
-/* line 5376, ../scss/materialize.scss */
+/* line 5379, ../scss/materialize.scss */
 .card .card-content {
   padding: 20px;
   -webkit-border-radius: 0 0 2px 2px;
@@ -7047,21 +7050,21 @@ small {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 5385, ../scss/materialize.scss */
+/* line 5388, ../scss/materialize.scss */
 .card .card-content p {
   margin: 0;
   color: inherit; }
 
-/* line 5388, ../scss/materialize.scss */
+/* line 5391, ../scss/materialize.scss */
 .card .card-content .card-title {
   line-height: 48px; }
 
-/* line 5390, ../scss/materialize.scss */
+/* line 5393, ../scss/materialize.scss */
 .card .card-action {
   border-top: 1px solid rgba(160, 160, 160, 0.2);
   padding: 20px; }
 
-/* line 5393, ../scss/materialize.scss */
+/* line 5396, ../scss/materialize.scss */
 .card .card-reveal {
   padding: 20px;
   position: absolute;
@@ -7073,35 +7076,35 @@ small {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 5403, ../scss/materialize.scss */
+/* line 5406, ../scss/materialize.scss */
 .card .card-reveal .card-title {
   cursor: pointer;
   display: block; }
 
-/* line 5407, ../scss/materialize.scss */
+/* line 5410, ../scss/materialize.scss */
 #toast-container {
   display: block;
   position: fixed;
   z-index: 1001; }
 
 @media only screen and (max-width: 600px) {
-  /* line 5412, ../scss/materialize.scss */
+  /* line 5415, ../scss/materialize.scss */
   #toast-container {
     min-width: 100%;
     bottom: 0%; } }
 @media only screen and (min-width: 601px) and (max-width: 992px) {
-  /* line 5416, ../scss/materialize.scss */
+  /* line 5419, ../scss/materialize.scss */
   #toast-container {
     min-width: 30%;
     left: 5%;
     bottom: 7%; } }
 @media only screen and (min-width: 993px) {
-  /* line 5421, ../scss/materialize.scss */
+  /* line 5424, ../scss/materialize.scss */
   #toast-container {
     min-width: 8%;
     top: 10%;
     right: 7%; } }
-/* line 5426, ../scss/materialize.scss */
+/* line 5429, ../scss/materialize.scss */
 .toast {
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -7135,28 +7138,28 @@ small {
   -webkit-justify-content: space-between;
   justify-content: space-between; }
 
-/* line 5458, ../scss/materialize.scss */
+/* line 5461, ../scss/materialize.scss */
 .toast .btn, .toast .btn-large, .toast .btn-flat {
   margin: 0;
   margin-left: 3rem; }
 
-/* line 5461, ../scss/materialize.scss */
+/* line 5464, ../scss/materialize.scss */
 .toast.rounded {
   border-radius: 24px; }
 
 @media only screen and (max-width: 600px) {
-  /* line 5464, ../scss/materialize.scss */
+  /* line 5467, ../scss/materialize.scss */
   .toast {
     width: 100%; } }
 @media only screen and (min-width: 601px) and (max-width: 992px) {
-  /* line 5467, ../scss/materialize.scss */
+  /* line 5470, ../scss/materialize.scss */
   .toast {
     float: left; } }
 @media only screen and (min-width: 993px) {
-  /* line 5470, ../scss/materialize.scss */
+  /* line 5473, ../scss/materialize.scss */
   .toast {
     float: right; } }
-/* line 5473, ../scss/materialize.scss */
+/* line 5476, ../scss/materialize.scss */
 .tabs {
   position: relative;
   height: 48px;
@@ -7165,7 +7168,7 @@ small {
   width: 100%;
   white-space: nowrap; }
 
-/* line 5480, ../scss/materialize.scss */
+/* line 5483, ../scss/materialize.scss */
 .tabs li.tab {
   display: block;
   float: left;
@@ -7179,7 +7182,7 @@ small {
   letter-spacing: 0.8px;
   width: 15%; }
 
-/* line 5492, ../scss/materialize.scss */
+/* line 5495, ../scss/materialize.scss */
 .tabs li.tab a {
   color: #ee6e73;
   display: block;
@@ -7191,11 +7194,11 @@ small {
   -ms-transition: color 0.28s ease;
   transition: color 0.28s ease; }
 
-/* line 5502, ../scss/materialize.scss */
+/* line 5505, ../scss/materialize.scss */
 .tabs li.tab a:hover {
   color: #f8c1c3; }
 
-/* line 5504, ../scss/materialize.scss */
+/* line 5507, ../scss/materialize.scss */
 .tabs .indicator {
   position: absolute;
   bottom: 0;
@@ -7203,11 +7206,11 @@ small {
   background-color: #ee6e73;
   will-change: left, right; }
 
-/* line 5511, ../scss/materialize.scss */
+/* line 5514, ../scss/materialize.scss */
 ul.tabs li.tab {
   padding: 0; }
 
-/* line 5514, ../scss/materialize.scss */
+/* line 5517, ../scss/materialize.scss */
 .material-tooltip {
   padding: 10px 8px;
   font-size: 1rem;
@@ -7229,7 +7232,7 @@ ul.tabs li.tab {
   top: 0;
   will-change: top, left; }
 
-/* line 5535, ../scss/materialize.scss */
+/* line 5538, ../scss/materialize.scss */
 .backdrop {
   position: absolute;
   opacity: 0;
@@ -7249,7 +7252,7 @@ ul.tabs li.tab {
   transform-origin: 50% 10%;
   will-change: transform, opacity; }
 
-/* line 5554, ../scss/materialize.scss */
+/* line 5557, ../scss/materialize.scss */
 .btn, .btn-large, .btn-flat {
   display: inline-block;
   height: 36px;
@@ -7265,23 +7268,23 @@ ul.tabs li.tab {
   outline: 0;
   -webkit-tap-highlight-color: transparent; }
 
-/* line 5569, ../scss/materialize.scss */
+/* line 5572, ../scss/materialize.scss */
 .btn.disabled, .disabled.btn-large, .btn-floating.disabled, .btn-large.disabled, .btn:disabled, .btn-large:disabled, .btn-large:disabled, .btn-floating:disabled {
   background-color: #DFDFDF;
   box-shadow: none;
   color: #9F9F9F; }
 
-/* line 5573, ../scss/materialize.scss */
+/* line 5576, ../scss/materialize.scss */
 .btn.disabled:hover, .disabled.btn-large:hover, .btn-floating.disabled:hover, .btn-large.disabled:hover, .btn:disabled:hover, .btn-large:disabled:hover, .btn-large:disabled:hover, .btn-floating:disabled:hover {
   background-color: #DFDFDF;
   color: #9F9F9F; }
 
-/* line 5577, ../scss/materialize.scss */
+/* line 5580, ../scss/materialize.scss */
 .btn i, .btn-large i, .btn-floating i, .btn-large i, .btn-flat i {
   font-size: 1.3rem;
   line-height: inherit; }
 
-/* line 5581, ../scss/materialize.scss */
+/* line 5584, ../scss/materialize.scss */
 .btn, .btn-large {
   text-decoration: none;
   color: #FFF;
@@ -7295,11 +7298,11 @@ ul.tabs li.tab {
   transition: 0.2s ease-out;
   cursor: pointer; }
 
-/* line 5593, ../scss/materialize.scss */
+/* line 5596, ../scss/materialize.scss */
 .btn:hover, .btn-large:hover {
   background-color: #39a1f4; }
 
-/* line 5596, ../scss/materialize.scss */
+/* line 5599, ../scss/materialize.scss */
 .btn-floating {
   display: inline-block;
   position: relative;
@@ -7320,7 +7323,7 @@ ul.tabs li.tab {
   transition: 0.3s;
   cursor: pointer; }
 
-/* line 5615, ../scss/materialize.scss */
+/* line 5618, ../scss/materialize.scss */
 .btn-floating i {
   width: inherit;
   display: inline-block;
@@ -7329,36 +7332,36 @@ ul.tabs li.tab {
   font-size: 1.6rem;
   line-height: 37px; }
 
-/* line 5622, ../scss/materialize.scss */
+/* line 5625, ../scss/materialize.scss */
 .btn-floating.btn-large {
   width: 55.5px;
   height: 55.5px; }
 
-/* line 5625, ../scss/materialize.scss */
+/* line 5628, ../scss/materialize.scss */
 .btn-floating.btn-large i {
   line-height: 55.5px; }
 
-/* line 5628, ../scss/materialize.scss */
+/* line 5631, ../scss/materialize.scss */
 .btn-flat {
   box-shadow: none;
   background-color: transparent;
   color: #343434;
   cursor: pointer; }
 
-/* line 5633, ../scss/materialize.scss */
+/* line 5636, ../scss/materialize.scss */
 .btn-flat.disabled {
   color: #b3b3b3; }
 
-/* line 5636, ../scss/materialize.scss */
+/* line 5639, ../scss/materialize.scss */
 .btn-large {
   height: 54px;
   line-height: 56px; }
 
-/* line 5639, ../scss/materialize.scss */
+/* line 5642, ../scss/materialize.scss */
 .btn-large i {
   font-size: 1.6rem; }
 
-/* line 5642, ../scss/materialize.scss */
+/* line 5645, ../scss/materialize.scss */
 .dropdown-content {
   display: none;
   position: absolute;
@@ -7371,18 +7374,18 @@ ul.tabs li.tab {
   overflow-y: hidden;
   will-change: width, height; }
 
-/* line 5653, ../scss/materialize.scss */
+/* line 5656, ../scss/materialize.scss */
 .dropdown-content li {
   cursor: pointer;
   font-size: 1.2rem;
   color: rgba(0, 0, 0, 0.87);
   line-height: 1.5rem; }
 
-/* line 5658, ../scss/materialize.scss */
+/* line 5661, ../scss/materialize.scss */
 .dropdown-content li:hover {
   background-color: rgba(0, 0, 0, 0.06); }
 
-/* line 5660, ../scss/materialize.scss */
+/* line 5663, ../scss/materialize.scss */
 .dropdown-content li > a, .dropdown-content li > span {
   display: block;
   padding: 1rem 1rem; }
@@ -7395,7 +7398,7 @@ ul.tabs li.tab {
  * Released under the MIT license
  * https://github.com/fians/Waves/blob/master/LICENSE
  */
-/* line 5672, ../scss/materialize.scss */
+/* line 5675, ../scss/materialize.scss */
 .waves-effect {
   position: relative;
   cursor: pointer;
@@ -7414,7 +7417,7 @@ ul.tabs li.tab {
   -ms-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out; }
 
-/* line 5689, ../scss/materialize.scss */
+/* line 5692, ../scss/materialize.scss */
 .waves-effect .waves-ripple {
   position: absolute;
   border-radius: 50%;
@@ -7440,35 +7443,35 @@ ul.tabs li.tab {
   transform: scale(0);
   pointer-events: none; }
 
-/* line 5713, ../scss/materialize.scss */
+/* line 5716, ../scss/materialize.scss */
 .waves-effect.waves-light .waves-ripple {
   background-color: rgba(255, 255, 255, 0.45); }
 
-/* line 5715, ../scss/materialize.scss */
+/* line 5718, ../scss/materialize.scss */
 .waves-effect.waves-red .waves-ripple {
   background-color: rgba(244, 67, 54, 0.7); }
 
-/* line 5717, ../scss/materialize.scss */
+/* line 5720, ../scss/materialize.scss */
 .waves-effect.waves-yellow .waves-ripple {
   background-color: rgba(255, 235, 59, 0.7); }
 
-/* line 5719, ../scss/materialize.scss */
+/* line 5722, ../scss/materialize.scss */
 .waves-effect.waves-orange .waves-ripple {
   background-color: rgba(255, 152, 0, 0.7); }
 
-/* line 5721, ../scss/materialize.scss */
+/* line 5724, ../scss/materialize.scss */
 .waves-effect.waves-purple .waves-ripple {
   background-color: rgba(156, 39, 176, 0.7); }
 
-/* line 5723, ../scss/materialize.scss */
+/* line 5726, ../scss/materialize.scss */
 .waves-effect.waves-green .waves-ripple {
   background-color: rgba(76, 175, 80, 0.7); }
 
-/* line 5725, ../scss/materialize.scss */
+/* line 5728, ../scss/materialize.scss */
 .waves-effect.waves-teal .waves-ripple {
   background-color: rgba(0, 150, 136, 0.7); }
 
-/* line 5728, ../scss/materialize.scss */
+/* line 5731, ../scss/materialize.scss */
 .waves-notransition {
   -webkit-transition: none !important;
   -moz-transition: none !important;
@@ -7476,7 +7479,7 @@ ul.tabs li.tab {
   -ms-transition: none !important;
   transition: none !important; }
 
-/* line 5735, ../scss/materialize.scss */
+/* line 5738, ../scss/materialize.scss */
 .waves-circle {
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
@@ -7485,19 +7488,19 @@ ul.tabs li.tab {
   transform: translateZ(0);
   -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%); }
 
-/* line 5743, ../scss/materialize.scss */
+/* line 5746, ../scss/materialize.scss */
 .waves-input-wrapper {
   border-radius: 0.2em;
   vertical-align: bottom; }
 
-/* line 5746, ../scss/materialize.scss */
+/* line 5749, ../scss/materialize.scss */
 .waves-input-wrapper .waves-button-input {
   position: relative;
   top: 0;
   left: 0;
   z-index: 1; }
 
-/* line 5752, ../scss/materialize.scss */
+/* line 5755, ../scss/materialize.scss */
 .waves-circle {
   text-align: center;
   width: 2.5em;
@@ -7505,16 +7508,16 @@ ul.tabs li.tab {
   line-height: 2.5em;
   border-radius: 50%; }
 
-/* line 5759, ../scss/materialize.scss */
+/* line 5762, ../scss/materialize.scss */
 .waves-block {
   display: block; }
 
 /* Firefox Bug: link not triggered */
-/* line 5763, ../scss/materialize.scss */
+/* line 5766, ../scss/materialize.scss */
 a.waves-effect .waves-ripple {
   z-index: -1; }
 
-/* line 5766, ../scss/materialize.scss */
+/* line 5769, ../scss/materialize.scss */
 .modal {
   display: none;
   position: fixed;
@@ -7539,14 +7542,14 @@ a.waves-effect .waves-ripple {
   will-change: top, opacity; }
 
 @media only screen and (max-width: 992px) {
-  /* line 5789, ../scss/materialize.scss */
+  /* line 5792, ../scss/materialize.scss */
   .modal {
     max-width: 80%; } }
-/* line 5791, ../scss/materialize.scss */
+/* line 5794, ../scss/materialize.scss */
 .modal h1, .modal h2, .modal h3, .modal h4 {
   margin-top: 0; }
 
-/* line 5794, ../scss/materialize.scss */
+/* line 5797, ../scss/materialize.scss */
 #lean-overlay {
   position: fixed;
   z-index: 999;
@@ -7560,19 +7563,19 @@ a.waves-effect .waves-ripple {
   display: none;
   will-change: opacity; }
 
-/* line 5807, ../scss/materialize.scss */
+/* line 5810, ../scss/materialize.scss */
 .modal-action {
   margin-top: 10px;
   margin-bottom: 0px; }
 
-/* line 5811, ../scss/materialize.scss */
+/* line 5814, ../scss/materialize.scss */
 .collapsible {
   border-top: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-left: 1px solid #ddd;
   margin: 0.5rem 0 1rem 0; }
 
-/* line 5816, ../scss/materialize.scss */
+/* line 5819, ../scss/materialize.scss */
 .collapsible li {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -7580,7 +7583,7 @@ a.waves-effect .waves-ripple {
   -ms-transition: 0.3s;
   transition: 0.3s; }
 
-/* line 5823, ../scss/materialize.scss */
+/* line 5826, ../scss/materialize.scss */
 .collapsible-header {
   display: block;
   cursor: pointer;
@@ -7590,7 +7593,7 @@ a.waves-effect .waves-ripple {
   background-color: #fff;
   border-bottom: 1px solid #ddd; }
 
-/* line 5831, ../scss/materialize.scss */
+/* line 5834, ../scss/materialize.scss */
 .collapsible-header i {
   width: 2rem;
   font-size: 1.6rem;
@@ -7600,7 +7603,7 @@ a.waves-effect .waves-ripple {
   text-align: center;
   margin-right: 1rem; }
 
-/* line 5840, ../scss/materialize.scss */
+/* line 5843, ../scss/materialize.scss */
 .collapsible-body {
   overflow: hidden;
   display: none;
@@ -7609,23 +7612,23 @@ a.waves-effect .waves-ripple {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 5847, ../scss/materialize.scss */
+/* line 5850, ../scss/materialize.scss */
 .collapsible-body p {
   margin: 0;
   padding: 2rem; }
 
-/* line 5851, ../scss/materialize.scss */
+/* line 5854, ../scss/materialize.scss */
 ul.side-nav ul.collapsible {
   border: none;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none; }
 
-/* line 5856, ../scss/materialize.scss */
+/* line 5859, ../scss/materialize.scss */
 ul.side-nav ul.collapsible li {
   padding: 0; }
 
-/* line 5858, ../scss/materialize.scss */
+/* line 5861, ../scss/materialize.scss */
 ul.side-nav .collapsible-header {
   background-color: transparent;
   border: none;
@@ -7633,24 +7636,24 @@ ul.side-nav .collapsible-header {
   height: inherit;
   margin: 0 1rem; }
 
-/* line 5864, ../scss/materialize.scss */
+/* line 5867, ../scss/materialize.scss */
 ul.side-nav .collapsible-header i {
   line-height: inherit; }
 
-/* line 5866, ../scss/materialize.scss */
+/* line 5869, ../scss/materialize.scss */
 ul.side-nav .collapsible-body {
   border: 0;
   background-color: #FFF; }
 
-/* line 5869, ../scss/materialize.scss */
+/* line 5872, ../scss/materialize.scss */
 ul.side-nav .collapsible-body li a {
   margin: 0 1rem 0 2rem; }
 
-/* line 5872, ../scss/materialize.scss */
+/* line 5875, ../scss/materialize.scss */
 li.no-padding {
   padding: 0 !important; }
 
-/* line 5875, ../scss/materialize.scss */
+/* line 5878, ../scss/materialize.scss */
 .materialboxed {
   cursor: zoom-in;
   position: relative;
@@ -7660,11 +7663,11 @@ li.no-padding {
   -ms-transition: opacity 0.4s;
   transition: opacity 0.4s; }
 
-/* line 5883, ../scss/materialize.scss */
+/* line 5886, ../scss/materialize.scss */
 .materialboxed:hover {
   will-change: left, top, width, height; }
 
-/* line 5885, ../scss/materialize.scss */
+/* line 5888, ../scss/materialize.scss */
 .materialboxed:hover:not(.active) {
   -ms-filter: "progid:DXImageTransform@mixin Microsoft@mixin Alpha(Opacity=${iefactor})";
   filter: "alpha(opacity=(${iefactor}))";
@@ -7672,11 +7675,11 @@ li.no-padding {
   -khtml-opacity: 0.8;
   opacity: 0.8; }
 
-/* line 5892, ../scss/materialize.scss */
+/* line 5895, ../scss/materialize.scss */
 .materialboxed.active {
   cursor: zoom-out; }
 
-/* line 5895, ../scss/materialize.scss */
+/* line 5898, ../scss/materialize.scss */
 #materialbox-overlay {
   position: fixed;
   top: 0;
@@ -7687,7 +7690,7 @@ li.no-padding {
   z-index: 999;
   will-change: opacity; }
 
-/* line 5905, ../scss/materialize.scss */
+/* line 5908, ../scss/materialize.scss */
 .materialbox-caption {
   position: fixed;
   display: none;
@@ -7703,16 +7706,16 @@ li.no-padding {
   -webkit-font-smoothing: antialiased; }
 
 /* Remove Focus Boxes */
-/* line 5920, ../scss/materialize.scss */
+/* line 5923, ../scss/materialize.scss */
 select:focus {
   outline: 1px solid #f8c1c3; }
 
-/* line 5923, ../scss/materialize.scss */
+/* line 5926, ../scss/materialize.scss */
 button:focus {
   outline: none;
   background-color: #51adf6; }
 
-/* line 5927, ../scss/materialize.scss */
+/* line 5930, ../scss/materialize.scss */
 label {
   font-size: 0.8rem;
   color: #9e9e9e; }
@@ -7720,12 +7723,12 @@ label {
 /***************************
    Text Inputs + Textarea
 ****************************/
-/* line 5934, ../scss/materialize.scss */
+/* line 5937, ../scss/materialize.scss */
 .input-field {
   position: relative;
   margin-top: 1rem; }
 
-/* line 5937, ../scss/materialize.scss */
+/* line 5940, ../scss/materialize.scss */
 .input-field label {
   color: #9e9e9e;
   position: absolute;
@@ -7739,7 +7742,7 @@ label {
   -ms-transition: 0.2s ease-out;
   transition: 0.2s ease-out; }
 
-/* line 5949, ../scss/materialize.scss */
+/* line 5952, ../scss/materialize.scss */
 .input-field label.active {
   font-size: 0.8rem;
   -webkit-transform: translateY(-130%);
@@ -7748,25 +7751,25 @@ label {
   -o-transform: translateY(-130%);
   transform: translateY(-130%); }
 
-/* line 5956, ../scss/materialize.scss */
+/* line 5959, ../scss/materialize.scss */
 .input-field input[type=text]:focus + label, .input-field input[type=password]:focus + label, .input-field input[type=email]:focus + label, .input-field input[type=date]:focus + label, .input-field input[type=tel]:focus + label, .input-field input[type=number]:focus + label, .input-field textarea:focus.materialize-textarea + label {
   color: #03a9f4; }
 
-/* line 5958, ../scss/materialize.scss */
+/* line 5961, ../scss/materialize.scss */
 .input-field input[type=text].valid, .input-field input[type=password].valid, .input-field input[type=email].valid, .input-field input[type=date].valid, .input-field input[type=tel].valid, .input-field input[type=number].valid, .input-field textarea.materialize-textarea.valid {
   border-bottom: 1px solid #4CAF50;
   -webkit-box-shadow: 0 1px 0 0 #4CAF50;
   -moz-box-shadow: 0 1px 0 0 #4CAF50;
   box-shadow: 0 1px 0 0 #4CAF50; }
 
-/* line 5963, ../scss/materialize.scss */
+/* line 5966, ../scss/materialize.scss */
 .input-field input[type=text].invalid, .input-field input[type=password].invalid, .input-field input[type=email].invalid, .input-field input[type=date].invalid, .input-field input[type=tel].invalid, .input-field input[type=number].invalid, .input-field textarea.materialize-textarea.invalid {
   border-bottom: 1px solid #F44336;
   -webkit-box-shadow: 0 1px 0 0 #F44336;
   -moz-box-shadow: 0 1px 0 0 #F44336;
   box-shadow: 0 1px 0 0 #F44336; }
 
-/* line 5968, ../scss/materialize.scss */
+/* line 5971, ../scss/materialize.scss */
 .input-field .prefix {
   position: absolute;
   width: 3rem;
@@ -7777,41 +7780,41 @@ label {
   -ms-transition: color 0.2s;
   transition: color 0.2s; }
 
-/* line 5977, ../scss/materialize.scss */
+/* line 5980, ../scss/materialize.scss */
 .input-field .prefix.active {
   color: #03a9f4; }
 
-/* line 5979, ../scss/materialize.scss */
+/* line 5982, ../scss/materialize.scss */
 .input-field .prefix ~ input, .input-field .prefix ~ textarea {
   margin-left: 3rem;
   width: 92%;
   width: calc(100% - 3rem); }
 
-/* line 5983, ../scss/materialize.scss */
+/* line 5986, ../scss/materialize.scss */
 .input-field .prefix ~ textarea {
   padding-top: 0.8rem; }
 
-/* line 5985, ../scss/materialize.scss */
+/* line 5988, ../scss/materialize.scss */
 .input-field .prefix ~ label {
   margin-left: 3rem; }
 
 @media only screen and (max-width: 992px) {
-  /* line 5988, ../scss/materialize.scss */
+  /* line 5991, ../scss/materialize.scss */
   .input-field .prefix ~ input {
     width: 86%;
     width: calc(100% - 3rem); } }
 @media only screen and (max-width: 600px) {
-  /* line 5993, ../scss/materialize.scss */
+  /* line 5996, ../scss/materialize.scss */
   .input-field .prefix ~ input {
     width: 80%;
     width: calc(100% - 3rem); } }
-/* line 5998, ../scss/materialize.scss */
+/* line 6001, ../scss/materialize.scss */
 textarea {
   width: 100%;
   height: 3rem;
   background-color: transparent; }
 
-/* line 6003, ../scss/materialize.scss */
+/* line 6006, ../scss/materialize.scss */
 input[type=text], input[type=password], input[type=email], input[type=date], input[type=tel], input[type=number], textarea.materialize-textarea {
   background-color: transparent;
   border: none;
@@ -7834,14 +7837,14 @@ input[type=text], input[type=password], input[type=email], input[type=date], inp
   -ms-transition: 0.3s;
   transition: 0.3s; }
 
-/* line 6025, ../scss/materialize.scss */
+/* line 6028, ../scss/materialize.scss */
 input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, input[type=date]:focus, input[type=tel]:focus, input[type=number]:focus, textarea:focus.materialize-textarea {
   border-bottom: 1px solid #03a9f4;
   -webkit-box-shadow: 0 1px 0 0 #03a9f4;
   -moz-box-shadow: 0 1px 0 0 #03a9f4;
   box-shadow: 0 1px 0 0 #03a9f4; }
 
-/* line 6031, ../scss/materialize.scss */
+/* line 6034, ../scss/materialize.scss */
 textarea.materialize-textarea {
   overflow-y: hidden;
   /* prevents scroll bar flash */
@@ -7849,7 +7852,7 @@ textarea.materialize-textarea {
   /* prevents text jump on Enter keypress */
   resize: none; }
 
-/* line 6038, ../scss/materialize.scss */
+/* line 6041, ../scss/materialize.scss */
 .hiddendiv {
   display: none;
   white-space: pre-wrap;
@@ -7863,12 +7866,12 @@ textarea.materialize-textarea {
   Radio Buttons
 ***************/
 /* Remove default Radio Buttons */
-/* line 6051, ../scss/materialize.scss */
+/* line 6054, ../scss/materialize.scss */
 [type="radio"]:not(:checked), [type="radio"]:checked {
   position: absolute;
   left: -9999px; }
 
-/* line 6055, ../scss/materialize.scss */
+/* line 6058, ../scss/materialize.scss */
 [type="radio"]:not(:checked) + label, [type="radio"]:checked + label {
   position: relative;
   padding-left: 35px;
@@ -7891,7 +7894,7 @@ textarea.materialize-textarea {
   -ms-user-select: none;
   /* IE10+ */ }
 
-/* line 6077, ../scss/materialize.scss */
+/* line 6080, ../scss/materialize.scss */
 [type="radio"] + label:before, [type="radio"] + label:after {
   content: '';
   position: absolute;
@@ -7908,12 +7911,12 @@ textarea.materialize-textarea {
   transition: 0.28s ease; }
 
 /* Unchecked styles */
-/* line 6093, ../scss/materialize.scss */
+/* line 6096, ../scss/materialize.scss */
 [type="radio"]:not(:checked) + label:before {
   border-radius: 50%;
   border: 2px solid #5a5a5a; }
 
-/* line 6097, ../scss/materialize.scss */
+/* line 6100, ../scss/materialize.scss */
 [type="radio"]:not(:checked) + label:after {
   border-radius: 50%;
   border: 2px solid #5a5a5a;
@@ -7925,12 +7928,12 @@ textarea.materialize-textarea {
   transform: scale(0); }
 
 /* Checked styles */
-/* line 6108, ../scss/materialize.scss */
+/* line 6111, ../scss/materialize.scss */
 [type="radio"]:checked + label:before {
   border-radius: 50%;
   border: 2px solid transparent; }
 
-/* line 6112, ../scss/materialize.scss */
+/* line 6115, ../scss/materialize.scss */
 [type="radio"]:checked + label:after {
   border-radius: 50%;
   border: 2px solid #0f9d58;
@@ -7943,12 +7946,12 @@ textarea.materialize-textarea {
   transform: scale(1.02); }
 
 /* Radio With gap */
-/* line 6124, ../scss/materialize.scss */
+/* line 6127, ../scss/materialize.scss */
 [type="radio"].with-gap:checked + label:before {
   border-radius: 50%;
   border: 2px solid #0f9d58; }
 
-/* line 6128, ../scss/materialize.scss */
+/* line 6131, ../scss/materialize.scss */
 [type="radio"].with-gap:checked + label:after {
   border-radius: 50%;
   border: 2px solid #0f9d58;
@@ -7961,16 +7964,16 @@ textarea.materialize-textarea {
   transform: scale(0.5); }
 
 /* Disabled style */
-/* line 6140, ../scss/materialize.scss */
+/* line 6143, ../scss/materialize.scss */
 [type="radio"]:disabled:not(:checked) + label:before, [type="radio"]:disabled:checked + label:before {
   background-color: transparent;
   border-color: rgba(0, 0, 0, 0.26); }
 
-/* line 6144, ../scss/materialize.scss */
+/* line 6147, ../scss/materialize.scss */
 [type="radio"]:disabled + label {
   color: rgba(0, 0, 0, 0.26); }
 
-/* line 6147, ../scss/materialize.scss */
+/* line 6150, ../scss/materialize.scss */
 [type="radio"]:disabled:not(:checked) + label:hover:before {
   border-color: rgba(0, 0, 0, 0.26); }
 
@@ -7978,22 +7981,22 @@ textarea.materialize-textarea {
    Checkboxes
 ***************/
 /* CUSTOM CSS CHECKBOXES */
-/* line 6154, ../scss/materialize.scss */
+/* line 6157, ../scss/materialize.scss */
 form p {
   margin-bottom: 10px;
   text-align: left; }
 
-/* line 6158, ../scss/materialize.scss */
+/* line 6161, ../scss/materialize.scss */
 form p:last-child {
   margin-bottom: 0px; }
 
 /* Remove default checkbox */
-/* line 6162, ../scss/materialize.scss */
+/* line 6165, ../scss/materialize.scss */
 [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
   position: absolute;
   left: -9999px; }
 
-/* line 6166, ../scss/materialize.scss */
+/* line 6169, ../scss/materialize.scss */
 [type="checkbox"]:not(:checked) + label, [type="checkbox"]:checked + label {
   position: relative;
   padding-left: 35px;
@@ -8012,7 +8015,7 @@ form p:last-child {
   /* IE10+ */ }
 
 /* checkbox aspect */
-/* line 6184, ../scss/materialize.scss */
+/* line 6187, ../scss/materialize.scss */
 [type="checkbox"] + label:before {
   content: '';
   position: absolute;
@@ -8030,7 +8033,7 @@ form p:last-child {
   transition: 0.2s; }
 
 /* Unchecked styles */
-/* line 6201, ../scss/materialize.scss */
+/* line 6204, ../scss/materialize.scss */
 [type="checkbox"]:not(:checked) + label:before {
   top: 0px;
   width: 18px;
@@ -8038,7 +8041,7 @@ form p:last-child {
   border: 2px solid #5a5a5a; }
 
 /* Checked styles */
-/* line 6208, ../scss/materialize.scss */
+/* line 6211, ../scss/materialize.scss */
 [type="checkbox"]:checked + label:before {
   left: -3px;
   top: -4px;
@@ -8061,7 +8064,7 @@ form p:last-child {
   transform-origin: 100% 100%; }
 
 /* disabled checkbox */
-/* line 6230, ../scss/materialize.scss */
+/* line 6233, ../scss/materialize.scss */
 [type="checkbox"]:disabled:not(:checked) + label:before, [type="checkbox"]:disabled:checked + label:before {
   top: 0;
   left: 0;
@@ -8076,39 +8079,39 @@ form p:last-child {
   -o-transform: rotateZ(0deg);
   transform: rotateZ(0deg); }
 
-/* line 6244, ../scss/materialize.scss */
+/* line 6247, ../scss/materialize.scss */
 [type="checkbox"]:disabled + label {
   color: rgba(0, 0, 0, 0.26); }
 
-/* line 6247, ../scss/materialize.scss */
+/* line 6250, ../scss/materialize.scss */
 [type="checkbox"]:disabled:not(:checked) + label:hover:before {
   border-color: rgba(0, 0, 0, 0.26); }
 
-/* line 6250, ../scss/materialize.scss */
+/* line 6253, ../scss/materialize.scss */
 .switch, .switch * {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none; }
 
-/* line 6255, ../scss/materialize.scss */
+/* line 6258, ../scss/materialize.scss */
 .switch label {
   cursor: pointer; }
 
-/* line 6258, ../scss/materialize.scss */
+/* line 6261, ../scss/materialize.scss */
 .switch label input[type=checkbox]:first-child {
   opacity: 0;
   width: 0;
   height: 0; }
 
-/* line 6263, ../scss/materialize.scss */
+/* line 6266, ../scss/materialize.scss */
 .switch label input[type=checkbox]:first-child:checked + .lever {
   background-color: #7bc5be; }
 
-/* line 6266, ../scss/materialize.scss */
+/* line 6269, ../scss/materialize.scss */
 .switch label input[type=checkbox]:first-child:checked + .lever:after {
   background-color: #009587; }
 
-/* line 6269, ../scss/materialize.scss */
+/* line 6272, ../scss/materialize.scss */
 .switch label .lever, .switch label input[type=checkbox][disabled]:first-child + .lever {
   content: "";
   display: inline-block;
@@ -8121,7 +8124,7 @@ form p:last-child {
   vertical-align: middle;
   margin-left: 5px; }
 
-/* line 6281, ../scss/materialize.scss */
+/* line 6284, ../scss/materialize.scss */
 .switch label .lever:after {
   content: "";
   display: inline-block;
@@ -8135,26 +8138,26 @@ form p:last-child {
   top: -2px;
   transition: left 0.3s ease, background 0.3s ease, box-shadow 0.1s ease; }
 
-/* line 6294, ../scss/materialize.scss */
+/* line 6297, ../scss/materialize.scss */
 .switch label input[type=checkbox][disabled]:first-child + .lever:after, .switch label input[type=checkbox][disabled]:checked:first-child + .lever:after {
   background-color: #BDBDBD; }
 
-/* line 6297, ../scss/materialize.scss */
+/* line 6300, ../scss/materialize.scss */
 input[type=checkbox]:first-child:checked ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 149, 135, 0.1); }
 
-/* line 6300, ../scss/materialize.scss */
+/* line 6303, ../scss/materialize.scss */
 input[type=checkbox]:first-child ~ .lever:active:after, input[type=checkbox][disabled]:first-child ~ .lever:active:after {
   box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.4), 0 0 0 15px rgba(0, 0, 0, 0.1); }
 
-/* line 6303, ../scss/materialize.scss */
+/* line 6306, ../scss/materialize.scss */
 .switch label input[type=checkbox]:first-child:checked + .lever:after {
   left: 30px; }
 
 /***************
   Select Field
 ***************/
-/* line 6309, ../scss/materialize.scss */
+/* line 6312, ../scss/materialize.scss */
 .select-wrapper span.select-dropdown {
   position: relative;
   cursor: pointer;
@@ -8172,48 +8175,48 @@ input[type=checkbox]:first-child ~ .lever:active:after, input[type=checkbox][dis
   display: block;
   position: relative; }
 
-/* line 6325, ../scss/materialize.scss */
+/* line 6328, ../scss/materialize.scss */
 .select-wrapper span.select-dropdown:after {
   position: absolute;
   right: 0;
   font-size: 23px; }
 
-/* line 6330, ../scss/materialize.scss */
+/* line 6333, ../scss/materialize.scss */
 select {
   display: none; }
 
-/* line 6333, ../scss/materialize.scss */
+/* line 6336, ../scss/materialize.scss */
 select.browser-default {
   display: block; }
 
-/* line 6336, ../scss/materialize.scss */
+/* line 6339, ../scss/materialize.scss */
 select:disabled {
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 6339, ../scss/materialize.scss */
+/* line 6342, ../scss/materialize.scss */
 .select-wrapper span.select-dropdown.disabled {
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 6342, ../scss/materialize.scss */
+/* line 6345, ../scss/materialize.scss */
 .select-dropdown li.disabled {
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 6344, ../scss/materialize.scss */
+/* line 6347, ../scss/materialize.scss */
 .select-dropdown li.disabled:hover {
   background-color: transparent; }
 
 /***************
       Range
 ***************/
-/* line 6350, ../scss/materialize.scss */
+/* line 6353, ../scss/materialize.scss */
 .range-field {
   position: relative; }
 
-/* line 6353, ../scss/materialize.scss */
+/* line 6356, ../scss/materialize.scss */
 input[type=range], input[type=range] + .thumb {
   cursor: pointer; }
 
-/* line 6356, ../scss/materialize.scss */
+/* line 6359, ../scss/materialize.scss */
 input[type=range] {
   position: relative;
   background-color: transparent;
@@ -8223,7 +8226,7 @@ input[type=range] {
   margin: 15px 0px;
   padding: 0; }
 
-/* line 6365, ../scss/materialize.scss */
+/* line 6368, ../scss/materialize.scss */
 input[type=range] + .thumb {
   position: absolute;
   border: none;
@@ -8244,7 +8247,7 @@ input[type=range] + .thumb {
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
-/* line 6384, ../scss/materialize.scss */
+/* line 6387, ../scss/materialize.scss */
 input[type=range] + .thumb .value {
   display: block;
   width: 30px;
@@ -8257,32 +8260,32 @@ input[type=range] + .thumb .value {
   -o-transform: rotate(45deg);
   transform: rotate(45deg); }
 
-/* line 6395, ../scss/materialize.scss */
+/* line 6398, ../scss/materialize.scss */
 input[type=range] + .thumb.active {
   border-radius: 50% 50% 50% 0; }
 
-/* line 6397, ../scss/materialize.scss */
+/* line 6400, ../scss/materialize.scss */
 input[type=range] + .thumb.active .value {
   color: #fff;
   margin-left: -1px;
   margin-top: 8px;
   font-size: 10px; }
 
-/* line 6403, ../scss/materialize.scss */
+/* line 6406, ../scss/materialize.scss */
 input[type=range]:focus {
   outline: none; }
 
-/* line 6406, ../scss/materialize.scss */
+/* line 6409, ../scss/materialize.scss */
 input[type=range] {
   -webkit-appearance: none; }
 
-/* line 6409, ../scss/materialize.scss */
+/* line 6412, ../scss/materialize.scss */
 input[type=range]::-webkit-slider-runnable-track {
   height: 3px;
   background: #c2c0c2;
   border: none; }
 
-/* line 6414, ../scss/materialize.scss */
+/* line 6417, ../scss/materialize.scss */
 input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
   border: none;
@@ -8298,23 +8301,23 @@ input[type=range]::-webkit-slider-thumb {
   -ms-transition: 0.3s;
   transition: 0.3s; }
 
-/* line 6429, ../scss/materialize.scss */
+/* line 6432, ../scss/materialize.scss */
 input[type=range]:focus::-webkit-slider-runnable-track {
   background: #ccc; }
 
-/* line 6432, ../scss/materialize.scss */
+/* line 6435, ../scss/materialize.scss */
 input[type=range] {
   /* fix for FF unable to apply focus style bug  */
   border: 1px solid white;
   /*required for proper track sizing in FF*/ }
 
-/* line 6437, ../scss/materialize.scss */
+/* line 6440, ../scss/materialize.scss */
 input[type=range]::-moz-range-track {
   height: 3px;
   background: #ddd;
   border: none; }
 
-/* line 6442, ../scss/materialize.scss */
+/* line 6445, ../scss/materialize.scss */
 input[type=range]::-moz-range-thumb {
   border: none;
   height: 14px;
@@ -8324,16 +8327,16 @@ input[type=range]::-moz-range-thumb {
   margin-top: -5px; }
 
 /*hide the outline behind the border*/
-/* line 6451, ../scss/materialize.scss */
+/* line 6454, ../scss/materialize.scss */
 input[type=range]:-moz-focusring {
   outline: 1px solid white;
   outline-offset: -1px; }
 
-/* line 6455, ../scss/materialize.scss */
+/* line 6458, ../scss/materialize.scss */
 input[type=range]:focus::-moz-range-track {
   background: #ccc; }
 
-/* line 6458, ../scss/materialize.scss */
+/* line 6461, ../scss/materialize.scss */
 input[type=range]::-ms-track {
   height: 3px;
   /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
@@ -8344,15 +8347,15 @@ input[type=range]::-ms-track {
   /*remove default tick marks*/
   color: transparent; }
 
-/* line 6468, ../scss/materialize.scss */
+/* line 6471, ../scss/materialize.scss */
 input[type=range]::-ms-fill-lower {
   background: #777; }
 
-/* line 6471, ../scss/materialize.scss */
+/* line 6474, ../scss/materialize.scss */
 input[type=range]::-ms-fill-upper {
   background: #ddd; }
 
-/* line 6474, ../scss/materialize.scss */
+/* line 6477, ../scss/materialize.scss */
 input[type=range]::-ms-thumb {
   border: none;
   height: 14px;
@@ -8360,18 +8363,18 @@ input[type=range]::-ms-thumb {
   border-radius: 50%;
   background: #0f9d58; }
 
-/* line 6481, ../scss/materialize.scss */
+/* line 6484, ../scss/materialize.scss */
 input[type=range]:focus::-ms-fill-lower {
   background: #888; }
 
-/* line 6484, ../scss/materialize.scss */
+/* line 6487, ../scss/materialize.scss */
 input[type=range]:focus::-ms-fill-upper {
   background: #ccc; }
 
 /***************************
    Text Inputs + Textarea
 ****************************/
-/* line 6490, ../scss/materialize.scss */
+/* line 6493, ../scss/materialize.scss */
 select {
   background-color: #fffafa;
   width: 100%;
@@ -8383,15 +8386,15 @@ select {
 /***************
     Nav List
 ***************/
-/* line 6501, ../scss/materialize.scss */
+/* line 6504, ../scss/materialize.scss */
 ul.table-of-contents.fixed {
   position: fixed; }
 
-/* line 6503, ../scss/materialize.scss */
+/* line 6506, ../scss/materialize.scss */
 ul.table-of-contents li {
   padding: 2px 0; }
 
-/* line 6505, ../scss/materialize.scss */
+/* line 6508, ../scss/materialize.scss */
 ul.table-of-contents a {
   display: inline-block;
   font-weight: 300;
@@ -8402,20 +8405,20 @@ ul.table-of-contents a {
   letter-spacing: 0.4;
   display: inline-block; }
 
-/* line 6514, ../scss/materialize.scss */
+/* line 6517, ../scss/materialize.scss */
 ul.table-of-contents a:hover {
   color: #a8a8a8;
   padding-left: 19px;
   border-left: 1px solid #ea4a4f; }
 
-/* line 6518, ../scss/materialize.scss */
+/* line 6521, ../scss/materialize.scss */
 ul.table-of-contents a.active {
   font-weight: 500;
   padding-left: 18px;
   border-left: 2px solid #ea4a4f; }
 
 @media only screen and (max-width: 992px) {
-  /* line 6524, ../scss/materialize.scss */
+  /* line 6527, ../scss/materialize.scss */
   ul.side-nav {
     position: fixed;
     width: 240px;
@@ -8428,30 +8431,30 @@ ul.table-of-contents a.active {
     z-index: 999;
     will-change: left; }
 
-  /* line 6535, ../scss/materialize.scss */
+  /* line 6538, ../scss/materialize.scss */
   ul.side-nav.right-aligned {
     will-change: right;
     right: -250px;
     left: auto; }
 
-  /* line 6539, ../scss/materialize.scss */
+  /* line 6542, ../scss/materialize.scss */
   ul.side-nav .collapsible {
     margin: 0; }
 
-  /* line 6541, ../scss/materialize.scss */
+  /* line 6544, ../scss/materialize.scss */
   ul.side-nav li {
     float: none;
     padding: 0 15px;
     width: 240px; }
 
-  /* line 6545, ../scss/materialize.scss */
+  /* line 6548, ../scss/materialize.scss */
   ul.side-nav li:hover, ul.side-nav li.active {
     background-color: #ddd; }
 
-  /* line 6547, ../scss/materialize.scss */
+  /* line 6550, ../scss/materialize.scss */
   ul.side-nav a {
     color: #444; } }
-/* line 6551, ../scss/materialize.scss */
+/* line 6554, ../scss/materialize.scss */
 .drag-target {
   height: 100%;
   width: 10%;
@@ -8459,7 +8462,7 @@ ul.table-of-contents a.active {
   top: 0;
   z-index: 998; }
 
-/* line 6558, ../scss/materialize.scss */
+/* line 6561, ../scss/materialize.scss */
 ul.side-nav.full, ul.side-nav.fixed {
   position: fixed;
   width: 240px;
@@ -8473,17 +8476,17 @@ ul.side-nav.full, ul.side-nav.fixed {
   z-index: 999;
   will-change: left; }
 
-/* line 6570, ../scss/materialize.scss */
+/* line 6573, ../scss/materialize.scss */
 ul.side-nav.full.right-aligned, ul.side-nav.fixed.right-aligned {
   will-change: right;
   right: -250px;
   left: auto; }
 
-/* line 6574, ../scss/materialize.scss */
+/* line 6577, ../scss/materialize.scss */
 ul.side-nav.full .collapsible, ul.side-nav.fixed .collapsible {
   margin: 0; }
 
-/* line 6576, ../scss/materialize.scss */
+/* line 6579, ../scss/materialize.scss */
 ul.side-nav.full li, ul.side-nav.fixed li {
   float: none;
   line-height: 64px;
@@ -8495,37 +8498,37 @@ ul.side-nav.full li, ul.side-nav.fixed li {
   -ms-transition: background-color 0s;
   transition: background-color 0s; }
 
-/* line 6586, ../scss/materialize.scss */
+/* line 6589, ../scss/materialize.scss */
 ul.side-nav.full li:hover, ul.side-nav.full li.active, ul.side-nav.fixed li:hover, ul.side-nav.fixed li.active {
   background-color: #ddd; }
 
-/* line 6588, ../scss/materialize.scss */
+/* line 6591, ../scss/materialize.scss */
 ul.side-nav.full a, ul.side-nav.fixed a {
   display: block;
   padding: 0 15px;
   color: #444; }
 
-/* line 6593, ../scss/materialize.scss */
+/* line 6596, ../scss/materialize.scss */
 ul.side-nav.fixed {
   left: 0;
   position: fixed; }
 
-/* line 6596, ../scss/materialize.scss */
+/* line 6599, ../scss/materialize.scss */
 ul.side-nav.fixed.right-aligned {
   will-change: right;
   right: 0;
   left: auto; }
 
 @media only screen and (max-width: 992px) {
-  /* line 6602, ../scss/materialize.scss */
+  /* line 6605, ../scss/materialize.scss */
   ul.side-nav.fixed {
     left: -250px; }
 
-  /* line 6604, ../scss/materialize.scss */
+  /* line 6607, ../scss/materialize.scss */
   ul.side-nav.fixed.right-aligned {
     right: -250px;
     left: auto; } }
-/* line 6609, ../scss/materialize.scss */
+/* line 6612, ../scss/materialize.scss */
 #sidenav-overlay {
   position: fixed;
   top: 0px;
@@ -8561,24 +8564,24 @@ ul.side-nav.fixed.right-aligned {
  *      CONTAINERWIDTH = 28px
  *      SHRINK_TIME = 400ms
  */
-/* line 6644, ../scss/materialize.scss */
+/* line 6647, ../scss/materialize.scss */
 .preloader-wrapper {
   display: inline-block;
   position: relative;
   width: 48px;
   height: 48px; }
 
-/* line 6649, ../scss/materialize.scss */
+/* line 6652, ../scss/materialize.scss */
 .preloader-wrapper.small {
   width: 36px;
   height: 36px; }
 
-/* line 6652, ../scss/materialize.scss */
+/* line 6655, ../scss/materialize.scss */
 .preloader-wrapper.big {
   width: 64px;
   height: 64px; }
 
-/* line 6655, ../scss/materialize.scss */
+/* line 6658, ../scss/materialize.scss */
 .preloader-wrapper.active {
   /* duration: 360 * ARCTIME / (ARCSTARTROT + (360-ARCSIZE)) */
   -webkit-animation: container-rotate 1568ms linear infinite;
@@ -8590,26 +8593,26 @@ ul.side-nav.fixed.right-aligned {
 @keyframes container-rotate {
   to {
     transform: rotate(360deg); } }
-/* line 6668, ../scss/materialize.scss */
+/* line 6671, ../scss/materialize.scss */
 .spinner-layer {
   position: absolute;
   width: 100%;
   height: 100%;
   opacity: 0; }
 
-/* line 6674, ../scss/materialize.scss */
+/* line 6677, ../scss/materialize.scss */
 .spinner-blue {
   border-color: #4285f4; }
 
-/* line 6677, ../scss/materialize.scss */
+/* line 6680, ../scss/materialize.scss */
 .spinner-red {
   border-color: #db4437; }
 
-/* line 6680, ../scss/materialize.scss */
+/* line 6683, ../scss/materialize.scss */
 .spinner-yellow {
   border-color: #f4b400; }
 
-/* line 6683, ../scss/materialize.scss */
+/* line 6686, ../scss/materialize.scss */
 .spinner-green {
   border-color: #0f9d58; }
 
@@ -8626,25 +8629,25 @@ ul.side-nav.fixed.right-aligned {
  * specific properties properly, treats them as -webkit-animation, and overrides the
  * other animation rules. See https://github.com/Polymer/platform/issues/53.
  */
-/* line 6699, ../scss/materialize.scss */
+/* line 6702, ../scss/materialize.scss */
 .active .spinner-layer.spinner-blue {
   /* durations: 4 * ARCTIME */
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, blue-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, blue-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }
 
-/* line 6704, ../scss/materialize.scss */
+/* line 6707, ../scss/materialize.scss */
 .active .spinner-layer.spinner-red {
   /* durations: 4 * ARCTIME */
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, red-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, red-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }
 
-/* line 6709, ../scss/materialize.scss */
+/* line 6712, ../scss/materialize.scss */
 .active .spinner-layer.spinner-yellow {
   /* durations: 4 * ARCTIME */
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, yellow-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, yellow-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }
 
-/* line 6714, ../scss/materialize.scss */
+/* line 6717, ../scss/materialize.scss */
 .active .spinner-layer.spinner-green {
   /* durations: 4 * ARCTIME */
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, green-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
@@ -8796,7 +8799,7 @@ ul.side-nav.fixed.right-aligned {
  * Patch the gap that appear between the two adjacent div.circle-clipper while the
  * spinner is rotating (appears on Chrome 38, Safari 7.1, and IE 11).
  */
-/* line 6923, ../scss/materialize.scss */
+/* line 6926, ../scss/materialize.scss */
 .gap-patch {
   position: absolute;
   box-sizing: border-box;
@@ -8807,12 +8810,12 @@ ul.side-nav.fixed.right-aligned {
   overflow: hidden;
   border-color: inherit; }
 
-/* line 6933, ../scss/materialize.scss */
+/* line 6936, ../scss/materialize.scss */
 .gap-patch .circle {
   width: 1000%;
   left: -450%; }
 
-/* line 6937, ../scss/materialize.scss */
+/* line 6940, ../scss/materialize.scss */
 .circle-clipper {
   display: inline-block;
   position: relative;
@@ -8821,7 +8824,7 @@ ul.side-nav.fixed.right-aligned {
   overflow: hidden;
   border-color: inherit; }
 
-/* line 6944, ../scss/materialize.scss */
+/* line 6947, ../scss/materialize.scss */
 .circle-clipper .circle {
   width: 200%;
   box-sizing: border-box;
@@ -8839,27 +8842,27 @@ ul.side-nav.fixed.right-aligned {
   right: 0;
   bottom: 0; }
 
-/* line 6960, ../scss/materialize.scss */
+/* line 6963, ../scss/materialize.scss */
 .circle-clipper.left .circle {
   left: 0;
   border-right-color: transparent !important;
   -webkit-transform: rotate(129deg);
   transform: rotate(129deg); }
 
-/* line 6965, ../scss/materialize.scss */
+/* line 6968, ../scss/materialize.scss */
 .circle-clipper.right .circle {
   left: -100%;
   border-left-color: transparent !important;
   -webkit-transform: rotate(-129deg);
   transform: rotate(-129deg); }
 
-/* line 6971, ../scss/materialize.scss */
+/* line 6974, ../scss/materialize.scss */
 .active .circle-clipper.left .circle {
   /* duration: ARCTIME */
   -webkit-animation: left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: left-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both; }
 
-/* line 6976, ../scss/materialize.scss */
+/* line 6979, ../scss/materialize.scss */
 .active .circle-clipper.right .circle {
   /* duration: ARCTIME */
   -webkit-animation: right-spin 1333ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
@@ -8893,7 +8896,7 @@ ul.side-nav.fixed.right-aligned {
     transform: rotate(5deg); }
   to {
     transform: rotate(-130deg); } }
-/* line 7021, ../scss/materialize.scss */
+/* line 7024, ../scss/materialize.scss */
 #spinnerContainer.cooldown {
   /* duration: SHRINK_TIME */
   -webkit-animation: container-rotate 1568ms linear infinite, fade-out 400ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -8909,13 +8912,13 @@ ul.side-nav.fixed.right-aligned {
     opacity: 1; }
   to {
     opacity: 0; } }
-/* line 7040, ../scss/materialize.scss */
+/* line 7043, ../scss/materialize.scss */
 .slider {
   position: relative;
   height: 440px;
   width: 100%; }
 
-/* line 7044, ../scss/materialize.scss */
+/* line 7047, ../scss/materialize.scss */
 .slider.fullscreen {
   height: 100%;
   width: 100%;
@@ -8925,22 +8928,22 @@ ul.side-nav.fixed.right-aligned {
   right: 0;
   bottom: 0; }
 
-/* line 7052, ../scss/materialize.scss */
+/* line 7055, ../scss/materialize.scss */
 .slider.fullscreen ul.slides {
   height: 100%; }
 
-/* line 7054, ../scss/materialize.scss */
+/* line 7057, ../scss/materialize.scss */
 .slider.fullscreen ul.indicators {
   z-index: 2;
   bottom: 30px; }
 
-/* line 7057, ../scss/materialize.scss */
+/* line 7060, ../scss/materialize.scss */
 .slider ul.slides {
   background-color: #9e9e9e;
   margin: 0;
   height: 400px; }
 
-/* line 7061, ../scss/materialize.scss */
+/* line 7064, ../scss/materialize.scss */
 .slider ul.slides li {
   -ms-filter: "progid:DXImageTransform@mixin Microsoft@mixin Alpha(Opacity=${iefactor})";
   filter: "alpha(opacity=(${iefactor}))";
@@ -8955,11 +8958,11 @@ ul.side-nav.fixed.right-aligned {
   height: inherit;
   overflow: hidden; }
 
-/* line 7074, ../scss/materialize.scss */
+/* line 7077, ../scss/materialize.scss */
 .slider ul.slides li img {
   height: 100%; }
 
-/* line 7076, ../scss/materialize.scss */
+/* line 7079, ../scss/materialize.scss */
 .slider ul.slides li .caption {
   color: #fff;
   position: absolute;
@@ -8972,15 +8975,15 @@ ul.side-nav.fixed.right-aligned {
   -khtml-opacity: 0;
   opacity: 0; }
 
-/* line 7087, ../scss/materialize.scss */
+/* line 7090, ../scss/materialize.scss */
 .slider ul.slides li .caption p {
   color: #e0e0e0; }
 
-/* line 7089, ../scss/materialize.scss */
+/* line 7092, ../scss/materialize.scss */
 .slider ul.slides li.active {
   z-index: 2; }
 
-/* line 7091, ../scss/materialize.scss */
+/* line 7094, ../scss/materialize.scss */
 .slider ul.indicators {
   position: absolute;
   text-align: center;
@@ -8989,7 +8992,7 @@ ul.side-nav.fixed.right-aligned {
   bottom: 0;
   margin: 0; }
 
-/* line 7098, ../scss/materialize.scss */
+/* line 7101, ../scss/materialize.scss */
 .slider ul.indicators li.indicator-item {
   display: inline-block;
   position: relative;
@@ -9008,7 +9011,7 @@ ul.side-nav.fixed.right-aligned {
   border-radius: 50%;
   background-clip: padding-box; }
 
-/* line 7115, ../scss/materialize.scss */
+/* line 7118, ../scss/materialize.scss */
 .slider ul.indicators li.indicator-item.active {
   background-color: #4CAF50; }
 
@@ -9018,7 +9021,7 @@ ul.side-nav.fixed.right-aligned {
 /**
  * Note: the root picker element should *NOT* be styled more than what's here.
  */
-/* line 7124, ../scss/materialize.scss */
+/* line 7127, ../scss/materialize.scss */
 .picker {
   font-size: 16px;
   text-align: left;
@@ -9034,21 +9037,21 @@ ul.side-nav.fixed.right-aligned {
 /**
  * The picker input element.
  */
-/* line 7139, ../scss/materialize.scss */
+/* line 7142, ../scss/materialize.scss */
 .picker__input {
   cursor: default; }
 
 /**
  * When the picker is opened, the input element is "activated".
  */
-/* line 7145, ../scss/materialize.scss */
+/* line 7148, ../scss/materialize.scss */
 .picker__input.picker__input--active {
   border-color: #0089ec; }
 
 /**
  * The holder is the only "scrollable" top-level container element.
  */
-/* line 7151, ../scss/materialize.scss */
+/* line 7154, ../scss/materialize.scss */
 .picker__holder {
   width: 100%;
   overflow-y: auto;
@@ -9064,7 +9067,7 @@ ul.side-nav.fixed.right-aligned {
 /**
  * Make the holder and frame fullscreen.
  */
-/* line 7166, ../scss/materialize.scss */
+/* line 7169, ../scss/materialize.scss */
 .picker__holder, .picker__frame {
   bottom: 0;
   left: 0;
@@ -9074,7 +9077,7 @@ ul.side-nav.fixed.right-aligned {
 /**
  * The holder should overlay the entire screen.
  */
-/* line 7175, ../scss/materialize.scss */
+/* line 7178, ../scss/materialize.scss */
 .picker__holder {
   position: fixed;
   -webkit-transition: background 0.15s ease-out, top 0s 0.15s;
@@ -9085,7 +9088,7 @@ ul.side-nav.fixed.right-aligned {
 /**
  * The frame that bounds the box contents of the picker.
  */
-/* line 7185, ../scss/materialize.scss */
+/* line 7188, ../scss/materialize.scss */
 .picker__frame {
   position: absolute;
   margin: 0 auto;
@@ -9101,40 +9104,40 @@ ul.side-nav.fixed.right-aligned {
   transition: all 0.15s ease-out; }
 
 @media (min-height: 28.875em) {
-  /* line 7200, ../scss/materialize.scss */
+  /* line 7203, ../scss/materialize.scss */
   .picker__frame {
     overflow: visible;
     top: auto;
     bottom: -100%;
     max-height: 80%; } }
 @media (min-height: 40.125em) {
-  /* line 7208, ../scss/materialize.scss */
+  /* line 7211, ../scss/materialize.scss */
   .picker__frame {
     margin-bottom: 7.5%; } }
 /**
  * The wrapper sets the stage to vertically align the box contents.
  */
-/* line 7215, ../scss/materialize.scss */
+/* line 7218, ../scss/materialize.scss */
 .picker__wrap {
   display: table;
   width: 100%;
   height: 100%; }
 
 @media (min-height: 28.875em) {
-  /* line 7221, ../scss/materialize.scss */
+  /* line 7224, ../scss/materialize.scss */
   .picker__wrap {
     display: block; } }
 /**
  * The box contains all the picker contents.
  */
-/* line 7228, ../scss/materialize.scss */
+/* line 7231, ../scss/materialize.scss */
 .picker__box {
   background: #ffffff;
   display: table-cell;
   vertical-align: middle; }
 
 @media (min-height: 28.875em) {
-  /* line 7234, ../scss/materialize.scss */
+  /* line 7237, ../scss/materialize.scss */
   .picker__box {
     display: block;
     border: 1px solid #777777;
@@ -9149,7 +9152,7 @@ ul.side-nav.fixed.right-aligned {
 /**
  * When the picker opens...
  */
-/* line 7250, ../scss/materialize.scss */
+/* line 7253, ../scss/materialize.scss */
 .picker--opened .picker__holder {
   top: 0;
   background: transparent;
@@ -9160,7 +9163,7 @@ ul.side-nav.fixed.right-aligned {
   -moz-transition: background 0.15s ease-out;
   transition: background 0.15s ease-out; }
 
-/* line 7260, ../scss/materialize.scss */
+/* line 7263, ../scss/materialize.scss */
 .picker--opened .picker__frame {
   top: 0;
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
@@ -9169,7 +9172,7 @@ ul.side-nav.fixed.right-aligned {
   opacity: 1; }
 
 @media (min-height: 35.875em) {
-  /* line 7268, ../scss/materialize.scss */
+  /* line 7271, ../scss/materialize.scss */
   .picker--opened .picker__frame {
     top: 10%;
     bottom: 20% auto; } }
@@ -9179,17 +9182,17 @@ ul.side-nav.fixed.right-aligned {
 /* ==========================================================================
    CUSTOM MATERIALIZE STYLES
    ========================================================================== */
-/* line 7279, ../scss/materialize.scss */
+/* line 7282, ../scss/materialize.scss */
 .picker__input.picker__input--active {
   border-color: #E3F2FD; }
 
-/* line 7282, ../scss/materialize.scss */
+/* line 7285, ../scss/materialize.scss */
 .picker__frame {
   margin: 0 auto;
   max-width: 325px; }
 
 @media (min-height: 38.875em) {
-  /* line 7287, ../scss/materialize.scss */
+  /* line 7290, ../scss/materialize.scss */
   .picker--opened .picker__frame {
     top: 10%;
     bottom: auto; } }
@@ -9199,14 +9202,14 @@ ul.side-nav.fixed.right-aligned {
 /**
  * The picker box.
  */
-/* line 7298, ../scss/materialize.scss */
+/* line 7301, ../scss/materialize.scss */
 .picker__box {
   padding: 0 1em; }
 
 /**
  * The header containing the month and year stuff.
  */
-/* line 7304, ../scss/materialize.scss */
+/* line 7307, ../scss/materialize.scss */
 .picker__header {
   text-align: center;
   position: relative;
@@ -9215,7 +9218,7 @@ ul.side-nav.fixed.right-aligned {
 /**
  * The month and year labels.
  */
-/* line 7312, ../scss/materialize.scss */
+/* line 7315, ../scss/materialize.scss */
 .picker__month, .picker__year {
   display: inline-block;
   margin-left: 0.25em;
@@ -9224,7 +9227,7 @@ ul.side-nav.fixed.right-aligned {
 /**
  * The month and year selectors.
  */
-/* line 7320, ../scss/materialize.scss */
+/* line 7323, ../scss/materialize.scss */
 .picker__select--month, .picker__select--year {
   height: 2em;
   padding: 0.5em;
@@ -9232,25 +9235,25 @@ ul.side-nav.fixed.right-aligned {
   margin-right: 0.25em; }
 
 @media (min-width: 24.5em) {
-  /* line 7327, ../scss/materialize.scss */
+  /* line 7330, ../scss/materialize.scss */
   .picker__select--month, .picker__select--year {
     margin-top: -0.5em; } }
-/* line 7331, ../scss/materialize.scss */
+/* line 7334, ../scss/materialize.scss */
 .picker__select--month {
   width: 35%; }
 
-/* line 7334, ../scss/materialize.scss */
+/* line 7337, ../scss/materialize.scss */
 .picker__select--year {
   width: 22.5%; }
 
-/* line 7337, ../scss/materialize.scss */
+/* line 7340, ../scss/materialize.scss */
 .picker__select--month:focus, .picker__select--year:focus {
   border-color: #0089ec; }
 
 /**
  * The month navigation buttons.
  */
-/* line 7343, ../scss/materialize.scss */
+/* line 7346, ../scss/materialize.scss */
 .picker__nav--prev, .picker__nav--next {
   position: absolute;
   padding: 0.5em 1.25em;
@@ -9259,23 +9262,23 @@ ul.side-nav.fixed.right-aligned {
   box-sizing: content-box;
   top: -0.25em; }
 
-/* line 7351, ../scss/materialize.scss */
+/* line 7354, ../scss/materialize.scss */
 .picker__nav--prev {
   left: -1em;
   padding-right: 1.25em; }
 
-/* line 7355, ../scss/materialize.scss */
+/* line 7358, ../scss/materialize.scss */
 .picker__nav--next {
   right: -1em;
   padding-left: 1.25em; }
 
-/* line 7359, ../scss/materialize.scss */
+/* line 7362, ../scss/materialize.scss */
 .picker__nav--prev:hover, .picker__nav--next:hover {
   cursor: pointer;
   color: #000000;
   background: #b1dcfb; }
 
-/* line 7364, ../scss/materialize.scss */
+/* line 7367, ../scss/materialize.scss */
 .picker__nav--disabled, .picker__nav--disabled:hover, .picker__nav--disabled:before, .picker__nav--disabled:before:hover {
   cursor: default;
   background: none;
@@ -9285,7 +9288,7 @@ ul.side-nav.fixed.right-aligned {
 /**
  * The calendar table of dates
  */
-/* line 7373, ../scss/materialize.scss */
+/* line 7376, ../scss/materialize.scss */
 .picker__table {
   text-align: center;
   border-collapse: collapse;
@@ -9296,11 +9299,11 @@ ul.side-nav.fixed.right-aligned {
   margin-top: 0.75em;
   margin-bottom: 0.5em; }
 
-/* line 7383, ../scss/materialize.scss */
+/* line 7386, ../scss/materialize.scss */
 .picker__table th, .picker__table td {
   text-align: center; }
 
-/* line 7386, ../scss/materialize.scss */
+/* line 7389, ../scss/materialize.scss */
 .picker__table td {
   margin: 0;
   padding: 0; }
@@ -9308,7 +9311,7 @@ ul.side-nav.fixed.right-aligned {
 /**
  * The weekday labels
  */
-/* line 7393, ../scss/materialize.scss */
+/* line 7396, ../scss/materialize.scss */
 .picker__weekday {
   width: 14.285714286%;
   font-size: 0.75em;
@@ -9318,13 +9321,13 @@ ul.side-nav.fixed.right-aligned {
   /* Increase the spacing a tad */ }
 
 @media (min-height: 33.875em) {
-  /* line 7402, ../scss/materialize.scss */
+  /* line 7405, ../scss/materialize.scss */
   .picker__weekday {
     padding-bottom: 0.5em; } }
 /**
  * The days on the calendar
  */
-/* line 7409, ../scss/materialize.scss */
+/* line 7412, ../scss/materialize.scss */
 .picker__day--today {
   position: relative;
   color: #595959;
@@ -9333,33 +9336,33 @@ ul.side-nav.fixed.right-aligned {
   font-weight: 400;
   border: 1px solid transparent; }
 
-/* line 7417, ../scss/materialize.scss */
+/* line 7420, ../scss/materialize.scss */
 .picker__day--disabled:before {
   border-top-color: #aaaaaa; }
 
-/* line 7420, ../scss/materialize.scss */
+/* line 7423, ../scss/materialize.scss */
 .picker__day--infocus:hover {
   cursor: pointer;
   color: #000;
   font-weight: 500; }
 
-/* line 7425, ../scss/materialize.scss */
+/* line 7428, ../scss/materialize.scss */
 .picker__day--outfocus {
   padding: 0.75rem 0;
   color: #fff; }
 
-/* line 7429, ../scss/materialize.scss */
+/* line 7432, ../scss/materialize.scss */
 .picker__day--outfocus:hover {
   cursor: pointer;
   color: #dddddd;
   font-weight: 500; }
 
-/* line 7434, ../scss/materialize.scss */
+/* line 7437, ../scss/materialize.scss */
 .picker__day--highlighted:hover, .picker--focused .picker__day--highlighted {
   cursor: pointer;
   color: #000000; }
 
-/* line 7438, ../scss/materialize.scss */
+/* line 7441, ../scss/materialize.scss */
 .picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected {
   border-radius: 50%;
   -webkit-transform: scale(0.75);
@@ -9370,28 +9373,28 @@ ul.side-nav.fixed.right-aligned {
   background: #0089ec;
   color: #ffffff; }
 
-/* line 7448, ../scss/materialize.scss */
+/* line 7451, ../scss/materialize.scss */
 .picker__day--disabled, .picker__day--disabled:hover, .picker--focused .picker__day--disabled {
   background: #f5f5f5;
   border-color: #f5f5f5;
   color: #dddddd;
   cursor: default; }
 
-/* line 7454, ../scss/materialize.scss */
+/* line 7457, ../scss/materialize.scss */
 .picker__day--highlighted.picker__day--disabled, .picker__day--highlighted.picker__day--disabled:hover {
   background: #bbbbbb; }
 
 /**
  * The footer containing the "today", "clear", and "close" buttons.
  */
-/* line 7460, ../scss/materialize.scss */
+/* line 7463, ../scss/materialize.scss */
 .picker__footer {
   text-align: center;
   display: flex;
   align-items: center;
   justify-content: space-between; }
 
-/* line 7466, ../scss/materialize.scss */
+/* line 7469, ../scss/materialize.scss */
 .picker__button--today, .picker__button--clear, .picker__button--close {
   border: 1px solid #ffffff;
   background: #ffffff;
@@ -9402,44 +9405,44 @@ ul.side-nav.fixed.right-aligned {
   display: inline-block;
   vertical-align: bottom; }
 
-/* line 7476, ../scss/materialize.scss */
+/* line 7479, ../scss/materialize.scss */
 .picker__button--today:hover, .picker__button--clear:hover, .picker__button--close:hover {
   cursor: pointer;
   color: #000000;
   background: #b1dcfb;
   border-bottom-color: #b1dcfb; }
 
-/* line 7482, ../scss/materialize.scss */
+/* line 7485, ../scss/materialize.scss */
 .picker__button--today:focus, .picker__button--clear:focus, .picker__button--close:focus {
   background: #b1dcfb;
   border-color: #0089ec;
   outline: none; }
 
-/* line 7487, ../scss/materialize.scss */
+/* line 7490, ../scss/materialize.scss */
 .picker__button--today:before, .picker__button--clear:before, .picker__button--close:before {
   position: relative;
   display: inline-block;
   height: 0; }
 
-/* line 7492, ../scss/materialize.scss */
+/* line 7495, ../scss/materialize.scss */
 .picker__button--today:before, .picker__button--clear:before {
   content: " ";
   margin-right: 0.45em; }
 
-/* line 7496, ../scss/materialize.scss */
+/* line 7499, ../scss/materialize.scss */
 .picker__button--today:before {
   top: -0.05em;
   width: 0;
   border-top: 0.66em solid #0059bc;
   border-left: 0.66em solid transparent; }
 
-/* line 7502, ../scss/materialize.scss */
+/* line 7505, ../scss/materialize.scss */
 .picker__button--clear:before {
   top: -0.25em;
   width: 0.66em;
   border-top: 3px solid #ee2200; }
 
-/* line 7507, ../scss/materialize.scss */
+/* line 7510, ../scss/materialize.scss */
 .picker__button--close:before {
   content: "\D7";
   top: -0.1em;
@@ -9448,26 +9451,26 @@ ul.side-nav.fixed.right-aligned {
   margin-right: 0.35em;
   color: #777777; }
 
-/* line 7515, ../scss/materialize.scss */
+/* line 7518, ../scss/materialize.scss */
 .picker__button--today[disabled], .picker__button--today[disabled]:hover {
   background: #f5f5f5;
   border-color: #f5f5f5;
   color: #dddddd;
   cursor: default; }
 
-/* line 7521, ../scss/materialize.scss */
+/* line 7524, ../scss/materialize.scss */
 .picker__button--today[disabled]:before {
   border-top-color: #aaaaaa; }
 
 /* ==========================================================================
    CUSTOM MATERIALIZE STYLES
    ========================================================================== */
-/* line 7527, ../scss/materialize.scss */
+/* line 7530, ../scss/materialize.scss */
 .picker__box {
   border-radius: 2px;
   overflow: hidden; }
 
-/* line 7531, ../scss/materialize.scss */
+/* line 7534, ../scss/materialize.scss */
 .picker__date-display {
   text-align: center;
   background-color: #26a69a;
@@ -9475,7 +9478,7 @@ ul.side-nav.fixed.right-aligned {
   padding-bottom: 15px;
   font-weight: 300; }
 
-/* line 7538, ../scss/materialize.scss */
+/* line 7541, ../scss/materialize.scss */
 .picker__weekday-display {
   background-color: #00897b;
   padding: 10px;
@@ -9484,39 +9487,39 @@ ul.side-nav.fixed.right-aligned {
   font-size: 1rem;
   margin-bottom: 15px; }
 
-/* line 7546, ../scss/materialize.scss */
+/* line 7549, ../scss/materialize.scss */
 .picker__month-display {
   text-transform: uppercase;
   font-size: 2rem; }
 
-/* line 7550, ../scss/materialize.scss */
+/* line 7553, ../scss/materialize.scss */
 .picker__day-display {
   font-size: 4.5rem;
   font-weight: 400; }
 
-/* line 7554, ../scss/materialize.scss */
+/* line 7557, ../scss/materialize.scss */
 .picker__year-display {
   font-size: 1.8rem;
   color: #80cbc4; }
 
-/* line 7558, ../scss/materialize.scss */
+/* line 7561, ../scss/materialize.scss */
 .picker__box {
   padding: 0; }
 
-/* line 7561, ../scss/materialize.scss */
+/* line 7564, ../scss/materialize.scss */
 .picker__calendar-container {
   padding: 0 1rem; }
 
-/* line 7563, ../scss/materialize.scss */
+/* line 7566, ../scss/materialize.scss */
 .picker__calendar-container thead {
   border: none; }
 
-/* line 7566, ../scss/materialize.scss */
+/* line 7569, ../scss/materialize.scss */
 .picker__table {
   margin-top: 0;
   margin-bottom: 0.5em; }
 
-/* line 7570, ../scss/materialize.scss */
+/* line 7573, ../scss/materialize.scss */
 .picker__day--infocus {
   color: #595959;
   letter-spacing: -0.3;
@@ -9524,15 +9527,15 @@ ul.side-nav.fixed.right-aligned {
   font-weight: 400;
   border: 1px solid transparent; }
 
-/* line 7577, ../scss/materialize.scss */
+/* line 7580, ../scss/materialize.scss */
 .picker--focused .picker__day--highlighted {
   color: #26a69a; }
 
-/* line 7580, ../scss/materialize.scss */
+/* line 7583, ../scss/materialize.scss */
 .picker__weekday {
   font-size: 0.9rem; }
 
-/* line 7583, ../scss/materialize.scss */
+/* line 7586, ../scss/materialize.scss */
 .picker--focused .picker__day--selected {
   border-radius: 50%;
   -webkit-transform: scale(0.9);
@@ -9543,22 +9546,22 @@ ul.side-nav.fixed.right-aligned {
   background-color: #009688;
   color: #ffffff; }
 
-/* line 7592, ../scss/materialize.scss */
+/* line 7595, ../scss/materialize.scss */
 .picker--focused .picker__day--selected.picker__day--outfocus {
   background-color: #b2dfdb; }
 
-/* line 7595, ../scss/materialize.scss */
+/* line 7598, ../scss/materialize.scss */
 .picker__footer {
   text-align: right;
   padding: 5px 10px; }
 
-/* line 7599, ../scss/materialize.scss */
+/* line 7602, ../scss/materialize.scss */
 .picker__close, .picker__today {
   font-size: 1.1rem;
   padding: 0 1rem;
   color: #26a69a; }
 
-/* line 7604, ../scss/materialize.scss */
+/* line 7607, ../scss/materialize.scss */
 .picker__nav--prev:before, .picker__nav--next:before {
   content: " ";
   border-top: 0.5em solid transparent;
@@ -9569,7 +9572,7 @@ ul.side-nav.fixed.right-aligned {
   display: block;
   margin: 0 auto; }
 
-/* line 7614, ../scss/materialize.scss */
+/* line 7617, ../scss/materialize.scss */
 .picker__nav--next:before {
   border-right: 0;
   border-left: 0.75em solid #676767; }
@@ -9580,7 +9583,7 @@ ul.side-nav.fixed.right-aligned {
 /**
  * The list of times.
  */
-/* line 7624, ../scss/materialize.scss */
+/* line 7627, ../scss/materialize.scss */
 .picker__list {
   list-style: none;
   padding: 0.75em 0 4.2em;
@@ -9589,7 +9592,7 @@ ul.side-nav.fixed.right-aligned {
 /**
  * The times on the clock.
  */
-/* line 7632, ../scss/materialize.scss */
+/* line 7635, ../scss/materialize.scss */
 .picker__list-item {
   border-bottom: 1px solid #dddddd;
   border-top: 1px solid #dddddd;
@@ -9599,11 +9602,11 @@ ul.side-nav.fixed.right-aligned {
   padding: 0.75em 1.25em; }
 
 @media (min-height: 46.75em) {
-  /* line 7641, ../scss/materialize.scss */
+  /* line 7644, ../scss/materialize.scss */
   .picker__list-item {
     padding: 0.5em 1em; } }
 /* Hovered time */
-/* line 7646, ../scss/materialize.scss */
+/* line 7649, ../scss/materialize.scss */
 .picker__list-item:hover {
   cursor: pointer;
   color: #000000;
@@ -9612,26 +9615,26 @@ ul.side-nav.fixed.right-aligned {
   z-index: 10; }
 
 /* Highlighted and hovered/focused time */
-/* line 7654, ../scss/materialize.scss */
+/* line 7657, ../scss/materialize.scss */
 .picker__list-item--highlighted {
   border-color: #0089ec;
   z-index: 10; }
 
-/* line 7658, ../scss/materialize.scss */
+/* line 7661, ../scss/materialize.scss */
 .picker__list-item--highlighted:hover, .picker--focused .picker__list-item--highlighted {
   cursor: pointer;
   color: #000000;
   background: #b1dcfb; }
 
 /* Selected and hovered/focused time */
-/* line 7664, ../scss/materialize.scss */
+/* line 7667, ../scss/materialize.scss */
 .picker__list-item--selected, .picker__list-item--selected:hover, .picker--focused .picker__list-item--selected {
   background: #0089ec;
   color: #ffffff;
   z-index: 10; }
 
 /* Disabled time */
-/* line 7670, ../scss/materialize.scss */
+/* line 7673, ../scss/materialize.scss */
 .picker__list-item--disabled, .picker__list-item--disabled:hover, .picker--focused .picker__list-item--disabled {
   background: #f5f5f5;
   border-color: #f5f5f5;
@@ -9643,7 +9646,7 @@ ul.side-nav.fixed.right-aligned {
 /**
  * The clear button
  */
-/* line 7681, ../scss/materialize.scss */
+/* line 7684, ../scss/materialize.scss */
 .picker--time .picker__button--clear {
   display: block;
   width: 80%;
@@ -9657,7 +9660,7 @@ ul.side-nav.fixed.right-aligned {
   text-transform: uppercase;
   color: #666; }
 
-/* line 7694, ../scss/materialize.scss */
+/* line 7697, ../scss/materialize.scss */
 .picker--time .picker__button--clear:hover, .picker--time .picker__button--clear:focus {
   color: #000000;
   background: #b1dcfb;
@@ -9667,14 +9670,14 @@ ul.side-nav.fixed.right-aligned {
   color: #ffffff;
   outline: none; }
 
-/* line 7703, ../scss/materialize.scss */
+/* line 7706, ../scss/materialize.scss */
 .picker--time .picker__button--clear:before {
   top: -0.25em;
   color: #666;
   font-size: 1.25em;
   font-weight: bold; }
 
-/* line 7709, ../scss/materialize.scss */
+/* line 7712, ../scss/materialize.scss */
 .picker--time .picker__button--clear:hover:before, .picker--time .picker__button--clear:focus:before {
   color: #ffffff; }
 
@@ -9684,7 +9687,7 @@ ul.side-nav.fixed.right-aligned {
 /**
  * The frame the bounds the time picker.
  */
-/* line 7718, ../scss/materialize.scss */
+/* line 7721, ../scss/materialize.scss */
 .picker--time .picker__frame {
   min-width: 256px;
   max-width: 320px; }
@@ -9692,92 +9695,109 @@ ul.side-nav.fixed.right-aligned {
 /**
  * The picker box.
  */
-/* line 7725, ../scss/materialize.scss */
+/* line 7728, ../scss/materialize.scss */
 .picker--time .picker__box {
   font-size: 1em;
   background: #f2f2f2;
   padding: 0; }
 
 @media (min-height: 40.125em) {
-  /* line 7731, ../scss/materialize.scss */
+  /* line 7734, ../scss/materialize.scss */
   .picker--time .picker__box {
     margin-bottom: 5em; } }
 /* ==========================================================================
    arinabodina.ru styles
    ========================================================================== */
-/* line 7737, ../scss/materialize.scss */
+/* line 7740, ../scss/materialize.scss */
 .photo-ribbon {
   width: 100%;
   overflow: hidden;
   position: relative; }
 
-/* line 7742, ../scss/materialize.scss */
+/* line 7745, ../scss/materialize.scss */
 .photo-ribbon-list {
   overflow: hidden; }
 
-/* line 7745, ../scss/materialize.scss */
+/* line 7748, ../scss/materialize.scss */
 .photo-ribbon-item {
   float: left; }
 
-/* line 7748, ../scss/materialize.scss */
+/* line 7751, ../scss/materialize.scss */
 #carousel {
   width: 870px;
   height: 175px;
   overflow: hidden; }
 
-/* line 7753, ../scss/materialize.scss */
+/* line 7756, ../scss/materialize.scss */
 .photo-ribbon button {
   position: absolute; }
 
-/* line 7756, ../scss/materialize.scss */
+/* line 7759, ../scss/materialize.scss */
 .btn-back,
 .btn-frw {
   top: 50%; }
 
-/* line 7760, ../scss/materialize.scss */
+/* line 7763, ../scss/materialize.scss */
 .btn-back {
   left: 3%; }
 
-/* line 7763, ../scss/materialize.scss */
+/* line 7766, ../scss/materialize.scss */
 .btn-frw {
   right: 3%; }
 
-/* line 7766, ../scss/materialize.scss */
+/* line 7769, ../scss/materialize.scss */
 .class-title {
   font-weight: bold;
   display: block;
   margin-bottom: 2px;
   font-size: 14px; }
 
-/* line 7772, ../scss/materialize.scss */
+/* line 7775, ../scss/materialize.scss */
 .class-time {
   margin-bottom: 5px;
   display: block; }
 
-/* line 7776, ../scss/materialize.scss */
+/* line 7779, ../scss/materialize.scss */
 #price,
 #contacts {
   text-align: center; }
 
-/* line 7780, ../scss/materialize.scss */
+/* line 7783, ../scss/materialize.scss */
 #price p,
 #contacts p {
   color: #9e9e9e;
   font-size: 1.5rem; }
 
-/* line 7785, ../scss/materialize.scss */
+/* line 7788, ../scss/materialize.scss */
 .price {
   color: #000; }
 
-/* line 7788, ../scss/materialize.scss */
+/* line 7791, ../scss/materialize.scss */
 .other-link {
   color: #000; }
 
-/* line 7791, ../scss/materialize.scss */
+/* line 7794, ../scss/materialize.scss */
 .other-link:hover {
   color: #f06292; }
 
-/* line 7794, ../scss/materialize.scss */
+/* line 7797, ../scss/materialize.scss */
 .photo-carousel .slides-item,
 .photo-carousel .flex-viewport {
-  height: 500px; }
+  height: 600px; }
+
+@media only screen and (max-width: 600px) {
+  /* line 7803, ../scss/materialize.scss */
+  img.responsive-img {
+    width: 100%; } }
+/* line 7808, ../scss/materialize.scss */
+h6 a {
+  color: rgba(0, 0, 0, 0.87); }
+
+/* line 7811, ../scss/materialize.scss */
+.entry-date {
+  font-size: 0.8rem;
+  color: #8c919b; }
+
+/* line 7815, ../scss/materialize.scss */
+#photo article {
+  margin-bottom: 10px; }
