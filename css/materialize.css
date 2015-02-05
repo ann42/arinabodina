@@ -9833,3 +9833,31 @@ h6 a {
 /* line 7843, ../scss/materialize.scss */
 .row.albums-row a img {
   vertical-align: top; }
+
+/* line 7846, ../scss/materialize.scss */
+.collapsible-header {
+  display: none; }
+
+/* line 7849, ../scss/materialize.scss */
+.collapsible-body {
+  display: block; }
+
+@media only screen and (max-width: 992px) {
+  /* line 7853, ../scss/materialize.scss */
+  .week-days {
+    display: none; }
+
+  /* line 7856, ../scss/materialize.scss */
+  .collapsible-header {
+    display: block; }
+
+  /* line 7859, ../scss/materialize.scss */
+  .collapsible-body {
+    display: none; } }
+/* line 7863, ../scss/materialize.scss */
+.week-days {
+  display: table; }
+
+/* line 7866, ../scss/materialize.scss */
+.week-days li {
+  display: table-cell; }

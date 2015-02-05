@@ -7843,3 +7843,26 @@ h6 a {
 .row.albums-row a img {
   vertical-align: top;
 }
+.collapsible-header {
+  display: none;
+}
+.collapsible-body {
+  display: block;
+}
+@media only screen and (max-width : 992px) {
+  .week-days {
+    display: none;
+  }
+  .collapsible-header {
+    display: block;
+  }
+.collapsible-body {
+  display: none;
+  }
+}
+.week-days {
+  display: table;
+}
+.week-days li {
+  display: table-cell;
+}
