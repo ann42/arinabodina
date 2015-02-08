@@ -9835,29 +9835,33 @@ h6 a {
   vertical-align: top; }
 
 /* line 7846, ../scss/materialize.scss */
-.collapsible-header {
+.schedule-wrap {
+  display: table;
+  width: 100%; }
+
+/* line 7850, ../scss/materialize.scss */
+.schedule-row {
+  display: table-row; }
+
+/* line 7853, ../scss/materialize.scss */
+.schedule-col {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px; }
+
+/* line 7859, ../scss/materialize.scss */
+.week-day-mobile {
   display: none; }
 
-/* line 7849, ../scss/materialize.scss */
-.collapsible-body {
-  display: block; }
-
-@media only screen and (max-width: 992px) {
-  /* line 7853, ../scss/materialize.scss */
-  .week-days {
+@media only screen and (max-width: 600px) {
+  /* line 7863, ../scss/materialize.scss */
+  .schedule-col {
     display: none; }
 
-  /* line 7856, ../scss/materialize.scss */
-  .collapsible-header {
-    display: block; }
+  /* line 7866, ../scss/materialize.scss */
+  .schedule-col:first-child {
+    display: table-cell; }
 
-  /* line 7859, ../scss/materialize.scss */
-  .collapsible-body {
-    display: none; } }
-/* line 7863, ../scss/materialize.scss */
-.week-days {
-  display: table; }
-
-/* line 7866, ../scss/materialize.scss */
-.week-days li {
-  display: table-cell; }
+  /* line 7870, ../scss/materialize.scss */
+  .week-day-mobile {
+    display: block; } }

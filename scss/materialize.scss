@@ -7843,26 +7843,31 @@ h6 a {
 .row.albums-row a img {
   vertical-align: top;
 }
-.collapsible-header {
+.schedule-wrap {
+  display: table;
+  width: 100%;
+}
+.schedule-row {
+  display: table-row;
+}
+.schedule-col {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+.week-day-mobile {
   display: none;
 }
-.collapsible-body {
-  display: block;
-}
-@media only screen and (max-width : 992px) {
-  .week-days {
+@media only screen and (max-width : 600px) {
+  .schedule-col {
     display: none;
   }
-  .collapsible-header {
+  .schedule-col:first-child {
+    display: table-cell;
+  }
+
+.week-day-mobile {
     display: block;
   }
-.collapsible-body {
-  display: none;
-  }
-}
-.week-days {
-  display: table;
-}
-.week-days li {
-  display: table-cell;
 }
