@@ -264,140 +264,82 @@
   </div>
 
   <div class="section no-pad-bot" id="schedule">
+  <div class="container">
+      <h5>Расписание</h5>
+  </div>
+  <div class="week-day-mobile grey darken-5">
     <div class="container">
-      <!--h5>Расписание</h5-->
-        <div class="week-day-mobile">
-          <ul class="tabs">
-            <li class="tab col s3"><a href="#test1">Пн</a></li>
-            <li class="tab col s3"><a class="active" href="#test2">Вт</a></li>
-            <li class="tab col s3"><a href="#test3">Ср</a></li>
-            <li class="tab col s3"><a href="#test4">Чт</a></li>
-          </ul>
+      <ul class="tabs">
+        <li class="tab"><a class="active" href="#schedule-monday">Пн</a></li>
+        <li class="tab"><a href="#schedule-tuesday">Вт</a></li>
+        <li class="tab"><a href="#schedule-wednesday">Ср</a></li>
+        <li class="tab"><a href="#schedule-thursday">Чт</a></li>
+        <li class="tab"><a href="#schedule-friday">Пт</a></li>
+        <li class="tab"><a href="#schedule-saturday">Сб</a></li>
+        <li class="tab"><a href="#schedule-sunday">Вс</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container">
+      <div class="schedule-mobile">
+        <p class="pink-text text-lighten-2">м.Сокол</p>
+        <div class="schedule-content" id="schedule-monday">
+          <span class="class-title">000Зумба</span>
+          <span class="class-time">20.00—21.00</span>
+          <span class="class-title">Растяжка</span>
+          <span class="class-time">21.00—22.00</span>
         </div>
-        <!--div class="schedule-wrap">
-          <div class="schedule-col">
-            
-            <div class="schedule-cell"></div>
-            <div class="schedule-cell">Sokol</div>
-            <div class="schedule-cell">Belorus</div>
-          </div>
-          <div class="schedule-col" id="test1">
-            <div class="schedule-cell">Monday</div>
-            <div class="schedule-cell">
-                        <span class="class-title">Зумба</span>
-                        <span class="class-time">20.00—21.00</span>
-                        <span class="class-title">Растяжка</span>
-                        <span class="class-time">21.00—22.00</span>
-              
-            </div>
-            <div class="schedule-cell">
-                        <span class="class-title">Зумба</span>
-                        <span class="class-time">20.00—21.00</span>
-                        <span class="class-title">Растяжка</span>
-                        <span class="class-time">21.00—22.00</span>
-              
-            </div>
-          </div>
-          <div class="schedule-col" id="test2">
-            <div class="schedule-cell">Tuesday</div>
-            <div class="schedule-cell">
-                        <span class="class-title">Зумба</span>
-                        <span class="class-time">20.00—21.00</span>
-                        <span class="class-title">Растяжка</span>
-                        <span class="class-time">21.00—22.00</span>
-            </div>
-            <div class="schedule-cell">
-                        <span class="class-title">Растяжка</span>
-                        <span class="class-time">21.00—22.00</span>
-            </div>
-          </div>
-          <div class="schedule-col" id="test3">
-            <div class="schedule-cell">Wensday</div>
-            <div class="schedule-cell">
-                        <span class="class-title">Зумба</span>
-                        <span class="class-time">20.00—21.00</span>
-                        <span class="class-title">Растяжка</span>
-                        <span class="class-time">21.00—22.00</span>
-            </div>
-            <div class="schedule-cell">
-                        <span class="class-title">Зумба</span>
-                        <span class="class-time">20.00—21.00</span>
-            </div>
-            
-          </div>
-          <div class="schedule-col"  id="test4">
-            <div class="schedule-cell">Thursday</div>
-            <div class="schedule-cell">
-                        <span class="class-title">Растяжка</span>
-                        <span class="class-time">21.00—22.00</span>
-            </div>
-            <div class="schedule-cell">
-                        <span class="class-title">Растяжка</span>
-                        <span class="class-time">21.00—22.00</span>
-            </div>
-            
-          </div>
-        </div-->
-
-        <div class="schedule-wrap">
-            <div class="schedule-row">
-              <div class="schedule-col">
-                <div class="schedule-cell"></div>
-              </div>
-              <div class="schedule-col week-day">
-                <div class="schedule-cell">Понедельник</div>
-              </div>
-              <div class="schedule-col week-day">
-                <div class="schedule-cell">Вторник</div>
-              </div>
-            </div>
-            <div class="schedule-row">
-                  <div class="schedule-col">
-                    <div class="schedule-cell">м.Сокол</div>
-                  </div>
-
-                  <div class="schedule-col monday" id="test1">
-                    <div class="schedule-cell">
-                        <span class="class-title">Зумба</span>
-                        <span class="class-time">20.00—21.00</span>
-                        <span class="class-title">Растяжка</span>
-                        <span class="class-time">21.00—22.00</span>
-                    </div>
-                  </div>
-                  <div class="schedule-col tuesday" id="test2">
-                    <div class="schedule-cell">
-                        <span class="class-title">Классический танец</span>
-                        <span class="class-time">19.30—21.00</span>
-                        <span class="class-title">Пилатес</span>
-                        <span class="class-time">21.00—22.00</span>
-                    </div>
-                  </div>
-            </div>
-            <div class="schedule-row">
-                  <div class="schedule-col">
-                    <div class="schedule-cell">м.Белорусская</div>
-                  </div>
-                  <div class="schedule-col monday">
-                        <span class="class-title">Белорусская танец</span>
-                        <span class="class-time">10.30—11.00</span>
-                        <span class="class-title">Белорусская Пилатес</span>
-                        <span class="class-time">21.00—22.00</span>
-                  </div>
-            </div>
+        <div class="schedule-content" id="schedule-tuesday">
+          <span class="class-title">111Зумба</span>
+          <span class="class-time">20.00—21.00</span>
+          <span class="class-title">111Растяжка</span>
+          <span class="class-time">21.00—22.00</span>
         </div>
-
-
-        <table class="responsive-table bordered">
+        <div class="schedule-content" id="schedule-wednesday">
+          <span class="class-title">2222Зумба</span>
+          <span class="class-time">20.00—21.00</span>
+          <span class="class-title">Растяжка</span>
+          <span class="class-time">21.00—22.00</span>
+        </div>
+        <div class="schedule-content" id="schedule-thursday">
+          <span class="class-title">222Зумба</span>
+          <span class="class-time">33320.00—21.00</span>
+          <span class="class-title">Растяжка</span>
+          <span class="class-time">21.00—22.00</span>
+        </div>
+        <div class="schedule-content" id="schedule-friday">
+          <span class="class-title">444Зумба</span>
+          <span class="class-time">20.00—21.00</span>
+          <span class="class-title">Растяжка</span>
+          <span class="class-time">21.00—22.00</span>
+        </div>
+        <div class="schedule-content" id="schedule-saturday">
+          <span class="class-title">555Зумба</span>
+          <span class="class-time">20.00—21.00</span>
+          <span class="class-title">Растяжка</span>
+          <span class="class-time">21.00—22.00</span>
+        </div>
+        <div class="schedule-content" id="schedule-sunday">
+          <span class="class-title">666Зумба</span>
+          <span class="class-time">20.00—21.00</span>
+          <span class="class-title">Растяжка</span>
+          <span class="class-time">21.00—22.00</span>
+        </div>
+      </div>
+    
+  </div>
+    <div class="container">
+        <table class="schedule-table bordered">
             <thead>
               <tr>
-                  <th data-field="price"></th>
-                  <th data-field="id">Понедельник</th>
-                  <th data-field="name">Вторник</th>
-                  <th data-field="price">Среда</th>
-                  <th data-field="id">Четверг</th>
-                  <th data-field="name">Пятница</th>
-                  <th data-field="price">Суббота</th>
-                  <th data-field="name">Восресенье</th>
+                  <th ></th>
+                  <th >Понедельник</th>
+                  <th >Вторник</th>
+                  <th >Среда</th>
+                  <th >Четверг</th>
+                  <th >Пятница</th>
+                  <th >Суббота</th>
+                  <th >Восресенье</th>
               </tr>
             </thead>
             <tbody>

@@ -1,6 +1,13 @@
 $(document).ready(function(){
-    $(".button-collapse").sideNav();
+    $('.button-collapse').sideNav();
 
-$('ul.tabs').tabs();
-//$('ul.tabs').tabs('select_tab', 'tab_id');
+    $('ul.tabs').tabs();
+
+    //$('.week-day-mobile .tab a').click(function(){
+      //var cellIndex = Number($(this).attr('href').substring(1)) + 1;
+      //var cellsSelector = '.schedule-table td:nth-child('+ cellIndex + ')';
+      //$('.schedule-table td:not(:first-child)').hide();
+      //$(cellsSelector).show();
+    //})
+
 });
