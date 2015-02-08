@@ -7786,13 +7786,11 @@ ul.side-nav.fixed {
 }
 .class-title {
   font-weight: bold;
-  display: block;
-  margin-bottom: 2px;
   font-size: 14px;
-}
-.class-time {
-  margin-bottom: 5px;
-  display: block;
+   @media only screen and (min-width : 601px) {
+    display: block;
+    margin-bottom: 2px;
+   }
 }
 #price,
 #contacts {
@@ -7814,10 +7812,6 @@ ul.side-nav.fixed {
 }
 .other-link:hover {
   color: #f06292;
-}
-.photo-carousel .slides-item,
-.photo-carousel .flex-viewport {
-  height: 600px;
 }
 
 @media only screen and (max-width : 600px) {
