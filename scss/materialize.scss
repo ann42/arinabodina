@@ -2099,6 +2099,7 @@ img.responsive-img {
     text-align: center; } }
 
 footer.page-footer {
+  background: url(../img/patterns/trans2.png) 0 0 repeat;
   margin-top: 20px;
   padding-top: 20px;
   background-color: #ee6e73; }
@@ -7914,4 +7915,13 @@ h6 a {
       text-align: center;
     }
   }
+}
+.arina-img {
+  background-image: url("../img/arina/arina2.jpg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  -moz-background-size: cover;
+  /* -webkit-background-size: cover; */
+  background-size: cover;
+  min-height: 589px;
 }
