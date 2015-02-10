@@ -10,4 +10,11 @@ $(document).ready(function(){
       //$(cellsSelector).show();
     //})
 
+  function initialize() {
+    var mapOptions = {
+      zoom: 14,
+      scrollwheel: false
+    }
+    var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+  }
 });
