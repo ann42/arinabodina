@@ -9895,3 +9895,7 @@ h6 a {
   /* -webkit-background-size: cover; */
   background-size: cover;
   min-height: 589px; }
+
+/* line 7928, ../scss/materialize.scss */
+.map-wrap {
+  height: 400px; }
