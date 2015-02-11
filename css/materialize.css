@@ -9921,27 +9921,35 @@ h6 a {
   background-color: white;
   position: absolute;
   bottom: 0; }
-
-/* line 7948, ../scss/materialize.scss */
-.nav-wrap {
-  position: relative; }
+  @media only screen and (max-width: 600px) {
+    /* line 7942, ../scss/materialize.scss */
+    .runner {
+      display: none; } }
 
 /* line 7951, ../scss/materialize.scss */
+.nav-wrap {
+  position: relative; }
+  @media only screen and (max-width: 900px) {
+    /* line 7951, ../scss/materialize.scss */
+    .nav-wrap {
+      float: none !important; } }
+
+/* line 7957, ../scss/materialize.scss */
 #schedule h5 {
   display: none; }
   @media only screen and (max-width: 600px) {
-    /* line 7951, ../scss/materialize.scss */
+    /* line 7957, ../scss/materialize.scss */
     #schedule h5 {
       display: block; } }
 
-/* line 7957, ../scss/materialize.scss */
+/* line 7963, ../scss/materialize.scss */
 .footer-img-wrap {
   margin-top: 0.82rem; }
 
-/* line 7960, ../scss/materialize.scss */
+/* line 7966, ../scss/materialize.scss */
 .footer-img-wrap img {
   width: 190px; }
 
-/* line 7963, ../scss/materialize.scss */
+/* line 7969, ../scss/materialize.scss */
 .icon-social {
   font-size: 26px; }

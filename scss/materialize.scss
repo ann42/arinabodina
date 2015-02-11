@@ -7944,9 +7944,15 @@ h6 a {
   background-color: white;
   position: absolute;
   bottom: 0;
+  @media only screen and (max-width : 600px) {
+    display: none;
+  }
 }
 .nav-wrap {
   position: relative;
+  @media only screen and (max-width : 900px) {
+    float: none !important;
+  }
 }
 #schedule h5 {
   display: none;
