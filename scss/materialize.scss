@@ -2099,8 +2099,6 @@ img.responsive-img {
     text-align: center; } }
 
 footer.page-footer {
-  background: url(../img/patterns/trans2.png) 0 0 repeat;
-  margin-top: 20px;
   padding-top: 20px;
   background-color: #ee6e73; }
   footer.page-footer .footer-copyright {
@@ -7927,4 +7925,41 @@ h6 a {
 }
 .map-wrap {
   height: 400px;
+}
+#video .row .col {
+  padding: 0.75rem;
+}
+.btn-nav {
+  position: absolute;
+  top: 50%
+}
+.btn-prev {
+  left: 10px;
+}
+.btn-next {
+  right: 10px;
+}
+.runner {
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+}
+.nav-wrap {
+  position: relative;
+}
+#schedule h5 {
+  display: none;
+  @media only screen and (max-width : 600px) {
+    display: block;
+  }
+}
+.footer-img-wrap {
+  margin-top: 0.82rem;
+}
+.footer-img-wrap img {
+  width: 190px;
+}
+.icon-social {
+  font-size: 26px;
 }
