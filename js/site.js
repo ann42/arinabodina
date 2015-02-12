@@ -43,5 +43,17 @@ $(document).ready(function(){
 
     google.maps.event.addDomListener(window, 'load', initialize);
 
+
+    $('.main-nav li a').click(function(){
+        $('.main-nav li a').removeClass("active");
+        var runner = $(this).parent().parent().prev('.runner');
+        var chart = $(this).parents('.nav-wrap');
+        runner.animate({
+            width: $(this).outerWidth(),
+            left: $(this).position().left
+        }, 300);
+        $(this).addClass("active");
+    });
+
 });
 
