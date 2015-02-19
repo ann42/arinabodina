@@ -9949,7 +9949,11 @@ h6 a {
 /* line 7966, ../scss/materialize.scss */
 .footer-img-wrap img {
   width: 190px; }
+  @media only screen and (max-width: 600px) {
+    /* line 7966, ../scss/materialize.scss */
+    .footer-img-wrap img {
+      width: 150px; } }
 
-/* line 7969, ../scss/materialize.scss */
+/* line 7972, ../scss/materialize.scss */
 .icon-social {
   font-size: 26px; }

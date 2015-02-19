@@ -7965,6 +7965,9 @@ h6 a {
 }
 .footer-img-wrap img {
   width: 190px;
+  @media only screen and (max-width : 600px) {
+    width: 150px;
+  }
 }
 .icon-social {
   font-size: 26px;
