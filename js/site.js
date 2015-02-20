@@ -55,5 +55,15 @@ $(document).ready(function(){
         $(this).addClass("active");
     });
 
+    // Example with multiple objects
+    $('.btn-all').magnificPopup({
+        items: 
+          {
+            src: '#albums-popup' // CSS selector of an element on page that should be used as a popup
+            
+          },
+          type: 'inline'
+      });
+
 });
 
