@@ -9957,3 +9957,70 @@ h6 a {
 /* line 7972, ../scss/materialize.scss */
 .icon-social {
   font-size: 26px; }
+
+/* #classes*/
+/* line 7976, ../scss/materialize.scss */
+.classes-row .col {
+  padding-bottom: 3rem; }
+
+/* line 7979, ../scss/materialize.scss */
+.classes-img {
+  width: 40%;
+  vertical-align: top; }
+  @media only screen and (max-width: 600px) {
+    /* line 7979, ../scss/materialize.scss */
+    .classes-img {
+      margin-bottom: 1.5rem; } }
+
+/* line 7986, ../scss/materialize.scss */
+.classes-elem {
+  width: 59%;
+  padding-left: 1rem;
+  display: inline-block; }
+  @media only screen and (max-width: 600px) {
+    /* line 7986, ../scss/materialize.scss */
+    .classes-elem {
+      width: 100%;
+      padding-left: 0;
+      text-align: center; } }
+
+/* line 7996, ../scss/materialize.scss */
+.classes-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: 2.4rem;
+  margin-bottom: 3rem; }
+
+/* line 8003, ../scss/materialize.scss */
+.classes-name {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin: 0; }
+  @media only screen and (max-width: 600px) {
+    /* line 8003, ../scss/materialize.scss */
+    .classes-name {
+      font-size: 1.64rem;
+      margin-bottom: 0.656rem; } }
+
+/* line 8012, ../scss/materialize.scss */
+.classes-subtitle {
+  color: #9e9e9e;
+  margin-top: 0; }
+  @media only screen and (max-width: 600px) {
+    /* line 8012, ../scss/materialize.scss */
+    .classes-subtitle {
+      font-size: 1.3rem;
+      margin-bottom: 0.7rem; } }
+
+/* line 8020, ../scss/materialize.scss */
+.classes-desc {
+  font-size: 0.9rem;
+  margin-top: 0; }
+  @media only screen and (max-width: 600px) {
+    /* line 8020, ../scss/materialize.scss */
+    .classes-desc {
+      font-size: 1.1rem;
+      margin-bottom: 0.7rem; } }
+
+/*end classes*/
