@@ -1,0 +1,146 @@
+<div class="section no-pad-bot" id="photo">
+    <div class="container">
+      <div class="flexslider photo-carousel" style="margin-bottom:5%;">
+      <a class="btn-nav btn-prev btn-floating btn-large waves-effect waves-light grey darken-5"><i class="mdi-hardware-keyboard-arrow-left"></i></a>
+          <ul class="slides">
+            <li class="slides-item">
+              <img src="static/img/ribbon/1.jpg" class="responsive-img" />
+            </li>
+            <li class="slides-item">
+              <img src="static/img/ribbon/2.jpg" class="responsive-img" />
+            </li>
+            <li class="slides-item">
+              <img src="static/img/ribbon/3.jpg" class="responsive-img" />
+            </li>
+            <li class="slides-item">
+              <img src="static/img/ribbon/4.jpg" class="responsive-img" />
+            </li>
+            <li class="slides-item">
+              <img src="static/img/ribbon/5.jpg" class="responsive-img" />
+            </li>
+            <li class="slides-item">
+              <img src="static/img/ribbon/6.jpg" class="responsive-img" />
+            </li>
+            <li class="slides-item">
+              <img src="static/img/ribbon/7.jpg" class="responsive-img" />
+            </li>
+            <li class="slides-item">
+              <img src="static/img/ribbon/8.jpg" class="responsive-img" />
+            </li>
+            <li class="slides-item">
+              <img src="static/img/ribbon/9.jpg" class="responsive-img" />
+            </li>
+            <li class="slides-item">
+              <img src="static/img/ribbon/91.jpg" class="responsive-img" />
+            </li>
+          </ul>
+          <a class="btn-nav btn-next btn-floating btn-large waves-effect waves-light grey darken-5"><i class="mdi-hardware-keyboard-arrow-right"></i></a>
+      </div>
+
+      <h4>Альбомы</h4>
+      <div class="row albums-row">
+        {% for album in albums %}
+        <article class="col s12 m6 l3">
+          <a href="#">
+            <img src="{{ album.preview.url }}" class="responsive-img">
+            <div class="entry">
+              <div class="entry-date">{{ album.date }}</div>
+                <h6 class="entry-title">{{ album.title }}</h6>
+            </div>
+          </a>
+        </article>
+        {% endfor %}
+            <!--article class="col s12 m6 l3">
+              <a href="#">
+                <img src="static/img/albums/1.jpg" class="responsive-img">
+              <div class="entry">
+                <div class="entry-date">27.12.2014</div>
+                <h6 class="entry-title">
+                  Отчетный Новогодний концерт
+                </h6>
+              </div>
+              </a>
+            </article>
+            <article class="col s12 m6 l3">
+              <a href="#">
+                <img src="static/img/albums/1.jpg" class="responsive-img">
+              <div class="entry">
+                <div class="entry-date">27.12.2014</div>
+                <h6 class="entry-title">
+                  Отчетный Новогодний концерт
+                </h6>
+              </div>
+              </a>
+            </article>
+            <article class="col s12 m6 l3">
+              <a href="#">
+                <img src="static/img/albums/1.jpg" class="responsive-img">
+              <div class="entry">
+                <div class="entry-date">27.12.2014</div>
+                <h6 class="entry-title">
+                  Отчетный Новогодний концерт
+                </h6>
+              </div>
+              </a>
+            </article>
+            <article class="col s12 m6 l3">
+              <a href="#">
+                <img src="static/img/albums/1.jpg" class="responsive-img">
+              <div class="entry">
+                <div class="entry-date">27.12.2014</div>
+                <h6 class="entry-title">
+                  Отчетный Новогодний концерт
+                </h6>
+              </div>
+              </a>
+            </article>
+            <article class="col s12 m6 l3">
+              <a href="#">
+                <img src="static/img/albums/1.jpg" class="responsive-img">
+              <div class="entry">
+                <div class="entry-date">27.12.2014</div>
+                <h6 class="entry-title">
+                  Отчетный Новогодний концерт
+                </h6>
+              </div>
+              </a>
+            </article>
+            <article class="col s12 m6 l3">
+              <a href="#">
+                <img src="static/img/albums/1.jpg" class="responsive-img">
+              <div class="entry">
+                <div class="entry-date">27.12.2014</div>
+                <h6 class="entry-title">
+                  Отчетный Новогодний концерт
+                </h6>
+              </div>
+              </a>
+            </article>
+            <article class="col s12 m6 l3">
+              <a href="#">
+                <img src="static/img/albums/1.jpg" class="responsive-img">
+              <div class="entry">
+                <div class="entry-date">27.12.2014</div>
+                <h6 class="entry-title">
+                  Отчетный Новогодний концерт
+                </h6>
+              </div>
+              </a>
+            </article>
+            <article class="col s12 m6 l3">
+              <a href="#">
+                <img src="static/img/albums/1.jpg" class="responsive-img">
+              <div class="entry">
+                <div class="entry-date">27.12.2014</div>
+                <h6 class="entry-title">
+                  Отчетный Новогодний концерт
+                </h6>
+              </div>
+              </a>
+            </article-->
+      </div>
+      <div style="text-align:center;">
+        <a class="pink lighten-2 waves-effect waves-light btn-large btn-all">Все альбомы</a>
+      </div>
+    </div>
+</div>
