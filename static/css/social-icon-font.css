@@ -4,11 +4,11 @@
 
 @font-face {
   font-family: "social-icons";
-  src: url("social-icon-font.eot");
-  src: url("social-icon-font.eot?#iefix") format("embedded-opentype"),
-       url("social-icon-font.woff") format("woff"),
-       url("social-icon-font.ttf") format("truetype"),
-       url("social-icon-font.svg#social-icons") format("svg");
+  src: url("../font/social/social-icon-font.eot");
+  src: url("../font/social/social-icon-font.eot?#iefix") format("embedded-opentype"),
+       url("../font/social/social-icon-font.woff") format("woff"),
+       url("../font/social/social-icon-font.ttf") format("truetype"),
+       url("../font/social/social-icon-font.svg#social-icons") format("svg");
   font-weight: normal;
   font-style: normal;
 }

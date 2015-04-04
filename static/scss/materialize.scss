@@ -7915,15 +7915,15 @@ h6 a {
   }
 }
 .arina-img {
-  background-image: url("../img/arina/a94.jpg");
+  background-image: url("../img/patterns/5.png");
   background-repeat: no-repeat;
   /*background-position: 0 0;
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-  min-height: 589px;
-    background-size: 100% auto;*/
+  min-height: 589px;*/
     background-position: 100% 0; 
+    background-size: 100%;
 }
 .map-wrap {
   height: 400px;
@@ -8051,4 +8051,13 @@ h6 a {
   background-size: 100%;
   position: absolute;
   right: 49px;
+}
+
+/*#logo-container {
+  background: url("../img/a1.svg");
+  width: 200px;
+  height: 100px;
+}  */
+.text img {
+  width: 49%;
 }

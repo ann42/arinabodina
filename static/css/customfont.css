@@ -28,6 +28,12 @@
 .icon-vk:before {
   content: "\f1ed";
 }
+.icon-youtube:before {
+  content: "\f130";
+}
+.icon-instagram:before {
+  content: "\f119";
+}
 .sharing-link {
     -webkit-transition-property: all;
     transition-property: all;
@@ -72,3 +78,7 @@
     /*font-family: 'pragmatic'*/
 
 }
+
+
+
+

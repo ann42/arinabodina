@@ -43,16 +43,44 @@ $(document).ready(function(){
 
     google.maps.event.addDomListener(window, 'load', initialize);
 
+    function animateRunnerToFirstMenuItem(menuLink){
+      var runner = $(menuLink).parent().parent().prev('.runner');
+      var chart = $(menuLink).parents('.nav-wrap');
+
+      var duration = Math.abs($(menuLink).position().left - runner.position().left) * 1.3;
+
+      runner.stop().animate({
+          width: $(menuLink).outerWidth(),
+          left: $(menuLink).position().left
+      }, duration);
+    }
+
+    var runnerTimer = null;
 
     $('.main-nav li a').click(function(){
-        $('.main-nav li a').removeClass("active");
-        var runner = $(this).parent().parent().prev('.runner');
-        var chart = $(this).parents('.nav-wrap');
-        runner.animate({
-            width: $(this).outerWidth(),
-            left: $(this).position().left
-        }, 300);
-        $(this).addClass("active");
+      animateRunnerToFirstMenuItem(this);
+    });
+
+    $(window).scroll(function(){
+      var menuLinks = $('.main-nav li a');
+
+      var sectionOffset = 20;
+
+      menuLinks.each(function(index, menuLink){
+        var sectionSelector = $(menuLink).attr('href');
+        var section = $(sectionSelector);
+
+        //Верхняя граница блока выше верхней границы экрана И
+        // Нижняя граница блока ниже верхней границы экрана
+        if (section.offset().top - sectionOffset < $(window).scrollTop() && 
+            section.offset().top - sectionOffset + section.height() > $(window).scrollTop() ) {
+            clearTimeout(runnerTimer);
+            runnerTimer = setTimeout(function(){
+                animateRunnerToFirstMenuItem(menuLink);
+            }, 100);
+        }
+      });
+
     });
 
     // Example with multiple objects
@@ -65,5 +93,7 @@ $(document).ready(function(){
           type: 'inline'
       });
 
+
+    animateRunnerToFirstMenuItem($('.main-nav li a').first());
 });
 
