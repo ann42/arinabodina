@@ -83,14 +83,39 @@ $(document).ready(function(){
 
     });
 
+    function initFlexSlider(jqueryObject){
+      jqueryObject.flexslider({
+        animation: "slide",
+        directionNav: false
+      }).flexsliderManualDirectionControls({
+        previousElementSelector: ".btn-prev",
+        nextElementSelector: ".btn-next",
+        disabledStateClassName: "disabled"
+      });
+    }
+
+    //Включает слайдер на главной
+    initFlexSlider($('.flexslider'));
+
+    function initPhotoPopupContent(content){
+      // Ajax content is loaded and appended to DOM
+      initFlexSlider($(content).find('.flexslider'));
+      $(content).find('.album-link').click(function(e){
+        e.preventDefault();
+        $('.mfp-content').load($(this).attr('href'), function(){
+          initPhotoPopupContent(this.firstChild);
+        });
+      });
+    }
+
     // Example with multiple objects
-    $('.btn-all').magnificPopup({
-        items: 
-          {
-            src: '#albums-popup' // CSS selector of an element on page that should be used as a popup
-            
-          },
-          type: 'inline'
+    $('.btn-all, .album-link').magnificPopup({
+          type: 'ajax',
+          callbacks: {
+            ajaxContentAdded: function() {
+              initPhotoPopupContent(this.content);
+            }
+          }
       });
 
 

@@ -28,18 +28,6 @@
 
   <script src="static/js/jquery.flexslider.manualDirectionControls.js"></script>
   <!-- Place in the <head>, after the three links -->
-  <script type="text/javascript" charset="utf-8">
-    $(window).load(function() {
-      $('.flexslider').flexslider({
-        animation: "slide",
-        directionNav: false
-      }).flexsliderManualDirectionControls({
-        previousElementSelector: ".btn-prev",
-        nextElementSelector: ".btn-next",
-        disabledStateClassName: "disabled"
-      });
-    });
-  </script>
 
   <script type="text/javascript"
     src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA3xOAaCz4U8WfkCHIdrzsHlQHekW1Zsq0&sensor=true">
@@ -281,8 +269,6 @@
               </tr>
           </tbody>
         </table>
-
-
         </div>
     </div>
   </div>
@@ -312,7 +298,6 @@
     </div>
 
     <div class="map-wrap">
-      <!--iframe id="map" style="width:100%;" height="400" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/directions?origin=%D0%BC.%20%D0%A1%D0%BE%D0%BA%D0%BE%D0%BB&destination=%20%D0%9C%D0%B0%D0%BB%D1%8B%D0%B9%20%D0%9F%D0%B5%D1%81%D1%87%D0%B0%D0%BD%D1%8B%D0%B9%20%D0%BF%D0%B5%D1%80%D0%B5%D1%83%D0%BB%D0%BE%D0%BA%2C%202%D0%B0&key=AIzaSyA3xOAaCz4U8WfkCHIdrzsHlQHekW1Zsq0"></iframe-->
       <div id="map-canvas" style="width:100%; height:100%"></div>
     </div>
   </div>
@@ -363,138 +348,5 @@
       </div>
     </div>
   </footer>
-
-
-  <div id="albums-popup" class=" mfp-hide white-popup">
-      <div class="container">
-        <div class="flexslider photo-carousel" style="margin-bottom:5%;">
-        <a class="btn-nav btn-prev btn-floating btn-large waves-effect waves-light grey darken-5"><i class="mdi-hardware-keyboard-arrow-left"></i></a>
-            <ul class="slides">
-              <li class="slides-item">
-                <img src="static/img/ribbon/1.jpg" class="responsive-img" />
-              </li>
-              <li class="slides-item">
-                <img src="static/img/ribbon/2.jpg" class="responsive-img" />
-              </li>
-              <li class="slides-item">
-                <img src="static/img/ribbon/3.jpg" class="responsive-img" />
-              </li>
-              <li class="slides-item">
-                <img src="static/img/ribbon/4.jpg" class="responsive-img" />
-              </li>
-              <li class="slides-item">
-                <img src="static/img/ribbon/5.jpg" class="responsive-img" />
-              </li>
-              <li class="slides-item">
-                <img src="static/img/ribbon/6.jpg" class="responsive-img" />
-              </li>
-              <li class="slides-item">
-                <img src="static/img/ribbon/7.jpg" class="responsive-img" />
-              </li>
-              <li class="slides-item">
-                <img src="static/img/ribbon/8.jpg" class="responsive-img" />
-              </li>
-              <li class="slides-item">
-                <img src="static/img/ribbon/9.jpg" class="responsive-img" />
-              </li>
-              <li class="slides-item">
-                <img src="static/img/ribbon/91.jpg" class="responsive-img" />
-              </li>
-            </ul>
-            <a class="btn-nav btn-next btn-floating btn-large waves-effect waves-light grey darken-5"><i class="mdi-hardware-keyboard-arrow-right"></i></a>
-        </div>
-        <div class="row albums-row">
-              <article class="col s12 m6 l3">
-                <a href="#">
-                  <img src="static/img/albums/1.jpg" class="responsive-img">
-                <div class="entry">
-                  <div class="entry-date">27.12.2014</div>
-                  <h6 class="entry-title">
-                    Отчетный Новогодний концерт
-                  </h6>
-                </div>
-                </a>
-              </article>
-              <article class="col s12 m6 l3">
-                <a href="#">
-                  <img src="static/img/albums/1.jpg" class="responsive-img">
-                <div class="entry">
-                  <div class="entry-date">27.12.2014</div>
-                  <h6 class="entry-title">
-                    Отчетный Новогодний концерт
-                  </h6>
-                </div>
-                </a>
-              </article>
-              <article class="col s12 m6 l3">
-                <a href="#">
-                  <img src="static/img/albums/1.jpg" class="responsive-img">
-                <div class="entry">
-                  <div class="entry-date">27.12.2014</div>
-                  <h6 class="entry-title">
-                    Отчетный Новогодний концерт
-                  </h6>
-                </div>
-                </a>
-              </article>
-              <article class="col s12 m6 l3">
-                <a href="#">
-                  <img src="static/img/albums/1.jpg" class="responsive-img">
-                <div class="entry">
-                  <div class="entry-date">27.12.2014</div>
-                  <h6 class="entry-title">
-                    Отчетный Новогодний концерт
-                  </h6>
-                </div>
-                </a>
-              </article>
-              <article class="col s12 m6 l3">
-                <a href="#">
-                  <img src="static/img/albums/1.jpg" class="responsive-img">
-                <div class="entry">
-                  <div class="entry-date">27.12.2014</div>
-                  <h6 class="entry-title">
-                    Отчетный Новогодний концерт
-                  </h6>
-                </div>
-                </a>
-              </article>
-              <article class="col s12 m6 l3">
-                <a href="#">
-                  <img src="static/img/albums/1.jpg" class="responsive-img">
-                <div class="entry">
-                  <div class="entry-date">27.12.2014</div>
-                  <h6 class="entry-title">
-                    Отчетный Новогодний концерт
-                  </h6>
-                </div>
-                </a>
-              </article>
-              <article class="col s12 m6 l3">
-                <a href="#">
-                  <img src="static/img/albums/1.jpg" class="responsive-img">
-                <div class="entry">
-                  <div class="entry-date">27.12.2014</div>
-                  <h6 class="entry-title">
-                    Отчетный Новогодний концерт
-                  </h6>
-                </div>
-                </a>
-              </article>
-              <article class="col s12 m6 l3">
-                <a href="#">
-                  <img src="static/img/albums/1.jpg" class="responsive-img">
-                <div class="entry">
-                  <div class="entry-date">27.12.2014</div>
-                  <h6 class="entry-title">
-                    Отчетный Новогодний концерт
-                  </h6>
-                </div>
-                </a>
-              </article>
-        </div>
-      </div>
-  </div>
-
   </body>
 </html>

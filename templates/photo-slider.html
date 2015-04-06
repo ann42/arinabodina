@@ -1,0 +1,11 @@
+<div class="flexslider photo-carousel" style="margin-bottom:5%;">
+<a class="btn-nav btn-prev btn-floating btn-large waves-effect waves-light grey darken-5"><i class="mdi-hardware-keyboard-arrow-left"></i></a>
+    <ul class="slides">
+      {% for photo in slidesPhotos %}
+      <li class="slides-item">
+        <img src="{{ photo.image.url }}" class="responsive-img" />
+      </li>
+      {% endfor %}
+    </ul>
+    <a class="btn-nav btn-next btn-floating btn-large waves-effect waves-light grey darken-5"><i class="mdi-hardware-keyboard-arrow-right"></i></a>
+</div>
