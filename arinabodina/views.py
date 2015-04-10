@@ -3,17 +3,18 @@ from arinabodina.models import Album, AlbumImage, Video
 
 def index(request):
     slidesPhotos = Album.objects.get(title__exact = 'MainAlbum').images.all()
-    albums = Album.objects.filter(indexOnMain__isnull = False)
-    videos = Video.objects.filter(indexOnMain__isnull = False)
+    albums = Album.objects.filter(indexOnMain__isnull = False, ).exclude(title__exact = 'MainAlbum').order_by('indexOnMain')
+    videos = Video.objects.filter(indexOnMain__isnull = False).order_by('indexOnMain')
 
     return render(request, 'index.html', {'albums': albums, 'videos':  videos, 'slidesPhotos': slidesPhotos})
 
-def albumsPopup(request, albumId):
-    if albumId is not None:
-        slidesPhotos = AlbumImage.objects.filter(album_id = albumId)
-    else:
-        slidesPhotos = Album.objects.latest('date').images.all()
+def albums_list(request):
+    albums = Album.objects.exclude(title__exact = 'MainAlbum').order_by('indexOnMain')
 
-    albums = Album.objects.exclude(title__exact = 'MainAlbum')
+    return render(request, 'albums-list.html', {'albums': albums})
 
-    return render(request, 'albums-popup.html', {'slidesPhotos': slidesPhotos, 'albums': albums})
+def album (request, albumId):
+    album = Album.objects.get(id = albumId)
+    photos = album.images.all()
+
+    return render(request, 'album.html', {'photos': photos, 'album': album})

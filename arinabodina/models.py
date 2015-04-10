@@ -1,4 +1,5 @@
 from django.db import models
+from sorl.thumbnail import ImageField
 
 class Album (models.Model):
     title = models.CharField(max_length = 33)
@@ -18,7 +19,7 @@ class Album (models.Model):
 
 class AlbumImage(models.Model):
     album = models.ForeignKey(Album, related_name ='images')
-    image = models.ImageField(upload_to = 'albumphotos')
+    image = ImageField(upload_to = 'albumphotos')
 
     def __str__(self):
         return '{0} - {1} ({2})'.format(self.album.title, self.album.id, self.image.url)

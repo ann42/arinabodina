@@ -43,6 +43,24 @@ $(document).ready(function(){
 
     google.maps.event.addDomListener(window, 'load', initialize);
 
+    var allowRunnerOnScroll = true;
+    $(".scroll-btn").click(function(event) {
+        allowRunnerOnScroll = false;
+        animateRunnerToFirstMenuItem(this);
+        var section = $($(this).attr("href"));
+        TweenMax.to(window, 1.5, {
+          scrollTo: {
+            y: section.position().top
+          },
+          onComplete:function(){
+              allowRunnerOnScroll = true;
+          },
+          ease:Quart.easeInOut
+        });
+
+        event.preventDefault();
+    });
+
     function animateRunnerToFirstMenuItem(menuLink){
       var runner = $(menuLink).parent().parent().prev('.runner');
       var chart = $(menuLink).parents('.nav-wrap');
@@ -56,11 +74,6 @@ $(document).ready(function(){
     }
 
     var runnerTimer = null;
-
-    $('.main-nav li a').click(function(){
-      animateRunnerToFirstMenuItem(this);
-    });
-
     $(window).scroll(function(){
       var menuLinks = $('.main-nav li a');
 
@@ -75,9 +88,11 @@ $(document).ready(function(){
         if (section.offset().top - sectionOffset < $(window).scrollTop() && 
             section.offset().top - sectionOffset + section.height() > $(window).scrollTop() ) {
             clearTimeout(runnerTimer);
-            runnerTimer = setTimeout(function(){
-                animateRunnerToFirstMenuItem(menuLink);
-            }, 100);
+            if(allowRunnerOnScroll){
+              runnerTimer = setTimeout(function(){
+                  animateRunnerToFirstMenuItem(menuLink);
+              }, 100);
+            }
         }
       });
 
@@ -97,28 +112,7 @@ $(document).ready(function(){
     //Включает слайдер на главной
     initFlexSlider($('.flexslider'));
 
-    function initPhotoPopupContent(content){
-      // Ajax content is loaded and appended to DOM
-      initFlexSlider($(content).find('.flexslider'));
-      $(content).find('.album-link').click(function(e){
-        e.preventDefault();
-        $('.mfp-content').load($(this).attr('href'), function(){
-          initPhotoPopupContent(this.firstChild);
-        });
-      });
-    }
-
-    // Example with multiple objects
-    $('.btn-all, .album-link').magnificPopup({
-          type: 'ajax',
-          callbacks: {
-            ajaxContentAdded: function() {
-              initPhotoPopupContent(this.content);
-            }
-          }
-      });
-
-
     animateRunnerToFirstMenuItem($('.main-nav li a').first());
+
 });
 

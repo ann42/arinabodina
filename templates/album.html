@@ -1,0 +1,120 @@
+{% extends "default.html" %}
+{% load thumbnail %}
+
+{% block header_links %}
+<!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="/static/css/magnific-popup.css">
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<!-- Magnific Popup core JS file -->
+<script src="/static/js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.button-collapse').sideNav();
+
+        // Example with multiple objects
+        $('.album-link').magnificPopup({
+            // Delay in milliseconds before popup is removed
+            //removalDelay: 300,
+
+            // Class that is added to popup wrapper and background
+            // make it unique to apply your CSS animations just to this exact popup
+            //mainClass: 'mfp-fade',
+
+            type: 'image',
+            image: {
+                markup: '<div class="mfp-figure">'+
+                            '<div class="close_vrapper">'+
+                            '<div class="btn btn-large btn-floating btn-popup-close waves-effect waves-light grey darken-5 ">'+
+                            '<i class="mdi-navigation-close"></i>'+
+                            '<div class="mfp-close"></div>'+
+                            '</div>'+
+                            '<div class="mfp-img"></div>'+
+                            '<div class="mfp-bottom-bar">'+
+                              '<div class="mfp-title"></div>'+
+                              '<div class="mfp-counter"></div>'+
+                            '</div>'+
+                          '</div>', // Popup HTML markup. `.mfp-img` div will be replaced with img tag, `.mfp-close` by close button
+                cursor: null // Class that adds zoom cursor, will be added to body. Set to null to disable zoom out cursor. 
+
+            },
+            gallery: {
+                enabled: true,
+
+                arrowMarkup: '<button title="%title%" type="button" class=" btn-nav btn-floating btn-large waves-effect waves-light grey darken-5  btn-%dir% mdi-hardware-keyboard-arrow-%dir%" ></button>', // markup of an arrow button
+                tPrev: 'Previous (Left arrow key)', // title for left button
+                tNext: 'Next (Right arrow key)' // title for right button
+            }
+        });
+
+      // Horizontal staggered list
+      function albumPhotosAnimation (itemSelector) {
+        var time = 0;
+        $(itemSelector).velocity(
+            { 
+                translateY: "300px",
+                translateX: "-50px"
+            },
+            { duration: 0 });
+
+        $(itemSelector).each(function() {
+          $(this).velocity(
+            { opacity: "1", translateY: "0", translateX: "0"},
+            { duration: 900, delay: time, easing: [60, 10] });
+          time += 50;
+        });
+      };
+
+      albumPhotosAnimation('.album-link');
+    });
+</script>
+{% endblock %}
+
+{% block content %}
+
+<div class="navbar-fixed">
+    <nav class="grey darken-5" role="navigation">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                <div class="nav-wrap left">
+                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                        <li>
+                            <a href="/">Главная</a>
+                        </li>
+                        <li>
+                            <a href="/albums/.">Альбомы</a>
+                        </li>
+                    </ul>
+
+                    <ul class="side-nav" id="mobile-demo">
+                        <li>
+                            <a href="/">Главная</a>
+                        </li>
+                        <li>
+                            <a href="/albums/">Альбомы</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+
+<div class="section no-pad-bot">
+    <div class="container">
+        <div class="row albums-row">
+            {% for photo in photos %}
+            <article class="col s12 m6 l3">
+                {% thumbnail photo.image "1500" as big %}
+                {% thumbnail photo.image "400x400" crop="center" as thumb %}
+                <a href="{{ big.url }}" class="album-link">
+                    <img src="{{ thumb.url }}" class="responsive-img">
+                </a>
+                {% endthumbnail %}
+                {% endthumbnail %}
+            </article>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

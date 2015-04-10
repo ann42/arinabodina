@@ -71,11 +71,11 @@
     font-style: normal;
 
 }
-#logo-container b{
+#logo-container {
     font-family: 'rage_italicregular';
 }
 #logo-container .choreo {
-    /*font-family: 'pragmatic'*/
+    font-family: 'roboto'
 
 }
 
