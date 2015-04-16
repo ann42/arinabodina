@@ -77,12 +77,15 @@
             <div class="nav-wrapper">
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
                 <div class="nav-wrap left">
-                    <ul id="nav-mobile" class="left hide-on-med-and-down">
+                    <ul id="nav-mobile" class="left hide-on-med-and-down inner-menu">
                         <li>
                             <a href="/">Главная</a>
                         </li>
                         <li>
                             <a href="/albums/.">Альбомы</a>
+                        </li>
+                        <li>
+                            <a >{{ album.title }}</a>
                         </li>
                     </ul>
 
@@ -92,6 +95,9 @@
                         </li>
                         <li>
                             <a href="/albums/">Альбомы</a>
+                        </li>
+                        <li>
+                            <a >{{ album.title }}</a>
                         </li>
                     </ul>
                 </div>
@@ -103,6 +109,7 @@
 <div class="section no-pad-bot">
     <div class="container">
         <div class="row albums-row">
+            <h4>{{ album.title }}</h4>
             {% for photo in photos %}
             <article class="col s12 m6 l3">
                 {% thumbnail photo.image "1500" as big %}
