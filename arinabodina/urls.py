@@ -1,6 +1,6 @@
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
-from arinabodina.views import index, album, albums_list
+from arinabodina.views import index, album, albums_list, videos_list
 
 urlpatterns = patterns('',
     # Examples:
@@ -11,4 +11,5 @@ urlpatterns = patterns('',
     url(r'^$', index),
     url(r'^album/(\d+)', album),
     url(r'^albums', albums_list),
+    url(r'^videos', videos_list)
 )

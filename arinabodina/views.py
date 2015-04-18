@@ -1,10 +1,11 @@
 from django.shortcuts import render
-from arinabodina.models import Album, AlbumImage, Video
+from arinabodina.models import Album, AlbumImage
+from arinabodina.youtubeApiHelper import getPlaylistVideos
 
 def index(request):
     slidesPhotos = Album.objects.get(title__exact = 'MainAlbum').images.all()
-    albums = Album.objects.filter(indexOnMain__isnull = False, ).exclude(title__exact = 'MainAlbum').order_by('indexOnMain')
-    videos = Video.objects.filter(indexOnMain__isnull = False).order_by('indexOnMain')
+    albums = Album.objects.filter(indexOnMain__isnull = False ).exclude(title__exact = 'MainAlbum').order_by('indexOnMain')
+    videos = getPlaylistVideos('PLIN1isMX7oL31ZB4sU5GVfQO3iVTKtmIy', 4)
 
     return render(request, 'index.html', {'albums': albums, 'videos':  videos, 'slidesPhotos': slidesPhotos})
 
@@ -18,3 +19,6 @@ def album (request, albumId):
     photos = album.images.all()
 
     return render(request, 'album.html', {'photos': photos, 'album': album})
+
+def videos_list(request):
+    return render(request, 'videos-list.html', {'videos': getPlaylistVideos('PLIN1isMX7oL2sPEspn6WPKwpt7UzhjcQ-')})

@@ -121,6 +121,29 @@ blockquote {
 .price {
   color: #000; }
 
+#price {
+  background: url(../img/patterns/trans1.png) 0 0.5rem repeat;
+  margin-bottom: -64px;
+  position: relative; }
+
+#price:after {
+  position: absolute;
+  content: '';
+  background: rgba(255, 255, 255, 0.4);
+  height: 1.5rem;
+  bottom: 0;
+  left: 0;
+  width: 100%; }
+
+#price:before {
+  position: absolute;
+  content: '';
+  background: rgba(255, 255, 255, 0.7);
+  height: 1.7rem;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
 .contact-desc a:hover {
   color: #f06292 !important; }
 

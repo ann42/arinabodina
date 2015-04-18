@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('.button-collapse').sideNav();
+    $('.button-collapse').sideNav({closeOnClick: true});
 
     $('ul.tabs').tabs();
 
@@ -14,16 +14,22 @@ $(document).ready(function(){
     function initialize() {
       var directionsService = new google.maps.DirectionsService();
       var directionsDisplay = new google.maps.DirectionsRenderer();
-        
+
+      function is_touch_device() {
+       return (('ontouchstart' in window)
+            || (navigator.MaxTouchPoints > 0)
+            || (navigator.msMaxTouchPoints > 0));
+      }
+
       var mapOptions = {
-        center: new google.maps.LatLng(55.802898, 37.5110276),
         zoom: 16,
-        scrollwheel: false
+        scrollwheel: false,
+        draggable: is_touch_device() ? false : true
       };
 
       var map = new google.maps.Map(document.getElementById('map-canvas'),
         mapOptions);
-        
+
       directionsDisplay.setMap(map);
         
       var directionRequest = {
@@ -32,39 +38,51 @@ $(document).ready(function(){
           travelMode: google.maps.TravelMode.WALKING,
           unitSystem: google.maps.UnitSystem.METRIC
       };
-        
+
       directionsService.route(directionRequest, function(response, status) {
         if (status == google.maps.DirectionsStatus.OK) {
           directionsDisplay.setDirections(response);
+
+          if(document.body.offsetWidth >= 600){
+            google.maps.event.addListenerOnce(map, 'idle', function(){
+              var bounds = map.getBounds();
+              var widthDeg = Math.abs(bounds.getSouthWest().lng() - bounds.getNorthEast().lng())
+              var center = map.getCenter();
+              map.setCenter({lat: center.lat(), lng: center.lng() - widthDeg/4});
+            });
+          }
+
         };
       });
-
     }
 
     google.maps.event.addDomListener(window, 'load', initialize);
 
     var allowRunnerOnScroll = true;
     $(".scroll-btn").click(function(event) {
+        var currentHref = $(this).attr("href");
         allowRunnerOnScroll = false;
         animateRunnerToFirstMenuItem(this);
-        var section = $($(this).attr("href"));
+        var section = $(currentHref);
         TweenMax.to(window, 1.5, {
           scrollTo: {
             y: section.position().top
           },
           onComplete:function(){
               allowRunnerOnScroll = true;
+              window.location.hash = currentHref;
           },
           ease:Quart.easeInOut
         });
-
         event.preventDefault();
     });
 
     function animateRunnerToFirstMenuItem(menuLink){
       var runner = $(menuLink).parent().parent().prev('.runner');
       var chart = $(menuLink).parents('.nav-wrap');
-
+      if (chart.length == 0 || runner.length == 0 || !menuLink){
+        return;
+      }
       var duration = Math.abs($(menuLink).position().left - runner.position().left) * 1.3;
 
       runner.stop().animate({
@@ -113,6 +131,5 @@ $(document).ready(function(){
     initFlexSlider($('.flexslider'));
 
     animateRunnerToFirstMenuItem($('.main-nav li a').first());
-
 });
 

@@ -24,8 +24,14 @@ class AlbumImage(models.Model):
     def __str__(self):
         return '{0} - {1} ({2})'.format(self.album.title, self.album.id, self.image.url)
 
-class Video(models.Model):
-    videoUrl = models.URLField()
-    indexOnMain = models.IntegerField(default = None, null = True)
-    date = models.DateField()
+class Video:
+    def __init__(self, youtubeVideoId, videoTitle, thumbnailUrl):
+        self.youtubeVideoId = youtubeVideoId
+        self.videoTitle = videoTitle
+        self.thumbnailUrl = thumbnailUrl
 
+    def getEmbedUrl(self):
+        return 'http://www.youtube.com/embed/{0}'.format(self.youtubeVideoId)
+
+    def getDirectUrl(self):
+        return 'http://www.youtube.com/watch?v={0}'.format(self.youtubeVideoId)

@@ -7,14 +7,14 @@
 <script src="/static/js/jquery.flexslider.js"></script>
 <script src="/static/js/jquery.flexslider.manualDirectionControls.js"></script>
 <!-- Place in the <head>, after the three links -->
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyA3xOAaCz4U8WfkCHIdrzsHlQHekW1Zsq0&sensor=true">
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBsYsrHdL8CV55wJrgdKAFPfHY-QiUIl7o&sensor=false">
 </script>
 {% endblock %} {% block content %}
 <div class="navbar-fixed">
     <nav class="grey darken-5" role="navigation">
         <div class="container">
             <div class="nav-wrapper">
-                <a id="logo-container" href="/" class="brand-logo scroll-btn">
+                <a id="logo-container" href="/" class="brand-logo">
                     <span>Arina Bodina</span>
                     <br>
                     <span class="choreo">хореограф</span>
@@ -73,7 +73,20 @@
         </div>
     </nav>
 </div>
-{% include "components/about.html" %} {% include "components/classes.html" %} {% include "components/photo.html" %} {% include "components/video.html" %} {% include "components/schedule.html" %}
+{% include "components/about.html" %}
+{% include "components/classes.html" %}
+{% include "components/photo.html" %}
+
+<div class="section" id="video">
+    <div class="container">
+        {% include "components/video.html" %}
+        <div style="text-align:center;">
+            <a class="pink lighten-2 waves-effect waves-light btn btn-large btn-all" href="/videos/">Еще видео</a>
+        </div>
+    </div>
+</div>
+
+{% include "components/schedule.html" %}
 <div class="section" id="price">
     <div class="container">
         <!--h4>Цены</h4-->
