@@ -6,14 +6,6 @@ $(document).ready(function(){
 
     $('ul.tabs').tabs();
 
-    //$('.week-day-mobile .tab a').click(function(){
-      //var cellIndex = Number($(this).attr('href').substring(1)) + 1;
-      //var cellsSelector = '.schedule-table td:nth-child('+ cellIndex + ')';
-      //$('.schedule-table td:not(:first-child)').hide();
-      //$(cellsSelector).show();
-    //})
-
-
     function initialize() {
       var directionsService = new google.maps.DirectionsService();
       var directionsDisplay = new google.maps.DirectionsRenderer();
@@ -65,22 +57,24 @@ $(document).ready(function(){
     $(".scroll-btn").click(function(event) {
         var currentHref = $(this).attr("href");
         allowRunnerOnScroll = false;
-        animateRunnerToFirstMenuItem(this);
+        animateRunnerToMenuItem(this);
         var section = $(currentHref);
         TweenMax.to(window, 1.5, {
           scrollTo: {
-            y: section.position().top
+            y: section.position().top,
+            onAutoKill:function(){
+              allowRunnerOnScroll = true;
+            }
           },
           onComplete:function(){
               allowRunnerOnScroll = true;
-              window.location.hash = currentHref;
           },
           ease:Quart.easeInOut
         });
         event.preventDefault();
     });
 
-    function animateRunnerToFirstMenuItem(menuLink){
+    function animateRunnerToMenuItem(menuLink){
       var runner = $(menuLink).parent().parent().prev('.runner');
       var chart = $(menuLink).parents('.nav-wrap');
       if (chart.length == 0 || runner.length == 0 || !menuLink){
@@ -91,32 +85,36 @@ $(document).ready(function(){
       runner.stop().animate({
           width: $(menuLink).outerWidth(),
           left: $(menuLink).position().left
-      }, duration);
+      }, duration,'swing',function(){
+          if(history.pushState) {
+              history.pushState(null, null, $(menuLink).attr('href'));
+          }
+          else {
+              location.hash = $(menuLink).attr('href');
+          }
+      });
     }
 
     var runnerTimer = null;
     $(window).scroll(function(){
       var menuLinks = $('.main-nav li a');
-
       var sectionOffset = 20;
 
       menuLinks.each(function(index, menuLink){
         var sectionSelector = $(menuLink).attr('href');
         var section = $(sectionSelector);
-
         //Верхняя граница блока выше верхней границы экрана И
         // Нижняя граница блока ниже верхней границы экрана
-        if (section.offset().top - sectionOffset < $(window).scrollTop() && 
-            section.offset().top - sectionOffset + section.height() > $(window).scrollTop() ) {
+        var isCurrentSectionActive = section.offset().top - sectionOffset < $(window).scrollTop() && 
+            section.offset().top - sectionOffset + section.height() > $(window).scrollTop();
+        if (isCurrentSectionActive && allowRunnerOnScroll) {
             clearTimeout(runnerTimer);
-            if(allowRunnerOnScroll){
-              runnerTimer = setTimeout(function(){
-                  animateRunnerToFirstMenuItem(menuLink);
-              }, 100);
-            }
+            runnerTimer = setTimeout(function(){
+                animateRunnerToMenuItem(menuLink);
+            }, 100);
+            return;
         }
       });
-
     });
 
     function initFlexSlider(jqueryObject){
@@ -133,6 +131,7 @@ $(document).ready(function(){
     //Включает слайдер на главной
     initFlexSlider($('.flexslider'));
 
-    animateRunnerToFirstMenuItem($('.main-nav li a').first());
+    animateRunnerToMenuItem($('.main-nav li a[href="'+window.location.hash+'"]').first());
+
 });
 
