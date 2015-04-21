@@ -8,21 +8,24 @@ class Album (models.Model):
     date = models.DateField()
 
 #    def image_tag(self):
+
 #        return u'<img src="%s" />' % self.preview.url
+
 #    image_tag.allow_tags = True
 
 #    def __unicode__(self):
+
 #        return self.title
 
-    def __str__(self):
-        return '{0} - {1} ({2})'.format(self.title, self.id, len(self.images.all()))
+    def __unicode__(self):
+        return u'{0} - {1} ({2})'.format(self.title, self.id, len(self.images.all()))
 
 class AlbumImage(models.Model):
     album = models.ForeignKey(Album, related_name ='images')
     image = ImageField(upload_to = 'albumphotos')
 
-    def __str__(self):
-        return '{0} - {1} ({2})'.format(self.album.title, self.album.id, self.image.url)
+    def __unicode__(self):
+        return u'{0} - {1} ({2})'.format(self.album.title, self.album.id, self.image.url)
 
 class Video:
     def __init__(self, youtubeVideoId, videoTitle, thumbnailUrl):
@@ -31,7 +34,19 @@ class Video:
         self.thumbnailUrl = thumbnailUrl
 
     def getEmbedUrl(self):
-        return 'http://www.youtube.com/embed/{0}'.format(self.youtubeVideoId)
+        return u'http://www.youtube.com/embed/{0}'.format(self.youtubeVideoId)
 
     def getDirectUrl(self):
-        return 'http://www.youtube.com/watch?v={0}'.format(self.youtubeVideoId)
+        return u'http://www.youtube.com/watch?v={0}'.format(self.youtubeVideoId)
+
+class Class (models.Model):
+    title = models.CharField(max_length = 35)
+    subTitle = models.CharField(max_length = 40)
+    classDesc = models.TextField(max_length = 300)
+    preview = models.ImageField(upload_to = 'classesthumb')
+    indexOnMain = models.IntegerField(default = None, null = True, blank = True)
+    isChildish = models.BooleanField()
+
+    def __unicode__(self):
+        classTitle =  'Children' if self.isChildish else 'Adults'
+        return u'{0} ( {1} )'.format(self.title, classTitle)

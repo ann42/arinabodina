@@ -1,0 +1,65 @@
+{% extends "default.html" %}
+
+
+{% block header_links %}
+<!-- Magnific Popup core CSS file -->
+<link rel="stylesheet" href="/static/css/magnific-popup.css">
+<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
+<!-- Magnific Popup core JS file -->
+<script src="/static/js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.button-collapse').sideNav({closeOnClick: true});
+        $('.video-link').magnificPopup({ type: 'iframe'});
+    });
+</script>
+{% endblock %}
+
+{% block content %}
+<div class="navbar-fixed">
+    <nav class="grey darken-5" role="navigation">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
+                <div class="nav-wrap left">
+                    <ul id="nav-mobile" class="left hide-on-med-and-down inner-menu">
+                        <li>
+                            <a href="/">Главная</a>
+                        </li>
+                        <li>
+                            <a>Видео</a>
+                        </li>
+                    </ul>
+
+                    <ul class="side-nav" id="mobile-demo">
+                        <li>
+                            <a href="/">Главная</a>
+                        </li>
+                        <li>
+                            <a>Видео</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+</div>
+<div class="section no-pad-bot" id="video">
+    <div class="container">
+    <h4>Видео</h4>
+        <div class="row">
+          {% for video in videos %}
+          <div class="col s12 m6 l3">
+            <a href="{{ video.getDirectUrl }}" class="video-link">
+                <img  src="{{ video.thumbnailUrl }}" class="responsive-img">
+                <span class="video-title">{{ video.videoTitle }}</span>
+                <button class="pink lighten-2 waves-effect waves-light btn btn-floating btn-large">
+                    <i class="mdi-av-play-arrow"></i>
+                </button>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+    </div>
+</div>
+{% endblock %}

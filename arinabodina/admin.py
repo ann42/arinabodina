@@ -1,7 +1,6 @@
 from django.contrib import admin
-from arinabodina.models import Album, AlbumImage, Video
+from arinabodina.models import Album, AlbumImage, Class
 
 admin.site.register(Album)
 admin.site.register(AlbumImage)
-
-admin.site.register(Video)
+admin.site.register(Class)

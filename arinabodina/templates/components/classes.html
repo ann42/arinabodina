@@ -1,0 +1,30 @@
+<div class="section" id="classes">
+  <div class="container">
+    <h4 class="classes-title pink-text text-lighten-2">Для взрослых</h4>
+    <div class="row classes-row">
+      {% for class in adultClasses %}
+        <article class="col s12 m6">
+            <img src="{{ class.preview.url }}" class="responsive-img  classes-img">
+              <div class="classes-elem">
+                <h5 class="classes-name">{{ class.title }}</h5>
+                <h6 class="classes-subtitle">[{{ class.subTitle }}]</h6>
+                <p class="classes-desc">{{ class.classDesc }}</p>
+              </div>
+        </article>
+      {% endfor %}
+    </div>
+    <h4 class="classes-title pink-text text-lighten-2">Для детей</h4>
+    <div class="row classes-row">
+      {% for class in childClasses %}
+        <article class="col s12 m6">
+            <img src="{{ class.preview.url }}" class="responsive-img  classes-img">
+              <div class="classes-elem">
+                <h5 class="classes-name">{{ class.title }}</h5>
+                <h6 class="classes-subtitle">[{{ class.subTitle }}]</h6>
+                <p class="classes-desc">{{ class.classDesc }}</p>
+              </div>
+        </article>
+      {% endfor %}
+    </div>
+  </div>
+</div>
