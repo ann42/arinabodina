@@ -264,11 +264,6 @@ h6 a {
 .arina-img {
   background-image: url("../img/arina/top.jpg");
   background-repeat: no-repeat;
-  /*background-position: 0 0;
-  -moz-background-size: cover;
-  -webkit-background-size: cover;
-  background-size: cover;
-  min-height: 589px;*/
   background-position: 100% 0;
   background-size: 100%; }
 
@@ -489,21 +484,6 @@ dd {
       margin-bottom: 0.7rem; } }
 
 /*end classes*/
-.quote {
-  width: 40px;
-  height: 30px;
-  position: absolute; }
-
-.quote1 {
-  /*background: url("../img/quote1.svg");*/
-  top: 0;
-  left: 0; }
-
-.quote2 {
-  /*background: url("../img/quote2.svg");*/
-  right: 0;
-  bottom: 0; }
-
 .sig {
   background: url("../img/ArinaBodina_OSVG.svg");
   width: 250px;
