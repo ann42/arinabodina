@@ -8,7 +8,7 @@
               <div class="classes-elem">
                 <h5 class="classes-name">{{ class.title }}</h5>
                 <h6 class="classes-subtitle">[{{ class.subTitle }}]</h6>
-                <p class="classes-desc">{{ class.classDesc }}</p>
+                <p class="classes-desc">{{ class.classDesc|safe|escape }}</p>
               </div>
         </article>
       {% endfor %}
@@ -21,7 +21,7 @@
               <div class="classes-elem">
                 <h5 class="classes-name">{{ class.title }}</h5>
                 <h6 class="classes-subtitle">[{{ class.subTitle }}]</h6>
-                <p class="classes-desc">{{ class.classDesc }}</p>
+                <p class="classes-desc">{{ class.classDesc|safe|escape }}</p>
               </div>
         </article>
       {% endfor %}
