@@ -137,27 +137,12 @@ blockquote {
   color: #000; }
 
 #price {
-  background: url(../img/patterns/trans1.png) 0 0.5rem repeat;
   margin-bottom: -64px;
   position: relative; }
 
-#price:after {
-  position: absolute;
-  content: '';
-  background: rgba(255, 255, 255, 0.4);
-  height: 1.5rem;
-  bottom: 0;
-  left: 0;
-  width: 100%; }
-
-#price:before {
-  position: absolute;
-  content: '';
-  background: rgba(255, 255, 255, 0.7);
-  height: 1.7rem;
-  top: 0;
-  left: 0;
-  width: 100%; }
+.back-wrap {
+  background: url(../img/patterns/trans1.png) 0 0.5rem repeat-x;
+  border-top: 2px dotted black; }
 
 .contact-desc a:hover {
   color: #f06292 !important; }
@@ -168,7 +153,8 @@ blockquote {
 h6 a {
   color: rgba(0, 0, 0, 0.87); }
 
-.entry-date {
+.entry-date,
+h6.entry-title {
   font-size: 0.8rem; }
 
 .row.albums-row {
@@ -192,7 +178,7 @@ h6 a {
   padding: 5px;
   opacity: 0;
   width: 100%;
-  background: rgba(140, 145, 155, 0.6);
+  background: rgba(0, 0, 0, 0.8);
   -webkit-transition: opacity 0.25s ease-in-out;
   -moz-transition: opacity 0.25s ease-in-out;
   -ms-transition: opacity 0.25s ease-in-out;
@@ -261,6 +247,9 @@ h6 a {
       display: block;
       text-align: center; } }
 
+@media only screen and (min-width: 992px) {
+  .desktop-schedule {
+    background-color: rgba(0, 0, 0, 0.7); } }
 .arina-img {
   background-image: url("../img/arina/top.jpg");
   background-repeat: no-repeat;
