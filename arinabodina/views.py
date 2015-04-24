@@ -5,7 +5,7 @@ from arinabodina.youtubeApiHelper import getPlaylistVideos
 def index(request):
     slidesPhotos = Album.objects.get(title__exact = 'MainAlbum').images.all()
     albums = Album.objects.filter(indexOnMain__isnull = False ).exclude(title__exact = 'MainAlbum').order_by('indexOnMain')
-    videos = getPlaylistVideos('PLIN1isMX7oL31ZB4sU5GVfQO3iVTKtmIy', 4)
+    videos = getPlaylistVideos('PLSy4VKuhg-D4GTnq7Ew3NhEY7MRQWxQ0G', 4)
     childClasses = Class.objects.filter(isChildish = True).order_by('indexOnMain')
     adultClasses = Class.objects.filter(isChildish = False).order_by('indexOnMain')
 
@@ -23,4 +23,4 @@ def album (request, albumId):
     return render(request, 'album.html', {'photos': photos, 'album': album})
 
 def videos_list(request):
-    return render(request, 'videos-list.html', {'videos': getPlaylistVideos('PLIN1isMX7oL2sPEspn6WPKwpt7UzhjcQ-')})
+    return render(request, 'videos-list.html', {'videos': getPlaylistVideos('PLSy4VKuhg-D44p_CLpcwLXz6Amy-s-LtM')})
