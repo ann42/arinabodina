@@ -3,8 +3,8 @@
     <h4 class="classes-title pink-text text-lighten-2">Для взрослых</h4>
     <div class="row classes-row">
       {% for class in adultClasses %}
-        <article class="col s12 m6">
-            <img src="{{ class.preview.url }}" class="responsive-img  classes-img">
+        <article class="col s12 m6 classes-item">
+            <img src="{{ class.preview.url }}" class="responsive-img  classes-img" alt="Танцы. Арина Бодина">
               <div class="classes-elem">
                 <h5 class="classes-name">{{ class.title }}</h5>
                 <h6 class="classes-subtitle">[{{ class.subTitle }}]</h6>
@@ -13,11 +13,11 @@
         </article>
       {% endfor %}
     </div>
-    <h4 class="classes-title pink-text text-lighten-2">Для детей</h4>
+    <h4 class="classes-title pink-text text-lighten-2" id="for-children">Для детей</h4>
     <div class="row classes-row">
       {% for class in childClasses %}
-        <article class="col s12 m6">
-            <img src="{{ class.preview.url }}" class="responsive-img  classes-img">
+        <article class="col s12 m6 classes-item">
+            <img src="{{ class.preview.url }}" class="responsive-img  classes-img" alt="Танцы. Арина Бодина">
               <div class="classes-elem">
                 <h5 class="classes-name">{{ class.title }}</h5>
                 <h6 class="classes-subtitle">[{{ class.subTitle }}]</h6>

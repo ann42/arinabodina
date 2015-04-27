@@ -10,6 +10,10 @@
 /* ==========================================================================
    arinabodina.ru styles
    ========================================================================== */
+
+/*sizes for narrow desktops*/
+$narrow-desktop: "(min-width: 1024px) and (max-width: 1439px)";
+
 a {
     color: #f06292;
     -webkit-transition-property: all;
@@ -42,6 +46,22 @@ a:hover {
     line-height: 1.5rem;
     position: relative;
     top: 1.1rem;
+    @media #{$narrow-desktop} {
+      float: left;
+    }
+}
+nav .brand-logo {
+  @media #{$narrow-desktop} {
+    font-size: 1.8rem;
+    top: 1.2rem;
+  }
+}
+nav ul a {
+  @media #{$narrow-desktop} {
+    font-size: 0.9rem;
+    padding-left: 13px;
+    padding-right: 13px;
+  }
 }
 @media only screen and (max-width : 601px) {
     #logo-container {
@@ -54,10 +74,14 @@ a:hover {
   letter-spacing: 0.75rem;
   top: -0.4rem;
   left: 0.25rem;
+  @media #{$narrow-desktop} {
+    letter-spacing: 0.65rem;
+  }
 }
 blockquote {
     font-family: 'Bad Script', cursive;
-    border-left: 3px solid #fff;
+    border-left: 2px solid #424242;
+    font-size: 1.1rem;
 }
 .grey.darken-5 {
   background-color: #242628 !important; 
@@ -227,11 +251,10 @@ h6.entry-title {
   padding: 10px;
 }
 
-.week-day-mobile,
-.mobile {
+.week-day-mobile {
   display: none;
 }
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width : 992px) {
   .schedule-col {
     display: none;
   }
@@ -260,17 +283,17 @@ h6.entry-title {
 }
 .schedule-mobile {
   display: none;
-  @media only screen and (max-width : 900px) {
+  @media only screen and (max-width : 992px) {
     display: block;
   }
 }
-@media only screen and (max-width : 900px) {
+@media only screen and (max-width : 992px) {
   .schedule-table {
     display: none;
   }
   #schedule h5 {
     display: none;
-    @media only screen and (max-width : 900px) {
+    @media only screen and (max-width : 993px) {
       display: block;
       text-align: center;
     }
@@ -292,7 +315,7 @@ footer.page-footer {
 }
 #map-canvas {
     height: 30rem;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 992px) {
       height: 20rem;
     }
 
@@ -300,7 +323,7 @@ footer.page-footer {
 .map-wrap {
   height: 30rem;
   position: relative;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 992px) {
       background-color: #242628 !important;
       height: auto;
     }
@@ -309,7 +332,7 @@ footer.page-footer {
     position: absolute;
     left: 15%;
     top: 5rem;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 992px) {
       position: static;
       padding: 0 1.5rem;
       margin: 0 auto;
@@ -325,7 +348,7 @@ footer.page-footer {
     z-index: 10;
     min-width: 31rem;
     left: 1.5rem;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 992px) {
       position: static;
       padding: 0.9rem 0 0 0;
       margin: 0;
@@ -340,7 +363,7 @@ dd {
 .contact-desc {
     float: left;
     margin-bottom: 1rem;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 992px) {
       float: none;
     }
 }
@@ -350,7 +373,7 @@ dd {
     clear: left;
     text-align: right;
     margin-right: 0.5rem;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 992px) {
       width: auto;
       clear: none;
       text-align: inherit;
@@ -363,7 +386,7 @@ dd {
     z-index: 10;
     left: 16.5%;
     position: absolute;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 992px) {
       top: 21rem;
       left: 3.5rem;
     }
@@ -398,12 +421,6 @@ dd {
   position: relative;
   @media only screen and (max-width : 900px) {
     float: none !important;
-  }
-}
-#schedule h5 {
-  display: none;
-  @media only screen and (max-width : 600px) {
-    display: block;
   }
 }
 .footer-img-wrap {
@@ -485,6 +502,11 @@ dd {
     text-align: center;
   }
 }
+.classes-item {
+  @media only screen and (max-width : 992px) {
+    text-align: center;
+  }
+}
 .classes-title {
   text-align: center;
   text-transform: uppercase;
@@ -537,7 +559,6 @@ footer {
 }
 .socials {
   margin: 0;
-  text-align: center;
 }
 .socials-item {
   display: inline-block;
@@ -553,7 +574,7 @@ footer {
     filter: alpha(opacity=50);
 }
 .sharing-link:hover {
-    opacity: 1;
+    opacity: 0.8;
     filter: alpha(opacity=100);
 }
 .sharing-link img {

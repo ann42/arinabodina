@@ -2,10 +2,8 @@
 {% load thumbnail %}
 
 {% block header_links %}
-<!-- Magnific Popup core CSS file -->
 <link rel="stylesheet" href="/static/css/magnific-popup.css">
-<!-- jQuery 1.7.2+ or Zepto.js 1.0+ -->
-<!-- Magnific Popup core JS file -->
+
 <script src="/static/js/jquery.magnific-popup.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {
@@ -68,7 +66,7 @@
 
 <div class="navbar-fixed">
     <nav class="grey darken-5" role="navigation">
-        <div class="container">
+        <div>
             <div class="nav-wrapper">
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="mdi-navigation-menu"></i></a>
                 <div class="nav-wrap left">
@@ -79,9 +77,6 @@
                         <li>
                             <a href="/albums/.">Альбомы</a>
                         </li>
-                        <li>
-                            <a >{{ album.title }}</a>
-                        </li>
                     </ul>
 
                     <ul class="side-nav" id="mobile-demo">
@@ -90,9 +85,6 @@
                         </li>
                         <li>
                             <a href="/albums/">Альбомы</a>
-                        </li>
-                        <li>
-                            <a >{{ album.title }}</a>
                         </li>
                     </ul>
                 </div>
