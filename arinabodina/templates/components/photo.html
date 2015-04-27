@@ -5,14 +5,14 @@
             <ul class="slides">
                 {% for photo in slidesPhotos %}
                 <li class="slides-item">
-                    <img src="{{ photo.image.url }}" class="responsive-img" />
+                    <img src="{{ photo.image.url }}" class="responsive-img" alt="Арина Бодина, фото">
                 </li>
                 {% endfor %}
             </ul>
             <a class="btn-nav btn-next btn-floating btn-large waves-effect waves-light grey darken-5"><i class="mdi-hardware-keyboard-arrow-right"></i></a>
         </div>
         <h4>Альбомы</h4> {% include "components/albums-list.html" %}
-        <div style="text-align:center;">
+        <div class="center">
             <a class="pink lighten-2 waves-effect waves-light btn btn-large btn-all" href="/albums/">Все альбомы</a>
         </div>
     </div>
