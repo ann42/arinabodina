@@ -177,7 +177,7 @@ img.responsive-img.about-text-img {
   position: relative;
 }
 .back-wrap {
-  background: url(../img/patterns/trans1.png) 0 0.5rem repeat-x;
+  background: url(../img/patterns/trans1.png) 0 0 repeat-x;
   border-top: 2px dotted black;
 }
 .contact-desc a:hover{
@@ -286,6 +286,9 @@ h6.entry-title {
   @media only screen and (max-width : 992px) {
     display: block;
   }
+}
+#schedule h5{
+  display: none;
 }
 @media only screen and (max-width : 992px) {
   .schedule-table {
