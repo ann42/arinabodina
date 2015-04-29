@@ -181,6 +181,9 @@ img.responsive-img.about-text-img {
 }
 .back-wrap {
   background: url(../img/patterns/trans1.png) 0 0 repeat-x;
+  @media only screen and (max-width : 600px) {
+    background-position: 0 56px;
+  }
 }
 .contact-desc a:hover{
   color: #f06292!important;
@@ -392,7 +395,7 @@ dd {
     left: 16.5%;
     position: absolute;
     @media only screen and (max-width: 992px) {
-      top: 21rem;
+      top: 17rem;
       left: 3.5rem;
     }
 }
@@ -471,9 +474,10 @@ dd {
   vertical-align: top;
   @media only screen and (max-width : 600px) {
     margin-bottom: 1.5rem;
+    width: 70%!important;
   }
   @media only screen and (max-width : 992px) and (orientation: landscape) {
-    width: 100%
+    width: 70%
   }
   @media only screen and (min-width : 992px) {
 
@@ -542,6 +546,9 @@ dd {
   @media only screen and (max-width : 600px) {
     font-size: 1.1rem;
     margin-bottom: 0.7rem;
+  }
+  @media only screen and (max-width : 992px) {
+    font-size: 0.8rem;
   }
 }
 /*end classes*/
