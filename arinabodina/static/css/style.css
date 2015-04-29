@@ -140,11 +140,11 @@ blockquote {
   .class-title {
     display: block;
     margin-bottom: 2px; } }
+@media only screen and (min-width: 601px) {
+  #video {
+    padding-bottom: 64px; } }
 .section-subtitle {
   font-weight: 300; }
-
-#price {
-  text-align: center; }
 
 #price p {
   color: #9e9e9e;
@@ -159,10 +159,12 @@ blockquote {
 #price {
   margin-bottom: -64px;
   position: relative; }
+  @media only screen and (min-width: 601px) {
+    #price {
+      padding-bottom: 37px; } }
 
 .back-wrap {
-  background: url(../img/patterns/trans1.png) 0 0 repeat-x;
-  border-top: 2px dotted black; }
+  background: url(../img/patterns/trans1.png) 0 0 repeat-x; }
 
 .contact-desc a:hover {
   color: #f06292 !important; }
@@ -229,7 +231,7 @@ h6.entry-title {
 .week-day-mobile {
   display: none; }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 601px) {
   .schedule-col {
     display: none; }
 
@@ -251,27 +253,27 @@ h6.entry-title {
         background-color: #fff; } }
 .schedule-mobile {
   display: none; }
-  @media only screen and (max-width: 992px) {
+  @media only screen and (max-width: 601px) {
     .schedule-mobile {
       display: block; } }
 
-#schedule h5 {
-  display: none; }
-
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 601px) {
   .schedule-table {
     display: none; }
 
   #schedule h5 {
     display: none; } }
-  @media only screen and (max-width: 992px) and (max-width: 993px) {
+  @media only screen and (max-width: 601px) and (max-width: 600px) {
     #schedule h5 {
       display: block;
       text-align: center; } }
 
-@media only screen and (min-width: 992px) {
-  .desktop-schedule {
-    background-color: rgba(0, 0, 0, 0.7); } }
+@media only screen and (min-width: 601px) {
+  #schedule {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-bottom: 64px;
+    border-top: 2px dotted black;
+    border-bottom: 2px dotted black; } }
 .arina-img {
   background-image: url("../img/arina/top.jpg");
   background-repeat: no-repeat;
