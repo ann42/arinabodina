@@ -20,12 +20,18 @@ class Album (models.Model):
     def __unicode__(self):
         return u'{0} - {1} ({2})'.format(self.title, self.id, len(self.images.all()))
 
+    class Meta:
+        db_table = "arinabodina_album"
+
 class AlbumImage(models.Model):
     album = models.ForeignKey(Album, related_name ='images')
     image = ImageField(upload_to = 'albumphotos')
 
     def __unicode__(self):
         return u'{0} - {1} ({2})'.format(self.album.title, self.album.id, self.image.url)
+
+    class Meta:
+        db_table = "arinabodina_albumimage"
 
 class Video:
     def __init__(self, youtubeVideoId, videoTitle, thumbnailUrl):
@@ -39,6 +45,9 @@ class Video:
     def getDirectUrl(self):
         return u'http://www.youtube.com/watch?v={0}'.format(self.youtubeVideoId)
 
+    class Meta:
+        db_table = "arinabodina_video"
+
 class Class (models.Model):
     title = models.CharField(max_length = 35)
     subTitle = models.CharField(max_length = 40)
@@ -50,3 +59,6 @@ class Class (models.Model):
     def __unicode__(self):
         classTitle =  'Children' if self.isChildish else 'Adults'
         return u'{0} ( {1} )'.format(self.title, classTitle)
+
+    class Meta:
+        db_table = "arinabodina_class"

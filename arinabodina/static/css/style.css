@@ -69,10 +69,12 @@ a:hover {
     .choreo {
       letter-spacing: 0.65rem; } }
 
-blockquote {
-  font-family: 'Bad Script', cursive;
-  border-left: 2px solid #424242;
-  font-size: 1.1rem; }
+.blockquote {
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 1rem 0; }
 
 .grey.darken-5 {
   background-color: #242628 !important; }
@@ -85,6 +87,9 @@ blockquote {
 
 .teaser a {
   border-bottom: 1px solid #f8bbd0; }
+
+.teaser p {
+  margin: 0px 0px 1rem 0; }
 
 .about-text {
   padding: 2rem 0 1rem 0; }
@@ -164,10 +169,11 @@ blockquote {
       padding-bottom: 37px; } }
 
 .back-wrap {
-  background: url(../img/patterns/trans1.png) 0 0 repeat-x; }
+  background: url(../img/patterns/trans1.png) 0 0 repeat;
+  background-size: 115%; }
   @media only screen and (max-width: 600px) {
     .back-wrap {
-      background-position: 0 56px; } }
+      background: none; } }
 
 .contact-desc a:hover {
   color: #f06292 !important; }
@@ -430,7 +436,7 @@ dd {
   @media only screen and (max-width: 600px) {
     .classes-img {
       margin-bottom: 1.5rem;
-      width: 70% !important; } }
+      width: 50% !important; } }
   @media only screen and (max-width: 992px) and (orientation: landscape) {
     .classes-img {
       width: 70%; } }
@@ -543,7 +549,7 @@ dd {
   height: auto; }
 
 .about-img-col .sharing-link img {
-  width: 3.3rem; }
+  width: 2.3rem; }
 
 .inner-menu a:before {
   background: no-repeat url("../img/separator.svg") right center;

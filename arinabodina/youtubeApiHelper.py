@@ -1,5 +1,5 @@
 from googleapiclient.discovery import build
-from arinabodina.models import Video
+from models import Video
 
 def getPlaylistVideos(playlistId, maxVideos = 25):
     service = build('youtube', 'v3', developerKey='AIzaSyBsYsrHdL8CV55wJrgdKAFPfHY-QiUIl7o')

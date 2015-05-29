@@ -1,13 +1,15 @@
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = '%9*x1svtuk8vz&099jve=n7!i*soz-qgfurs!g&t%nnwfeo)kh'
 
-DEBUG = True
+DEBUG = False
 
 TEMPLATE_DEBUG = DEBUG
 
-ROOT_URLCONF = 'arinabodina.urls'
+ROOT_URLCONF = 'arinabodina_prod.urls'
 
-TEMPLATE_DIRS = ('/home3/byronles/webapps/arinabodina/templates',)
+TEMPLATE_DIRS = ('/home3/byronles/webapps/arinabodina_prod/templates',)
+
+CACHE_BACKEND = 'file:///home3/byronles/tmp/django_cache'
 
 INSTALLED_APPS = (
     'django.contrib.contenttypes',
@@ -19,7 +21,7 @@ INSTALLED_APPS = (
     #Dirty hack for Mochahost
     #'django.contrib.staticfiles',
     'sorl.thumbnail',
-    'arinabodina',
+    'arinabodina_prod',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -43,16 +45,15 @@ DATABASES = {
     }
 }
 
-#MIDDLEWARE_CLASSES = ()
-STATIC_ROOT = '/home3/byronles/arina_html/static'
+STATIC_ROOT = '/home3/byronles/arinabodina_prod_html/static'
 
 STATIC_URL = '/static/'
 
-MEDIA_ROOT = '/home3/byronles/arina_html/static/media'
+MEDIA_ROOT = '/home3/byronles/arinabodina_prod_html/static/media'
 
 MEDIA_URL = '/static/media/'
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'UTC'
 

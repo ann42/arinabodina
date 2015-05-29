@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from arinabodina.models import Album, AlbumImage, Class
-from arinabodina.youtubeApiHelper import getPlaylistVideos
+from models import Album, AlbumImage, Class
+from youtubeApiHelper import getPlaylistVideos
 
 def index(request):
     slidesPhotos = Album.objects.get(title__exact = 'MainAlbum').images.all()
