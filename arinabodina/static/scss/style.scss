@@ -166,7 +166,7 @@ img.responsive-img.about-text-img {
     font-weight: 300;
 }
 #price p{
-  color: #9e9e9e;
+  color: #455a64;
   font-size: 1.5rem;
 }
 @media only screen and (max-width : 600px) {
@@ -186,7 +186,6 @@ img.responsive-img.about-text-img {
 }
 .back-wrap {
   background: url(../img/patterns/trans1.png) 0 0 repeat;
-  background-size: 115%;
   @media only screen and (max-width : 600px) {
     background: none;
   }
@@ -630,7 +629,7 @@ footer {
   }
 }
 .flex-viewport {
-  max-height: 600px !important;
+  max-height: 1000px !important;
 }
 .video-link {
   position: relative;

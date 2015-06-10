@@ -131,7 +131,11 @@ $(document).ready(function(){
     //Включает слайдер на главной
     initFlexSlider($('.flexslider'));
 
-    animateRunnerToMenuItem($('.main-nav li a[href="'+window.location.hash+'"], .main-nav li a:first').first());
+    var activeMenuLink = $('.main-nav li a[href="'+window.location.hash+'"]');
+    if(activeMenuLink.length === 0){
+        activeMenuLink = $('.main-nav li a:first');
+    }
+    animateRunnerToMenuItem(activeMenuLink).first();
 
 });
 
