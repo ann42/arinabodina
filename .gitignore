@@ -45,3 +45,7 @@ Temporary Items
 *.msp
 static/media/classesthumb/*
 *.pyc
+
+#python virtual environment
+venv
+runenv.bat
