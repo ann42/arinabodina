@@ -366,7 +366,7 @@ dd {
   position: absolute; }
   @media only screen and (max-width: 992px) {
     #contacts h4 {
-      top: 17rem;
+      top: 22rem;
       left: 3.5rem; } }
 
 #video .row .col {
