@@ -51,3 +51,6 @@ static/media/classesthumb/*
 virtualenv
 venv
 runenv.bat
+runvirt.bat
+runremote.bat
+runlocal.bat
