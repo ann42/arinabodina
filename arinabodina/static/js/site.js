@@ -135,7 +135,7 @@ $(document).ready(function(){
     if(activeMenuLink.length === 0){
         activeMenuLink = $('.main-nav li a:first');
     }
-    animateRunnerToMenuItem(activeMenuLink).first();
+    animateRunnerToMenuItem(activeMenuLink.first());
 
 });
 

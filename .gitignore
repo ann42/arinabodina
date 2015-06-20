@@ -45,7 +45,9 @@ Temporary Items
 *.msp
 static/media/classesthumb/*
 *.pyc
+.sass-cache
 
 #python virtual environment
+virtualenv
 venv
 runenv.bat
