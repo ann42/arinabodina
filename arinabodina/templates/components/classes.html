@@ -4,7 +4,7 @@
     <div class="row classes-row">
       {% for class in adultClasses %}
         <article class="col s12 m6 classes-item">
-            <img src="{{ class.preview.url }}" class="responsive-img  classes-img" alt="Танцы. Арина Бодина">
+            <img src="{{ class.preview.url }}" class="responsive-img  classes-img" alt="{{ class.title }}">
               <div class="classes-elem">
                 <h5 class="classes-name">{{ class.title }}</h5>
                 <h6 class="classes-subtitle">[{{ class.subTitle }}]</h6>
@@ -17,7 +17,7 @@
     <div class="row classes-row">
       {% for class in childClasses %}
         <article class="col s12 m6 classes-item">
-            <img src="{{ class.preview.url }}" class="responsive-img  classes-img" alt="Танцы. Арина Бодина">
+            <img src="{{ class.preview.url }}" class="responsive-img  classes-img" alt="{{ class.title }}">
               <div class="classes-elem">
                 <h5 class="classes-name">{{ class.title }}</h5>
                 <h6 class="classes-subtitle">[{{ class.subTitle }}]</h6>

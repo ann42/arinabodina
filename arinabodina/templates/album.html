@@ -102,7 +102,7 @@
                 {% thumbnail photo.image "1500" as big %}
                 {% thumbnail photo.image "400x400" crop="center" as thumb %}
                 <a href="{{ big.url }}" class="album-link">
-                    <img src="{{ thumb.url }}" class="responsive-img">
+                    <img src="{{ thumb.url }}" class="responsive-img" alt="{{ album.title }}">
                 </a>
                 {% endthumbnail %}
                 {% endthumbnail %}
