@@ -2,7 +2,7 @@
   {% for album in albums %}
   <article class="col s6 m6 l3">
     <a href="/album/{{ album.id }}/" class="album-link">
-      <img src="{{ album.preview.url }}" class="responsive-img" alt="Арина Бодина, фото">
+      <img src="{{ album.preview.url }}" class="responsive-img" alt="{{ album.title }}">
       <div class="entry">
         <div class="entry-date">{{ album.date }}</div>
           <h6 class="entry-title">{{ album.title }}</h6>
