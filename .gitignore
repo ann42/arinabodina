@@ -43,7 +43,6 @@ Temporary Items
 .apdisk
 /arinabodina/static/media/*
 *.msp
-static/media/classesthumb/*
 *.pyc
 .sass-cache
 
