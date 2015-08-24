@@ -26,10 +26,10 @@ $(document).ready(function(){
         mapOptions);
 
       directionsDisplay.setMap(map);
-        
+
       var directionRequest = {
-          origin: new google.maps.LatLng(55.8042202,37.5161527),
-          destination: new google.maps.LatLng(55.8024409,37.5071098),
+          origin: new google.maps.LatLng(55.765893,37.608304),
+          destination: new google.maps.LatLng(55.7660043,37.6097142),
           travelMode: google.maps.TravelMode.WALKING,
           unitSystem: google.maps.UnitSystem.METRIC
       };
@@ -37,16 +37,17 @@ $(document).ready(function(){
       directionsService.route(directionRequest, function(response, status) {
         if (status == google.maps.DirectionsStatus.OK) {
           directionsDisplay.setDirections(response);
+          google.maps.event.addListenerOnce(map, 'idle', function(){
 
-          if(isDesktopMode){
-            google.maps.event.addListenerOnce(map, 'idle', function(){
+            map.setZoom(map.getZoom() - 1);
+
+            if(isDesktopMode){
               var bounds = map.getBounds();
               var widthDeg = Math.abs(bounds.getSouthWest().lng() - bounds.getNorthEast().lng())
               var center = map.getCenter();
               map.setCenter({lat: center.lat(), lng: center.lng() - widthDeg/4});
-            });
-          }
-
+            }
+          });
         };
       });
     }
