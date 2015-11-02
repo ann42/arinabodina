@@ -14,6 +14,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 TEMPLATE_DIRS = (
     'templates',
+    'virtualenv\\django\\contrib\\admin\\templates'
 )
 
 # Quick-start development settings - unsuitable for production
@@ -92,6 +93,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     'static',
+    'virtualenv\\django\\contrib\\admin\\static'
 ]
 
 MEDIA_ROOT = os.path.join(BASE_DIR, "static\media")

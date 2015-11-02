@@ -51,6 +51,7 @@ class Video:
 class Class (models.Model):
     title = models.CharField(max_length = 35)
     subTitle = models.CharField(max_length = 40)
+    shortTitle = models.CharField(max_length = 15)
     classDesc = models.TextField(max_length = 300)
     preview = models.ImageField(upload_to = 'classesthumb')
     indexOnMain = models.IntegerField(default = None, null = True, blank = True)
@@ -62,3 +63,34 @@ class Class (models.Model):
 
     class Meta:
         db_table = "arinabodina_class"
+
+
+class Metro (models.Model):
+    title = models.CharField(max_length = 20)
+
+    def __unicode__(self):
+        return self.title
+
+    class Meta:
+        db_table = "arinabodina_metro"
+
+
+class WeekDay (models.Model):
+    title = models.CharField(max_length = 15)
+
+    def __unicode__(self):
+        return self.title
+
+    class Meta:
+        db_table = "arinabodina_weekDay"
+
+
+class ClassSchedule (models.Model):
+    weekDay = models.ForeignKey(WeekDay, related_name ='scheduledClasses')
+    metro = models.ForeignKey(Metro, related_name ='scheduledClasses')
+    scheduledClass = models.ForeignKey(Class, related_name ='scheduledClasses')
+    startTime = models.TimeField(auto_now=False)
+    endTime = models.TimeField(auto_now=False)
+
+    class Meta:
+        db_table = "arinabodina_classSchedule"

@@ -52,7 +52,7 @@ a:hover {
 }
 nav .brand-logo {
   @media #{$narrow-desktop} {
-    font-size: 1.8rem;
+    font-size: 1.8rem; 
     top: 1.2rem;
   }
 }
@@ -86,7 +86,7 @@ nav ul a {
   padding: 1rem 0;
 }
 .grey.darken-5 {
-  background-color: #242628 !important; 
+  background-color: #242628 !important;
 }
 #about {
   text-align: justify;
@@ -98,7 +98,7 @@ nav ul a {
   border-bottom: 1px solid rgb(248, 187, 208);
 }
 .teaser p {
-  margin: 0px 0px 1rem 0; 
+  margin: 0px 0px 1rem 0;
 }
 .about-text{
   padding: 2rem 0 1rem 0;
@@ -154,7 +154,7 @@ img.responsive-img.about-text-img {
 @media only screen and (min-width : 601px) {
     .class-title {
         display: block;
-        margin-bottom: 2px; 
+        margin-bottom: 2px;
     }
 }
 @media only screen and (min-width : 601px) {
@@ -320,7 +320,7 @@ h6.entry-title {
 .arina-img {
   background-image: url("../img/arina/top.jpg");
   background-repeat: no-repeat;
-    background-position: 100% 0; 
+    background-position: 100% 0;
     background-size: 100%;
 }
 footer.page-footer {
@@ -372,7 +372,7 @@ footer.page-footer {
 dd {
     margin: 0;
 }
-.contact-title, 
+.contact-title,
 .contact-desc {
     float: left;
     margin-bottom: 1rem;
@@ -458,11 +458,11 @@ dd {
   }
 }
 .row.classes-row .col.s12 {
-  @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 667px) 
+  @media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
-  and (orientation: landscape) { 
+  and (orientation: landscape) {
     width: 50%;
     margin-left: 0;
     padding-bottom: 0;
