@@ -42,6 +42,7 @@ Network Trash Folder
 Temporary Items
 .apdisk
 static/media/*
+arinabodina/static/media/
 *.msp
 *.pyc
 .sass-cache
