@@ -54,3 +54,5 @@ runenv.bat
 runvirt.bat
 runremote.bat
 runlocal.bat
+.ftpconn.json
+node_modules

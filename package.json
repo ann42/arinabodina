@@ -1,0 +1,24 @@
+{
+  "name": "arinabodina",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ann42/arinabodina.git"
+  },
+  "author": "anna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ann42/arinabodina/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-sass": "^2.1.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-util": "^3.0.7",
+    "merge-stream": "^1.0.0",
+    "vinyl-ftp": "^0.4.5"
+  }
+}
