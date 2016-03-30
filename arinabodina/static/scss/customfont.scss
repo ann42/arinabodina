@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'rage_italicregular';
+    src: url('../font/rage/27786-webfont.eot');
+    src: url('../font/rage/27786-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/rage/27786-webfont.woff2') format('woff2'),
+         url('../font/rage/27786-webfont.woff') format('woff'),
+         url('../font/rage/27786-webfont.ttf') format('truetype'),
+         url('../font/rage/27786-webfont.svg#rage_italicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#logo-container {
+    font-family: 'rage_italicregular';
+}
+#logo-container .choreo {
+    font-family: 'roboto'
+}
+
+
+

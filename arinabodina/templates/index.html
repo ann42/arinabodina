@@ -85,53 +85,89 @@
         </div>
     </div>
 </div>
-<div class="back-wrap">
+<div class="back-wrap schedule-back-wrap">
 {% include "components/schedule.html" %}
+</div>
 <div class="section center" id="price">
     <div class="container">
-        <!--h3 class="section-subtitle pink-text text-lighten-2">м.Сокол</h3>
-        <p style="margin-top:0;">Пробное занятие в группе &mdash; <span class="price">бесплатно</span></p>
-        <p>Разовое занятие в группе &mdash; <span class="price">500</span></p>
-        <p>Индивидуальное занятие &mdash; <span class="price">1900</span></p>
-        <p>Абонемент 8 занятий в месяц &mdash; <span class="price">2900</span></p>
-        <p>Абонемент 4 занятия в месяц &mdash; <span class="price">1450</span></p>
-        <p>Безлимитный абонемент на месяц &mdash; <span class="price">5555</span></p>
-        <h3 class="section-subtitle  pink-text text-lighten-2">м.Пушкинская</h3-->
-        <p>Разовое занятие в группе &mdash; <span class="price">350</span></p>
-        <p>Индивидуальное занятие &mdash; <span class="price">1900</span></p>
-    </div>
-</div>
-</div>
-<div class="section no-pad-bot" id="contacts">
-    <div class="map-wrap">
-        <h4 class=" pink-text text-lighten-2">м.Пушкинская</h4>
-        <div class="contact-overlay-wrap">
-            <dl class="contact-overlay white-text">
-                <dt class="contact-title">
-                    <span class="pink lighten-2">телефон:</span>
-                </dt>
-                <dd class="contact-desc">+7(964)587 05 37</dd>
-                <dt class="contact-title">
-                    <span class="pink lighten-2">почта:</span>
-                </dt>
-                <dd class="contact-desc">
-                    <a href="mailto:arina.aleksandrovna@gmail.com" class="white-text">arina.aleksandrovna@gmail.com</a>
-                </dd>
-                <dt class="contact-title">
-                    <span class="pink lighten-2">м. Аэропорт:</span>
-                </dt>
-                <dd class="contact-desc">
-                    <a href="https://www.google.ru/maps/place/%D0%A7%D0%B5%D1%80%D0%BD%D1%8F%D1%85%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B3%D0%BE+%D1%83%D0%BB.,+19,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+125319/@55.8040268,37.5326536,15.5z/data=!4m2!3m1!1s0x46b549cfe8991715:0xbe492a64e6a712d4?hl=ru" target="_blank" class="white-text">г.Москва, Черняховского, 19</a>
-                </dd>
-                <dt class="contact-title">
-                    <span class="pink lighten-2">м. Пушкинская:</span>
-                </dt>
-                <dd class="contact-desc">
-                    <a href="http://www.dancefirst.ru/filial-tverskaya-pushkinskaya-chehovskaya" target="_blank" class="white-text">г.Москва, Большая Дмитровка, 23</a>
-                </dd>
-            </dl>
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <div class="card-panel pink lighten-2 white-text card-panel-price">
+                        <p>Пробное занятие в группе <span class="price-mobile">400 р.</span></p>
+                        <p class="price">400 р.</p>
+                        <p>Разовое занятие в группе <span class="price-mobile">500 р.</span></p>
+                        <p class="price">500 р.</p>
+                        <p class="duration">За 1 занятие по 1 часу</p>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card-panel pink lighten-2 white-text card-panel-middle card-panel-price">
+                        <p>Индивидуальное занятие  <span class="price-mobile">1500 р.</span></p>
+                        <p class="price">1500 р.</p>
+                        <p class="duration">За 1 занятие по 1 часу</p>
+                    </div>
+                </div>
+                <div class="col s12 m4 l4">
+                    <div class="card-panel pink lighten-2 white-text card-panel-price">
+                        <p>Абонемент на 4 занятия  <span class="price-mobile">1500 р.</span></p>
+                        <p class="price">1500 р.</p>
+                        <p>Абонемент на 8 занятий  <span class="price-mobile">3000 р.</span></p>
+                        <p class="price">3000 р.</p>
+                        <p class="duration">За 1 занятие по 1 часу</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div id="map-canvas"></div>
+</div>
+
+<div class="section no-pad-bot center" id="contacts">
+    <div class="container">
+        <div class="row map-wrap">
+                <div class="col s12 m12 l6">
+                  <div class="metro-title">м.Аэропорт</div>
+                  <div id="map-canvas-left"></div>
+                  <div class="metro-address">г.Москва, Черняховского 19</div>
+                </div>
+                <div class="col s12 m12 l6">
+                  <div class="metro-title">м.Арбатская</div>
+                  <div id="map-canvas-right"></div>
+                  <div class="metro-address">г.Москва, Новый Арбат, 7 корп.1, 6й этаж</div>
+                </div>
+        </div>
     </div>
+    <div class="back-wrap phone-mail-back-wrap">
+        <div class="phone-mail white-text">
+            <span class="phone">телефон: +7(964)587 05 37</span>
+            <span>почта: <a href="mailto:arina.aleksandrovna@gmail.com" >arina.aleksandrovna@gmail.com</a></span>
+        </div>
+    </div>
+
+                <dl class="contact-overlay white-text">
+                    <dt class="contact-title">
+                        <span class="pink lighten-2">телефон:</span>
+                    </dt>
+                    <dd class="contact-desc">+7(964)587 05 37</dd>
+                    <dt class="contact-title">
+                        <span class="pink lighten-2">почта:</span>
+                    </dt>
+                    <dd class="contact-desc">
+                        <a href="mailto:arina.aleksandrovna@gmail.com" class="white-text">arina.aleksandrovna@gmail.com</a>
+                    </dd>
+                    <dt class="contact-title">
+                        <span class="pink lighten-2">м. Аэропорт:</span>
+                    </dt>
+                    <dd class="contact-desc">
+                        <a href="https://www.google.ru/maps/dir/55.7998577,37.5343552/55.808114,37.539338/@55.8039115,37.5339892,16z/data=!3m1!4b1" target="_blank" class="white-text">г.Москва, Черняховского, 19</a>
+                        <i class="tiny material-icons white-text">location-on</i>
+                    </dd>
+                    <dt class="contact-title">
+                        <span class="pink lighten-2">м. Арбатская:</span>
+                    </dt>
+                    <dd class="contact-desc">
+                        <a href="http://www.dancefirst.ru/shkola-tancev-arbatskaya" target="_blank" class="white-text">г.Москва, Новый Арбат, 7 корп.1, 6й этаж</a>
+                        <i class="tiny material-icons white-text">location-on</i>
+                    </dd>
+                </dl>
+
 </div>
 {% endblock %}
