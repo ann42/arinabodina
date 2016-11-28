@@ -1,0 +1,90 @@
+
+/*2-cols-contacts styles*/
+#map-canvas-left,
+#map-canvas-right {
+    height: 32rem;
+}
+.map-wrap {
+  height: 45rem;
+  position: relative;
+  margin-bottom:0;
+    @media only screen and (max-width: 992px) {
+      display: none;
+    }
+}
+.phone-mail {
+  font-size: 1.5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  @media only screen and (max-width: 600px) {
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
+.buttons-switcher-wrap {
+    position: absolute;
+    top: 12rem;
+    margin: 0 auto;
+    left: 42%;
+}
+.map-wrap .btn,
+.map-wrap .btn-large {
+  text-transform: none;
+  @media only screen and (max-width: 992px) {
+    display: none;
+  }
+}
+.metro-title {
+    font-size: 2rem;
+    line-height: 2rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding: 2rem 0;
+}
+.metro-address {
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    padding-top: 1.5rem;
+}
+.phone {
+    display: inline-block;
+    margin-right: 1rem;
+    @media only screen and (max-width: 600px) {
+        display: block;
+        margin-right: 0;
+    }
+}
+.phone-mail-back-wrap {
+    @media only screen and (max-width: 992px) {
+        display: none;
+    }
+}
+.contact-overlay {
+    display: none;
+}
+@media only screen and (max-width: 992px){
+    .contact-overlay {
+        display: block;
+        padding: 1rem 0 ;
+        background-color: #242628;
+        margin: 0;
+    }
+}
+.contact-title, .contact-desc {
+    margin-bottom: 1rem;
+    margin-left:0;
+}
+.contact-title span {
+    padding: 0.1rem 0.3rem;
+    text-transform: uppercase;
+}
+.contact-desc:last-child {
+    margin-bottom: 0;
+}
+.contact-desc a {
+    vertical-align: text-top;
+}
+.location-on {
+    font-size: 1.4rem;
+    vertical-align: text-bottom;
+}

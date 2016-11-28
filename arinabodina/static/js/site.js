@@ -40,8 +40,8 @@ $(document).ready(function () {
 
   function initialize () {
     drawMapWithDirection('map-canvas-left',
-      new google.maps.LatLng(55.7998577, 37.5343552),
-      new google.maps.LatLng(55.808114, 37.539338));
+      new google.maps.LatLng(55.8042202, 37.5161527),
+      new google.maps.LatLng(55.8024409, 37.5071098));
     drawMapWithDirection('map-canvas-right',
       new google.maps.LatLng(55.752267, 37.601525),
       new google.maps.LatLng(55.752662, 37.597524));

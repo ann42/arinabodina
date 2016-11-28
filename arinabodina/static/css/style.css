@@ -345,6 +345,7 @@ h6.entry-title {
 footer.page-footer {
   margin-top: 0; }
 
+/*Start 2-col-contacts*/
 #map-canvas-left,
 #map-canvas-right {
   height: 32rem; }
@@ -431,6 +432,7 @@ footer.page-footer {
   font-size: 1.4rem;
   vertical-align: text-bottom; }
 
+/*End 2-col-contacts*/
 #video .row .col {
   padding: 0.75rem; }
 
