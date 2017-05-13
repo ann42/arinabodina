@@ -1,20 +1,31 @@
-# -*- coding: utf-8 -*-
-from django.conf.urls import patterns, include, url
+"""arinabodina URL Configuration
+
+The `urlpatterns` list routes URLs to views. For more information please see:
+    https://docs.djangoproject.com/en/1.11/topics/http/urls/
+Examples:
+Function views
+    1. Add an import:  from my_app import views
+    2. Add a URL to urlpatterns:  url(r'^$', views.home, name='home')
+Class-based views
+    1. Add an import:  from other_app.views import Home
+    2. Add a URL to urlpatterns:  url(r'^$', Home.as_view(), name='home')
+Including another URLconf
+    1. Import the include() function: from django.conf.urls import url, include
+    2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
+"""
+from django.conf.urls import url
 from django.contrib import admin
-from views import index, album, albums_list, videos_list
-from django.views.generic.simple import direct_to_template
+# from django.conf.urls import patterns, include, url
+from arinabodina.views import index, album, albums_list, videos_list
+# from django.views.generic.simple import direct_to_template
 
 admin.autodiscover()
 
-urlpatterns = patterns('',
-    # Examples:
-    # url(r'^$', 'arinabodina.views.home', name='home'),
-    # url(r'^blog/', include('blog.urls')),
-
-    url(r'^admin/', include(admin.site.urls)),
+urlpatterns = [
+    url(r'^admin/', admin.site.urls),
     url(r'^$', index),
     url(r'^album/(\d+)/?$', album),
     url(r'^albums/?$', albums_list),
-    url(r'^videos/?$', videos_list),
-    url(r'^robots\.txt$', direct_to_template, {'template': 'robots.txt', 'mimetype': 'text/plain'})
-)
+    url(r'^videos/?$', videos_list)
+    #url(r'^robots\.txt$', direct_to_template, {'template': 'robots.txt', 'mimetype': 'text/plain'})
+]
