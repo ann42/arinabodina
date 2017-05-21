@@ -1,4 +1,4 @@
-from settings import *
+from arinabodina.settings import *
 
 DATABASES['default'] = {
         'ENGINE': 'django.db.backends.mysql',
