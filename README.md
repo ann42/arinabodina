@@ -5,7 +5,8 @@ python manage.py runserver 8080   --settings=arinabodina.settings
 
 requirements:
 =============
-pip install mysqlclient
-pip install sorl-thumbnail
-pip install google-api-python-client
-pip install Pillow
+- Django 1.11
+- sorl-thumbnail 12.3
+- google-api-python-client 1.6.2
+- Pillow 4.1.1
+- mysqlclient 
