@@ -15,9 +15,8 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-# from django.conf.urls import patterns, include, url
 from arinabodina.views import index, album, albums_list, videos_list
-# from django.views.generic.simple import direct_to_template
+from django.http import HttpResponse
 
 admin.autodiscover()
 
@@ -26,6 +25,7 @@ urlpatterns = [
     url(r'^$', index),
     url(r'^album/(\d+)/?$', album),
     url(r'^albums/?$', albums_list),
-    url(r'^videos/?$', videos_list)
-    #url(r'^robots\.txt$', direct_to_template, {'template': 'robots.txt', 'mimetype': 'text/plain'})
+    url(r'^videos/?$', videos_list),
+    url(r'^robots.txt',
+        lambda x: HttpResponse("User-Agent: *\nDisallow:", content_type="text/plain"), name="robots_file")
 ]

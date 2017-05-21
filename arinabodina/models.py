@@ -1,10 +1,11 @@
 from django.db import models
 from sorl.thumbnail import ImageField
 
+
 class Album (models.Model):
-    title = models.CharField(max_length = 33)
-    preview = models.ImageField(upload_to = 'albumtumb')
-    indexOnMain = models.IntegerField(default = None, null = True, blank = True)
+    title = models.CharField(max_length=33)
+    preview = models.ImageField(upload_to='albumtumb')
+    indexOnMain = models.IntegerField(default=None, null=True, blank=True)
     date = models.DateField()
 
 #    def image_tag(self):
@@ -23,15 +24,17 @@ class Album (models.Model):
     class Meta:
         db_table = "arinabodina_album"
 
+
 class AlbumImage(models.Model):
-    album = models.ForeignKey(Album, related_name ='images')
-    image = ImageField(upload_to = 'albumphotos')
+    album = models.ForeignKey(Album, related_name='images')
+    image = ImageField(upload_to='albumphotos')
 
     def __unicode__(self):
         return u'{0} - {1} ({2})'.format(self.album.title, self.album.id, self.image.url)
 
     class Meta:
         db_table = "arinabodina_albumimage"
+
 
 class Video:
     def __init__(self, youtubeVideoId, videoTitle, thumbnailUrl):
@@ -48,17 +51,18 @@ class Video:
     class Meta:
         db_table = "arinabodina_video"
 
+
 class Class (models.Model):
-    title = models.CharField(max_length = 35)
-    subTitle = models.CharField(max_length = 40)
-    shortTitle = models.CharField(max_length = 15)
-    classDesc = models.TextField(max_length = 300)
-    preview = models.ImageField(upload_to = 'classesthumb')
-    indexOnMain = models.IntegerField(default = None, null = True, blank = True)
+    title = models.CharField(max_length=35)
+    subTitle = models.CharField(max_length=40)
+    shortTitle = models.CharField(max_length=15)
+    classDesc = models.TextField(max_length=300)
+    preview = models.ImageField(upload_to='classesthumb')
+    indexOnMain = models.IntegerField(default=None, null=True, blank=True)
     isChildish = models.BooleanField()
 
     def __unicode__(self):
-        classTitle =  'Children' if self.isChildish else 'Adults'
+        classTitle = 'Children' if self.isChildish else 'Adults'
         return u'{0} ( {1} )'.format(self.title, classTitle)
 
     class Meta:
@@ -66,7 +70,7 @@ class Class (models.Model):
 
 
 class Metro (models.Model):
-    title = models.CharField(max_length = 20)
+    title = models.CharField(max_length=20)
 
     def __unicode__(self):
         return self.title
@@ -76,7 +80,7 @@ class Metro (models.Model):
 
 
 class WeekDay (models.Model):
-    title = models.CharField(max_length = 15)
+    title = models.CharField(max_length=15)
 
     def __unicode__(self):
         return self.title
